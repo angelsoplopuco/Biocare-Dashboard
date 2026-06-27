@@ -1,0 +1,1632 @@
+id_registro,codigo_equipo,fecha,tipo_mantenimiento,categoria_falla,urgencia,descripcion,costo_soles,tecnico,prioridad,horas_intervencion,estado_post
+R00057,EQ-001,2022-01-06,Correctivo,Calibración,Alta,Calibración vencida,577.19,J. Ramírez,Alta,6.5,Operativo
+R00066,EQ-001,2022-01-13,Correctivo,Eléctrica,Media,Falla en fuente de poder,229.45,A. Flores,Media,1.1,Operativo
+R00049,EQ-001,2022-01-21,Correctivo,Calibración,Baja,Ajuste de cero requerido,445.82,L. Quispe,Baja,3.6,Operativo
+R00001,EQ-001,2022-02-02,Preventivo,—,Programado,Mantenimiento preventivo programado,150.03,M. Torres,Baja,0.5,Operativo
+R00033,EQ-001,2022-02-06,Correctivo,Calibración,Alta,Desviación de medición,332.44,M. Torres,Alta,3.1,En observación
+R00061,EQ-001,2022-03-06,Correctivo,Software,Alta,Pantalla congelada,167.53,L. Quispe,Alta,1.3,Operativo
+R00050,EQ-001,2022-03-14,Correctivo,Mecánica,Alta,Holgura en soporte,1326.45,A. Flores,Alta,6.7,En observación
+R00025,EQ-001,2022-04-04,Correctivo,Desgaste,Alta,Acumulación de horas de uso,1107.37,M. Torres,Alta,2.5,En observación
+R00028,EQ-001,2022-04-25,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,,L. Quispe,Alta,1.8,Operativo
+R00002,EQ-001,2022-04-30,Preventivo,—,Programado,Mantenimiento preventivo programado,121.84,M. Torres,Baja,0.6,Operativo
+R00042,EQ-001,2022-06-22,Correctivo,Mecánica,Alta,Holgura en soporte,1380.43,J. Ramírez,Alta,3.8,En observación
+R00047,EQ-001,2022-07-07,Correctivo,Sensores,Alta,Error de lectura de presión,2066.29,J. Ramírez,Alta,5.5,En observación
+R00040,EQ-001,2022-07-16,Correctivo,Mecánica,Alta,Holgura en soporte,1762.13,L. Quispe,Alta,1.4,En observación
+R00003,EQ-001,2022-08-01,Preventivo,—,Programado,Mantenimiento preventivo programado,136.23,L. Quispe,Baja,1.8,Operativo
+R00027,EQ-001,2022-08-07,Correctivo,Mecánica,Alta,Rotura de manguera,1247.26,L. Quispe,Alta,3.1,Operativo
+R00024,EQ-001,2022-08-30,Correctivo,Sensores,Baja,Sensor SpO2 descalibrado,752.71,J. Ramírez,Baja,2.5,En observación
+R00063,EQ-001,2022-09-03,Correctivo,Sensores,Alta,Termistor fuera de rango,921.14,L. Quispe,Alta,2.6,Operativo
+R00048,EQ-001,2022-09-06,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,2176.22,L. Quispe,Alta,7.2,Operativo
+R00019,EQ-001,2022-09-15,Correctivo,Desgaste,Media,Componente al final de vida útil,300.96,J. Ramírez,Media,2.0,Operativo
+R00004,EQ-001,2022-10-28,Preventivo,—,Programado,Mantenimiento preventivo programado,118.22,A. Flores,Baja,1.2,Operativo
+R00065,EQ-001,2022-11-13,Correctivo,Mecánica,Media,Obstrucción de circuito,1720.58,L. Quispe,Media,2.1,Operativo
+R00043,EQ-001,2022-12-12,Correctivo,Sensores,Media,Sensor de flujo defectuoso,1094.56,A. Flores,Media,5.2,Operativo
+R00064,EQ-001,2023-01-20,Correctivo,Eléctrica,Alta,Falla en cargador,1083.47,J. Ramírez,Alta,1.9,Operativo
+R00038,EQ-001,2023-01-21,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,1031.31,L. Quispe,Alta,7.1,Operativo
+R00067,EQ-001,2023-01-24,Correctivo,Mecánica,Alta,Desgaste de válvula,1344.99,A. Flores,Alta,4.5,Operativo
+R00005,EQ-001,2023-02-01,Preventivo,—,Programado,Mantenimiento preventivo programado,106.37,M. Torres,Baja,0.9,Operativo
+R00039,EQ-001,2023-02-24,Correctivo,Calibración,Alta,Desviación de medición,491.55,J. Ramírez,Alta,3.9,Operativo
+R00022,EQ-001,2023-04-23,Correctivo,Desgaste,Media,Acumulación de horas de uso,468.29,L. Quispe,Media,4.5,Operativo
+R00006,EQ-001,2023-05-02,Preventivo,—,Programado,Mantenimiento preventivo programado,157.9,M. Torres,Baja,0.9,Operativo
+R00020,EQ-001,2023-05-04,Correctivo,Mecánica,Alta,Falla en bomba peristáltica,1510.28,M. Torres,Alta,7.4,Operativo
+R00007,EQ-001,2023-08-03,Preventivo,—,Programado,Mantenimiento preventivo programado,,A. Flores,Baja,0.9,Operativo
+R00046,EQ-001,2023-08-09,Correctivo,Mecánica,Alta,Holgura en soporte,1140.46,L. Quispe,Alta,2.7,En observación
+R00008,EQ-001,2023-11-03,Preventivo,—,Programado,Mantenimiento preventivo programado,107.64,A. Flores,Baja,0.9,Operativo
+R00034,EQ-001,2023-11-19,Correctivo,Calibración,Alta,Ajuste de cero requerido,543.26,A. Flores,Alta,2.4,Operativo
+R00052,EQ-001,2023-11-30,Correctivo,Mecánica,Media,Obstrucción de circuito,916.32,J. Ramírez,Media,3.9,En observación
+R00009,EQ-001,2024-01-22,Preventivo,—,Programado,Mantenimiento preventivo programado,153.55,A. Flores,Baja,0.5,Operativo
+R00023,EQ-001,2024-02-09,Correctivo,Mecánica,Alta,Rotura de manguera,1335.48,J. Ramírez,Alta,5.3,En observación
+R00026,EQ-001,2024-04-05,Correctivo,Calibración,Baja,Calibración vencida,193.89,J. Ramírez,Baja,1.8,En observación
+R00010,EQ-001,2024-04-12,Preventivo,—,Programado,Mantenimiento preventivo programado,73.08,L. Quispe,Baja,0.9,Operativo
+R00060,EQ-001,2024-05-01,Correctivo,Sensores,Media,Sensor SpO2 descalibrado,2295.83,M. Torres,Media,2.1,En observación
+R00029,EQ-001,2024-05-08,Correctivo,Software,Baja,Pantalla congelada,380.79,M. Torres,Baja,7.7,Operativo
+R00021,EQ-001,2024-05-23,Correctivo,Sensores,Alta,Termistor fuera de rango,959.92,J. Ramírez,Alta,7.1,Operativo
+R00062,EQ-001,2024-05-25,Correctivo,Sensores,Alta,Termistor fuera de rango,980.87,J. Ramírez,Alta,2.6,Operativo
+R00011,EQ-001,2024-07-20,Preventivo,—,Programado,Mantenimiento preventivo programado,142.68,J. Ramírez,Baja,1.3,Operativo
+R00058,EQ-001,2024-07-27,Correctivo,Eléctrica,Baja,Fusible quemado,946.85,A. Flores,Baja,5.0,Operativo
+R00031,EQ-001,2024-08-09,Correctivo,Mecánica,Baja,Obstrucción de circuito,1666.26,L. Quispe,Baja,6.9,En observación
+R00032,EQ-001,2024-08-09,Correctivo,Mecánica,Alta,Rotura de manguera,1222.37,A. Flores,Alta,1.7,Operativo
+R00035,EQ-001,2024-08-29,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,2123.94,J. Ramírez,Alta,1.7,Operativo
+R00012,EQ-001,2024-10-09,Preventivo,—,Programado,Mantenimiento preventivo programado,86.82,M. Torres,Baja,0.6,Operativo
+R00059,EQ-001,2024-10-18,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,1173.7,M. Torres,Alta,4.4,En observación
+R00051,EQ-001,2024-11-25,Correctivo,Eléctrica,Alta,Cortocircuito en placa,532.1,M. Torres,Alta,1.5,Operativo
+R00055,EQ-001,2024-12-15,Correctivo,Mecánica,Alta,Desgaste de válvula,,M. Torres,Alta,1.7,Operativo
+R00030,EQ-001,2024-12-25,Correctivo,Software,Alta,Error de comunicación,77.1,L. Quispe,Alta,3.8,Operativo
+R00013,EQ-001,2025-01-15,Preventivo,—,Programado,Mantenimiento preventivo programado,118.79,A. Flores,Baja,1.1,Operativo
+R00053,EQ-001,2025-03-02,Correctivo,Desgaste,Alta,Componente al final de vida útil,508.76,J. Ramírez,Alta,3.9,Operativo
+R00014,EQ-001,2025-04-15,Preventivo,—,Programado,Mantenimiento preventivo programado,77.3,L. Quispe,Baja,1.3,Operativo
+R00037,EQ-001,2025-04-29,Correctivo,Mecánica,Baja,Rotura de manguera,546.36,J. Ramírez,Baja,5.9,Operativo
+R00036,EQ-001,2025-06-11,Correctivo,Software,Alta,Error de firmware,,A. Flores,Alta,3.6,Operativo
+R00015,EQ-001,2025-07-05,Preventivo,—,Programado,Mantenimiento preventivo programado,160.69,A. Flores,Baja,1.2,Operativo
+R00045,EQ-001,2025-07-29,Correctivo,Sensores,Baja,Sensor SpO2 descalibrado,364.26,M. Torres,Baja,5.7,Operativo
+R00016,EQ-001,2025-09-30,Preventivo,—,Programado,Mantenimiento preventivo programado,103.65,L. Quispe,Baja,1.4,Operativo
+R00056,EQ-001,2025-11-03,Correctivo,Desgaste,Alta,Filtro saturado,228.88,M. Torres,Alta,3.0,Operativo
+R00044,EQ-001,2026-01-01,Correctivo,Calibración,Alta,Calibración vencida,420.5,L. Quispe,Alta,7.6,Operativo
+R00017,EQ-001,2026-01-06,Preventivo,—,Programado,Mantenimiento preventivo programado,173.83,J. Ramírez,Baja,0.8,Operativo
+R00054,EQ-001,2026-02-19,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,2362.49,L. Quispe,Alta,5.1,Operativo
+R00041,EQ-001,2026-03-23,Correctivo,Eléctrica,Alta,Falla en cargador,1033.19,J. Ramírez,Alta,2.5,En observación
+R00018,EQ-001,2026-03-28,Preventivo,—,Programado,Mantenimiento preventivo programado,127.67,M. Torres,Baja,1.0,Operativo
+R00111,EQ-002,2022-01-03,Correctivo,Software,Alta,Error de comunicación,210.26,L. Quispe,Alta,1.5,Operativo
+R00068,EQ-002,2022-01-12,Preventivo,—,Programado,Mantenimiento preventivo programado,166.21,M. Torres,Baja,1.3,Operativo
+R00096,EQ-002,2022-03-05,Correctivo,Sensores,Media,Termistor fuera de rango,453.57,L. Quispe,Media,2.9,Operativo
+R00069,EQ-002,2022-04-14,Preventivo,—,Programado,Mantenimiento preventivo programado,99.85,L. Quispe,Baja,1.4,Operativo
+R00115,EQ-002,2022-04-29,Correctivo,Sensores,Alta,Termistor fuera de rango,574.01,M. Torres,Alta,3.7,Operativo
+R00106,EQ-002,2022-06-02,Correctivo,Desgaste,Baja,Acumulación de horas de uso,165.33,J. Ramírez,Baja,5.9,Operativo
+R00091,EQ-002,2022-06-05,Correctivo,Mecánica,Alta,Rotura de manguera,807.49,J. Ramírez,Alta,7.5,Operativo
+R00100,EQ-002,2022-06-05,Correctivo,Software,Media,Error de comunicación,206.4,A. Flores,Media,1.3,Operativo
+R00070,EQ-002,2022-07-21,Preventivo,—,Programado,Mantenimiento preventivo programado,74.7,J. Ramírez,Baja,1.6,Operativo
+R00071,EQ-002,2022-10-24,Preventivo,—,Programado,Mantenimiento preventivo programado,107.74,M. Torres,Baja,1.0,Operativo
+R00129,EQ-002,2022-12-02,Correctivo,Desgaste,Baja,Componente al final de vida útil,267.78,J. Ramírez,Baja,4.4,En observación
+R00086,EQ-002,2022-12-04,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,563.75,A. Flores,Alta,7.3,Operativo
+R00072,EQ-002,2023-01-21,Preventivo,—,Programado,Mantenimiento preventivo programado,178.17,L. Quispe,Baja,2.0,Operativo
+R00119,EQ-002,2023-03-18,Correctivo,Software,Alta,Falla en calibración digital,107.85,J. Ramírez,Alta,3.5,Operativo
+R00089,EQ-002,2023-03-20,Correctivo,Software,Alta,Error de firmware,191.42,J. Ramírez,Alta,5.5,En observación
+R00116,EQ-002,2023-04-06,Correctivo,Software,Alta,Error de firmware,319.72,A. Flores,Alta,5.3,Operativo
+R00087,EQ-002,2023-04-11,Correctivo,Eléctrica,Media,Falla en cargador,205.41,J. Ramírez,Media,6.7,Operativo
+R00073,EQ-002,2023-04-20,Preventivo,—,Programado,Mantenimiento preventivo programado,176.22,J. Ramírez,Baja,1.0,Operativo
+R00123,EQ-002,2023-06-27,Correctivo,Calibración,Alta,Calibración vencida,199.82,L. Quispe,Alta,5.4,En observación
+R00109,EQ-002,2023-07-04,Correctivo,Sensores,Media,Termistor fuera de rango,980.07,A. Flores,Media,6.0,Operativo
+R00074,EQ-002,2023-07-12,Preventivo,—,Programado,Mantenimiento preventivo programado,62.67,J. Ramírez,Baja,0.9,Operativo
+R00104,EQ-002,2023-07-13,Correctivo,Sensores,Alta,Error de lectura de presión,334.77,J. Ramírez,Alta,7.6,Operativo
+R00102,EQ-002,2023-07-27,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,188.15,M. Torres,Alta,1.1,Operativo
+R00097,EQ-002,2023-09-15,Correctivo,Sensores,Media,Sensor SpO2 descalibrado,1100.78,A. Flores,Media,1.3,Operativo
+R00090,EQ-002,2023-09-23,Correctivo,Software,Alta,Error de firmware,103.81,L. Quispe,Alta,6.6,Operativo
+R00075,EQ-002,2023-10-15,Preventivo,—,Programado,Mantenimiento preventivo programado,83.62,J. Ramírez,Baja,1.7,Operativo
+R00126,EQ-002,2023-10-31,Correctivo,Calibración,Media,Ajuste de cero requerido,218.48,L. Quispe,Media,3.5,Operativo
+R00101,EQ-002,2023-11-16,Correctivo,Sensores,Alta,Termistor fuera de rango,297.92,J. Ramírez,Alta,5.5,Operativo
+R00093,EQ-002,2023-11-18,Correctivo,Eléctrica,Media,Falla en fuente de poder,462.83,J. Ramírez,Media,3.6,Operativo
+R00103,EQ-002,2023-11-19,Correctivo,Software,Alta,Error de firmware,232.11,L. Quispe,Alta,3.0,Operativo
+R00099,EQ-002,2023-12-04,Correctivo,Software,Alta,Pantalla congelada,146.57,M. Torres,Alta,1.7,Operativo
+R00117,EQ-002,2023-12-21,Correctivo,Eléctrica,Alta,Fusible quemado,146.65,L. Quispe,Alta,4.4,Operativo
+R00076,EQ-002,2024-01-08,Preventivo,—,Programado,Mantenimiento preventivo programado,149.59,J. Ramírez,Baja,1.1,Operativo
+R00127,EQ-002,2024-03-19,Correctivo,Sensores,Alta,Error de lectura de presión,1001.43,J. Ramírez,Alta,5.2,Operativo
+R00124,EQ-002,2024-03-31,Correctivo,Sensores,Media,Error de lectura de presión,,J. Ramírez,Media,2.0,Operativo
+R00077,EQ-002,2024-04-07,Preventivo,—,Programado,Mantenimiento preventivo programado,137.57,L. Quispe,Baja,1.2,Operativo
+R00121,EQ-002,2024-05-05,Correctivo,Eléctrica,Alta,Cortocircuito en placa,,J. Ramírez,Alta,7.1,En observación
+R00130,EQ-002,2024-06-01,Correctivo,Software,Media,Pantalla congelada,285.93,L. Quispe,Media,6.7,Operativo
+R00131,EQ-002,2024-07-02,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,,M. Torres,Alta,4.5,En observación
+R00078,EQ-002,2024-07-12,Preventivo,—,Programado,Mantenimiento preventivo programado,74.43,J. Ramírez,Baja,1.8,Operativo
+R00113,EQ-002,2024-08-24,Correctivo,Eléctrica,Alta,Falla en fuente de poder,132.36,A. Flores,Alta,7.2,Operativo
+R00120,EQ-002,2024-08-30,Correctivo,Eléctrica,Alta,Falla en fuente de poder,558.17,A. Flores,Alta,7.7,Operativo
+R00107,EQ-002,2024-09-09,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,450.96,J. Ramírez,Alta,5.4,Operativo
+R00132,EQ-002,2024-09-24,Correctivo,Software,Alta,Error de comunicación,,L. Quispe,Alta,4.1,En observación
+R00079,EQ-002,2024-10-07,Preventivo,—,Programado,Mantenimiento preventivo programado,177.11,L. Quispe,Baja,0.7,Operativo
+R00080,EQ-002,2025-01-08,Preventivo,—,Programado,Mantenimiento preventivo programado,135.11,J. Ramírez,Baja,0.7,Operativo
+R00112,EQ-002,2025-01-19,Correctivo,Desgaste,Alta,Componente al final de vida útil,371.93,J. Ramírez,Alta,5.7,Operativo
+R00114,EQ-002,2025-03-09,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,767.99,M. Torres,Alta,2.5,Operativo
+R00081,EQ-002,2025-04-09,Preventivo,—,Programado,Mantenimiento preventivo programado,111.99,A. Flores,Baja,0.6,Operativo
+R00092,EQ-002,2025-05-20,Correctivo,Eléctrica,Baja,Falla en cargador,363.37,L. Quispe,Baja,2.6,Operativo
+R00108,EQ-002,2025-06-29,Correctivo,Calibración,Media,Ajuste de cero requerido,248.19,M. Torres,Media,7.1,Operativo
+R00118,EQ-002,2025-07-14,Correctivo,Sensores,Media,Error de lectura de presión,185.92,L. Quispe,Media,4.6,Operativo
+R00082,EQ-002,2025-07-17,Preventivo,—,Programado,Mantenimiento preventivo programado,69.19,M. Torres,Baja,0.8,Operativo
+R00125,EQ-002,2025-08-27,Correctivo,Software,Media,Pantalla congelada,52.64,M. Torres,Media,5.7,En observación
+R00110,EQ-002,2025-10-16,Correctivo,Eléctrica,Media,Falla en fuente de poder,593.17,M. Torres,Media,5.9,Operativo
+R00083,EQ-002,2025-10-23,Preventivo,—,Programado,Mantenimiento preventivo programado,170.35,J. Ramírez,Baja,1.5,Operativo
+R00088,EQ-002,2025-10-30,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,601.46,M. Torres,Alta,4.2,En observación
+R00095,EQ-002,2025-10-31,Correctivo,Eléctrica,Alta,Falla en fuente de poder,590.67,A. Flores,Alta,7.1,Operativo
+R00098,EQ-002,2025-11-15,Correctivo,Eléctrica,Media,Batería agotada,121.39,L. Quispe,Media,6.8,En observación
+R00122,EQ-002,2025-12-25,Correctivo,Eléctrica,Alta,Fusible quemado,123.75,J. Ramírez,Alta,1.4,Operativo
+R00084,EQ-002,2026-01-24,Preventivo,—,Programado,Mantenimiento preventivo programado,65.37,J. Ramírez,Baja,1.5,Operativo
+R00128,EQ-002,2026-02-21,Correctivo,Desgaste,Alta,Acumulación de horas de uso,580.29,J. Ramírez,Alta,6.2,Operativo
+R00105,EQ-002,2026-04-14,Correctivo,Eléctrica,Alta,Falla en fuente de poder,302.88,L. Quispe,Alta,7.0,Operativo
+R00094,EQ-002,2026-04-19,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,1039.75,M. Torres,Alta,4.7,En observación
+R00085,EQ-002,2026-04-30,Preventivo,—,Programado,Mantenimiento preventivo programado,135.66,J. Ramírez,Baja,1.8,Operativo
+R00133,EQ-003,2022-02-01,Preventivo,—,Programado,Mantenimiento preventivo programado,92.23,A. Flores,Baja,1.9,Operativo
+R00193,EQ-003,2022-04-05,Correctivo,Sensores,Alta,Termistor fuera de rango,,L. Quispe,Alta,7.6,En observación
+R00165,EQ-003,2022-04-20,Correctivo,Eléctrica,Alta,Falla en fuente de poder,92.1,L. Quispe,Alta,6.3,Operativo
+R00134,EQ-003,2022-05-07,Preventivo,—,Programado,Mantenimiento preventivo programado,143.0,L. Quispe,Baja,0.8,Operativo
+R00180,EQ-003,2022-07-24,Correctivo,Calibración,Baja,Desviación de medición,62.06,M. Torres,Baja,1.3,En observación
+R00135,EQ-003,2022-08-08,Preventivo,—,Programado,Mantenimiento preventivo programado,92.97,M. Torres,Baja,1.6,Operativo
+R00171,EQ-003,2022-08-28,Correctivo,Eléctrica,Alta,Falla en fuente de poder,252.03,A. Flores,Alta,7.6,En observación
+R00168,EQ-003,2022-09-08,Correctivo,Mecánica,Alta,Holgura en soporte,822.85,A. Flores,Alta,4.7,Operativo
+R00188,EQ-003,2022-09-11,Correctivo,Eléctrica,Alta,Falla en cargador,524.94,L. Quispe,Alta,6.8,Operativo
+R00174,EQ-003,2022-10-16,Correctivo,Calibración,Media,Ajuste de cero requerido,199.99,A. Flores,Media,6.4,Operativo
+R00158,EQ-003,2022-10-29,Correctivo,Eléctrica,Baja,Cortocircuito en placa,324.89,J. Ramírez,Baja,7.3,Operativo
+R00184,EQ-003,2022-11-04,Correctivo,Eléctrica,Alta,Falla en fuente de poder,264.69,J. Ramírez,Alta,2.3,En observación
+R00136,EQ-003,2022-11-10,Preventivo,—,Programado,Mantenimiento preventivo programado,130.59,L. Quispe,Baja,0.6,Operativo
+R00160,EQ-003,2022-11-29,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,619.92,M. Torres,Alta,7.1,Operativo
+R00181,EQ-003,2022-12-30,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,571.86,M. Torres,Alta,3.0,En observación
+R00137,EQ-003,2023-01-31,Preventivo,—,Programado,Mantenimiento preventivo programado,94.15,J. Ramírez,Baja,1.1,Operativo
+R00166,EQ-003,2023-03-02,Correctivo,Eléctrica,Baja,Fusible quemado,158.06,L. Quispe,Baja,4.1,Operativo
+R00182,EQ-003,2023-03-04,Correctivo,Eléctrica,Alta,Batería agotada,547.63,J. Ramírez,Alta,2.0,Operativo
+R00163,EQ-003,2023-03-11,Correctivo,Desgaste,Alta,Componente al final de vida útil,302.59,L. Quispe,Alta,5.9,En observación
+R00138,EQ-003,2023-05-07,Preventivo,—,Programado,Mantenimiento preventivo programado,130.93,M. Torres,Baja,1.4,Operativo
+R00164,EQ-003,2023-05-19,Correctivo,Software,Alta,Pantalla congelada,212.09,L. Quispe,Alta,2.4,En observación
+R00196,EQ-003,2023-06-14,Correctivo,Eléctrica,Media,Fusible quemado,87.15,M. Torres,Media,4.1,Operativo
+R00156,EQ-003,2023-07-01,Correctivo,Eléctrica,Media,Cortocircuito en placa,512.57,A. Flores,Media,5.3,Operativo
+R00139,EQ-003,2023-07-29,Preventivo,—,Programado,Mantenimiento preventivo programado,104.83,A. Flores,Baja,1.4,Operativo
+R00186,EQ-003,2023-08-16,Correctivo,Sensores,Media,Termistor fuera de rango,372.73,J. Ramírez,Media,2.9,Operativo
+R00177,EQ-003,2023-08-20,Correctivo,Desgaste,Alta,Filtro saturado,251.64,J. Ramírez,Alta,3.5,Operativo
+R00176,EQ-003,2023-08-22,Correctivo,Eléctrica,Alta,Falla en fuente de poder,,L. Quispe,Alta,2.3,Operativo
+R00189,EQ-003,2023-10-06,Correctivo,Calibración,Alta,Ajuste de cero requerido,192.97,A. Flores,Alta,5.4,Operativo
+R00140,EQ-003,2023-10-21,Preventivo,—,Programado,Mantenimiento preventivo programado,75.78,M. Torres,Baja,1.1,Operativo
+R00159,EQ-003,2023-11-07,Correctivo,Eléctrica,Alta,Falla en fuente de poder,207.52,J. Ramírez,Alta,1.9,Operativo
+R00192,EQ-003,2023-11-29,Correctivo,Eléctrica,Alta,Falla en cargador,445.85,M. Torres,Alta,2.5,Operativo
+R00175,EQ-003,2023-12-12,Correctivo,Eléctrica,Baja,Cortocircuito en placa,372.72,J. Ramírez,Baja,1.0,Operativo
+R00141,EQ-003,2024-01-15,Preventivo,—,Programado,Mantenimiento preventivo programado,124.71,A. Flores,Baja,1.5,Operativo
+R00151,EQ-003,2024-01-30,Correctivo,Eléctrica,Media,Fusible quemado,542.47,M. Torres,Media,5.9,Operativo
+R00173,EQ-003,2024-02-06,Correctivo,Eléctrica,Alta,Falla en fuente de poder,484.93,A. Flores,Alta,2.3,Operativo
+R00142,EQ-003,2024-04-22,Preventivo,—,Programado,Mantenimiento preventivo programado,172.69,M. Torres,Baja,0.6,Operativo
+R00167,EQ-003,2024-05-08,Correctivo,Eléctrica,Alta,Fusible quemado,259.42,A. Flores,Alta,6.9,Operativo
+R00143,EQ-003,2024-07-11,Preventivo,—,Programado,Mantenimiento preventivo programado,93.59,J. Ramírez,Baja,0.7,Operativo
+R00162,EQ-003,2024-08-24,Correctivo,Calibración,Alta,Ajuste de cero requerido,293.2,J. Ramírez,Alta,5.4,Operativo
+R00183,EQ-003,2024-09-01,Correctivo,Eléctrica,Alta,Batería agotada,377.38,J. Ramírez,Alta,2.7,Operativo
+R00170,EQ-003,2024-10-07,Correctivo,Desgaste,Alta,Acumulación de horas de uso,670.29,M. Torres,Alta,2.9,Operativo
+R00144,EQ-003,2024-10-12,Preventivo,—,Programado,Mantenimiento preventivo programado,153.06,M. Torres,Baja,2.0,Operativo
+R00152,EQ-003,2024-10-16,Correctivo,Eléctrica,Alta,Fusible quemado,196.76,A. Flores,Alta,6.6,Operativo
+R00145,EQ-003,2025-01-08,Preventivo,—,Programado,Mantenimiento preventivo programado,119.81,L. Quispe,Baja,1.6,Operativo
+R00155,EQ-003,2025-01-21,Correctivo,Calibración,Alta,Calibración vencida,221.42,A. Flores,Alta,7.9,En observación
+R00190,EQ-003,2025-03-12,Correctivo,Mecánica,Alta,Obstrucción de circuito,635.19,J. Ramírez,Alta,7.6,Operativo
+R00146,EQ-003,2025-04-03,Preventivo,—,Programado,Mantenimiento preventivo programado,76.6,J. Ramírez,Baja,1.4,Operativo
+R00191,EQ-003,2025-06-23,Correctivo,Eléctrica,Alta,Cortocircuito en placa,552.74,A. Flores,Alta,7.5,Operativo
+R00147,EQ-003,2025-06-24,Preventivo,—,Programado,Mantenimiento preventivo programado,121.95,A. Flores,Baja,1.8,Operativo
+R00187,EQ-003,2025-08-18,Correctivo,Calibración,Baja,Desviación de medición,279.3,J. Ramírez,Baja,7.0,Operativo
+R00195,EQ-003,2025-08-23,Correctivo,Calibración,Media,Desviación de medición,61.0,J. Ramírez,Media,4.8,Operativo
+R00148,EQ-003,2025-09-12,Preventivo,—,Programado,Mantenimiento preventivo programado,95.99,J. Ramírez,Baja,0.6,Operativo
+R00185,EQ-003,2025-10-15,Correctivo,Calibración,Alta,Desviación de medición,191.96,L. Quispe,Alta,7.6,Operativo
+R00161,EQ-003,2025-10-18,Correctivo,Eléctrica,Media,Cortocircuito en placa,383.45,A. Flores,Media,4.8,Operativo
+R00172,EQ-003,2025-10-19,Correctivo,Eléctrica,Alta,Falla en cargador,511.13,L. Quispe,Alta,5.2,En observación
+R00157,EQ-003,2025-10-24,Correctivo,Mecánica,Alta,Obstrucción de circuito,393.43,A. Flores,Alta,5.6,Operativo
+R00179,EQ-003,2025-11-10,Correctivo,Eléctrica,Media,Fusible quemado,,J. Ramírez,Media,4.9,Operativo
+R00178,EQ-003,2025-11-13,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,1125.7,A. Flores,Alta,4.5,Operativo
+R00149,EQ-003,2025-12-15,Preventivo,—,Programado,Mantenimiento preventivo programado,76.36,L. Quispe,Baja,1.1,Operativo
+R00194,EQ-003,2026-02-06,Correctivo,Calibración,Media,Desviación de medición,69.78,A. Flores,Media,2.6,En observación
+R00169,EQ-003,2026-03-10,Correctivo,Eléctrica,Alta,Falla en fuente de poder,451.75,A. Flores,Alta,4.3,Operativo
+R00150,EQ-003,2026-03-23,Preventivo,—,Programado,Mantenimiento preventivo programado,134.42,A. Flores,Baja,1.1,Operativo
+R00154,EQ-003,2026-04-08,Correctivo,Desgaste,Alta,Acumulación de horas de uso,664.06,J. Ramírez,Alta,4.8,En observación
+R00153,EQ-003,2026-05-28,Correctivo,Desgaste,Alta,Filtro saturado,775.46,J. Ramírez,Alta,4.5,Operativo
+R00197,EQ-004,2022-01-22,Preventivo,—,Programado,Mantenimiento preventivo programado,149.39,L. Quispe,Baja,1.3,Operativo
+R00230,EQ-004,2022-02-25,Correctivo,Desgaste,Alta,Filtro saturado,129.54,J. Ramírez,Alta,7.8,Operativo
+R00253,EQ-004,2022-03-18,Correctivo,Mecánica,Alta,Falla en bomba peristáltica,389.91,M. Torres,Alta,5.5,Operativo
+R00233,EQ-004,2022-03-20,Correctivo,Eléctrica,Alta,Falla en cargador,209.26,J. Ramírez,Alta,4.5,Operativo
+R00234,EQ-004,2022-04-02,Correctivo,Sensores,Media,Sensor SpO2 descalibrado,238.83,J. Ramírez,Media,4.1,Operativo
+R00226,EQ-004,2022-04-23,Correctivo,Calibración,Media,Desviación de medición,190.4,J. Ramírez,Media,4.8,Operativo
+R00198,EQ-004,2022-05-01,Preventivo,—,Programado,Mantenimiento preventivo programado,118.38,L. Quispe,Baja,1.1,Operativo
+R00229,EQ-004,2022-07-03,Correctivo,Calibración,Media,Calibración vencida,207.67,A. Flores,Media,4.9,Operativo
+R00199,EQ-004,2022-07-31,Preventivo,—,Programado,Mantenimiento preventivo programado,150.38,L. Quispe,Baja,0.8,Operativo
+R00240,EQ-004,2022-09-12,Correctivo,Sensores,Alta,Error de lectura de presión,484.28,A. Flores,Alta,2.4,Operativo
+R00200,EQ-004,2022-10-26,Preventivo,—,Programado,Mantenimiento preventivo programado,62.79,A. Flores,Baja,0.6,Operativo
+R00247,EQ-004,2022-11-02,Correctivo,Desgaste,Media,Componente al final de vida útil,434.09,J. Ramírez,Media,3.9,En observación
+R00257,EQ-004,2023-01-30,Correctivo,Mecánica,Media,Falla en bomba peristáltica,427.71,J. Ramírez,Media,3.0,Operativo
+R00201,EQ-004,2023-02-01,Preventivo,—,Programado,Mantenimiento preventivo programado,146.17,M. Torres,Baja,0.8,Operativo
+R00215,EQ-004,2023-03-12,Correctivo,Calibración,Media,Calibración vencida,227.68,J. Ramírez,Media,1.5,Operativo
+R00223,EQ-004,2023-03-18,Correctivo,Software,Baja,Error de firmware,398.29,A. Flores,Baja,6.6,Operativo
+R00227,EQ-004,2023-05-01,Correctivo,Eléctrica,Alta,Fusible quemado,120.84,A. Flores,Alta,3.4,Operativo
+R00202,EQ-004,2023-05-02,Preventivo,—,Programado,Mantenimiento preventivo programado,179.88,J. Ramírez,Baja,1.4,Operativo
+R00252,EQ-004,2023-05-10,Correctivo,Mecánica,Media,Falla en bomba peristáltica,518.18,A. Flores,Media,2.2,Operativo
+R00217,EQ-004,2023-05-12,Correctivo,Mecánica,Alta,Holgura en soporte,372.7,L. Quispe,Alta,3.7,Operativo
+R00221,EQ-004,2023-07-11,Correctivo,Sensores,Media,Termistor fuera de rango,1185.78,L. Quispe,Media,6.1,Operativo
+R00203,EQ-004,2023-07-21,Preventivo,—,Programado,Mantenimiento preventivo programado,63.72,J. Ramírez,Baja,1.1,Operativo
+R00224,EQ-004,2023-08-12,Correctivo,Software,Baja,Pantalla congelada,225.62,M. Torres,Baja,2.3,Operativo
+R00256,EQ-004,2023-08-28,Correctivo,Desgaste,Alta,Componente al final de vida útil,325.69,J. Ramírez,Alta,4.8,En observación
+R00204,EQ-004,2023-10-28,Preventivo,—,Programado,Mantenimiento preventivo programado,129.67,A. Flores,Baja,1.7,Operativo
+R00216,EQ-004,2023-11-30,Correctivo,Eléctrica,Media,Falla en cargador,481.76,L. Quispe,Media,3.6,Operativo
+R00219,EQ-004,2023-12-19,Correctivo,Eléctrica,Alta,Falla en cargador,562.92,L. Quispe,Alta,7.0,Operativo
+R00243,EQ-004,2024-01-01,Correctivo,Mecánica,Media,Obstrucción de circuito,380.96,A. Flores,Media,4.3,Operativo
+R00222,EQ-004,2024-01-08,Correctivo,Sensores,Media,Sensor SpO2 descalibrado,252.73,A. Flores,Media,3.4,Operativo
+R00205,EQ-004,2024-02-02,Preventivo,—,Programado,Mantenimiento preventivo programado,80.34,J. Ramírez,Baja,1.9,Operativo
+R00249,EQ-004,2024-05-03,Correctivo,Eléctrica,Alta,Fusible quemado,180.95,M. Torres,Alta,2.2,Operativo
+R00206,EQ-004,2024-05-05,Preventivo,—,Programado,Mantenimiento preventivo programado,85.25,M. Torres,Baja,1.1,Operativo
+R00238,EQ-004,2024-05-24,Correctivo,Software,Baja,Falla en calibración digital,39.78,A. Flores,Baja,7.6,Operativo
+R00220,EQ-004,2024-06-15,Correctivo,Mecánica,Alta,Falla en bomba peristáltica,748.5,M. Torres,Alta,5.2,Operativo
+R00207,EQ-004,2024-08-06,Preventivo,—,Programado,Mantenimiento preventivo programado,62.39,M. Torres,Baja,1.8,Operativo
+R00255,EQ-004,2024-09-10,Correctivo,Eléctrica,Alta,Falla en cargador,279.13,M. Torres,Alta,3.5,Operativo
+R00232,EQ-004,2024-10-26,Correctivo,Desgaste,Alta,Filtro saturado,506.74,A. Flores,Alta,7.4,En observación
+R00242,EQ-004,2024-10-26,Correctivo,Desgaste,Alta,Acumulación de horas de uso,477.53,J. Ramírez,Alta,4.7,Operativo
+R00208,EQ-004,2024-10-29,Preventivo,—,Programado,Mantenimiento preventivo programado,129.23,M. Torres,Baja,0.8,Operativo
+R00259,EQ-004,2024-11-12,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,576.72,A. Flores,Alta,6.0,Operativo
+R00251,EQ-004,2024-11-21,Correctivo,Mecánica,Media,Holgura en soporte,867.21,L. Quispe,Media,3.6,Operativo
+R00225,EQ-004,2025-01-01,Correctivo,Mecánica,Alta,Holgura en soporte,476.16,A. Flores,Alta,2.1,Operativo
+R00209,EQ-004,2025-02-03,Preventivo,—,Programado,Mantenimiento preventivo programado,179.21,A. Flores,Baja,1.0,Operativo
+R00258,EQ-004,2025-02-07,Correctivo,Mecánica,Alta,Falla en bomba peristáltica,716.11,A. Flores,Alta,3.2,En observación
+R00231,EQ-004,2025-04-12,Correctivo,Software,Alta,Error de comunicación,44.32,J. Ramírez,Alta,4.0,Operativo
+R00248,EQ-004,2025-04-14,Correctivo,Mecánica,Alta,Holgura en soporte,702.7,J. Ramírez,Alta,3.6,Operativo
+R00218,EQ-004,2025-04-17,Correctivo,Sensores,Baja,Termistor fuera de rango,378.69,M. Torres,Baja,2.1,En observación
+R00210,EQ-004,2025-04-28,Preventivo,—,Programado,Mantenimiento preventivo programado,165.21,L. Quispe,Baja,1.4,Operativo
+R00241,EQ-004,2025-05-05,Correctivo,Desgaste,Media,Componente al final de vida útil,434.53,A. Flores,Media,3.8,Operativo
+R00228,EQ-004,2025-06-18,Correctivo,Mecánica,Media,Falla en bomba peristáltica,499.62,L. Quispe,Media,7.1,En observación
+R00211,EQ-004,2025-07-19,Preventivo,—,Programado,Mantenimiento preventivo programado,74.53,L. Quispe,Baja,1.4,Operativo
+R00237,EQ-004,2025-09-01,Correctivo,Mecánica,Alta,Desgaste de válvula,691.51,M. Torres,Alta,2.5,Operativo
+R00212,EQ-004,2025-10-26,Preventivo,—,Programado,Mantenimiento preventivo programado,86.57,A. Flores,Baja,1.3,Operativo
+R00250,EQ-004,2025-10-28,Correctivo,Desgaste,Media,Filtro saturado,738.38,M. Torres,Media,1.9,Operativo
+R00245,EQ-004,2025-11-26,Correctivo,Mecánica,Alta,Holgura en soporte,471.29,J. Ramírez,Alta,3.2,Operativo
+R00239,EQ-004,2026-01-09,Correctivo,Eléctrica,Media,Batería agotada,537.87,M. Torres,Media,5.3,En observación
+R00213,EQ-004,2026-01-21,Preventivo,—,Programado,Mantenimiento preventivo programado,155.45,M. Torres,Baja,1.7,Operativo
+R00246,EQ-004,2026-02-18,Correctivo,Mecánica,Media,Desgaste de válvula,856.4,M. Torres,Media,6.8,Operativo
+R00254,EQ-004,2026-03-14,Correctivo,Mecánica,Media,Falla en bomba peristáltica,570.28,M. Torres,Media,5.9,Operativo
+R00235,EQ-004,2026-04-03,Correctivo,Sensores,Alta,Termistor fuera de rango,578.83,J. Ramírez,Alta,3.5,Operativo
+R00244,EQ-004,2026-04-09,Correctivo,Mecánica,Alta,Obstrucción de circuito,788.69,L. Quispe,Alta,7.5,En observación
+R00214,EQ-004,2026-04-26,Preventivo,—,Programado,Mantenimiento preventivo programado,111.0,M. Torres,Baja,1.0,Operativo
+R00236,EQ-004,2026-05-01,Correctivo,Sensores,Baja,Termistor fuera de rango,1121.39,J. Ramírez,Baja,2.9,Operativo
+R00260,EQ-005,2022-01-25,Preventivo,—,Programado,Mantenimiento preventivo programado,,M. Torres,Baja,1.9,Operativo
+R00279,EQ-005,2022-03-17,Correctivo,Software,Alta,Error de comunicación,603.83,L. Quispe,Alta,6.7,Operativo
+R00304,EQ-005,2022-03-31,Correctivo,Software,Baja,Error de firmware,531.21,M. Torres,Baja,6.6,Operativo
+R00261,EQ-005,2022-04-27,Preventivo,—,Programado,Mantenimiento preventivo programado,104.16,J. Ramírez,Baja,1.5,Operativo
+R00280,EQ-005,2022-05-15,Correctivo,Software,Alta,Error de comunicación,491.65,L. Quispe,Alta,2.4,Operativo
+R00314,EQ-005,2022-05-21,Correctivo,Sensores,Baja,Error de lectura de presión,986.27,M. Torres,Baja,5.7,Operativo
+R00262,EQ-005,2022-07-21,Preventivo,—,Programado,Mantenimiento preventivo programado,137.12,A. Flores,Baja,1.0,Operativo
+R00292,EQ-005,2022-07-30,Correctivo,Eléctrica,Alta,Cortocircuito en placa,888.36,A. Flores,Alta,4.3,Operativo
+R00310,EQ-005,2022-09-27,Correctivo,Sensores,Media,Sensor SpO2 descalibrado,,A. Flores,Media,7.4,Operativo
+R00263,EQ-005,2022-10-28,Preventivo,—,Programado,Mantenimiento preventivo programado,119.27,J. Ramírez,Baja,1.6,Operativo
+R00264,EQ-005,2023-01-24,Preventivo,—,Programado,Mantenimiento preventivo programado,115.19,L. Quispe,Baja,1.3,Operativo
+R00307,EQ-005,2023-02-11,Correctivo,Sensores,Baja,Error de lectura de presión,399.07,M. Torres,Baja,7.5,Operativo
+R00318,EQ-005,2023-03-11,Correctivo,Eléctrica,Alta,Fusible quemado,1004.95,A. Flores,Alta,6.2,Operativo
+R00265,EQ-005,2023-04-20,Preventivo,—,Programado,Mantenimiento preventivo programado,76.04,A. Flores,Baja,0.8,Operativo
+R00266,EQ-005,2023-07-09,Preventivo,—,Programado,Mantenimiento preventivo programado,84.13,M. Torres,Baja,1.6,Operativo
+R00302,EQ-005,2023-08-02,Correctivo,Eléctrica,Alta,Fusible quemado,1092.62,L. Quispe,Alta,5.4,En observación
+R00297,EQ-005,2023-09-07,Correctivo,Eléctrica,Alta,Falla en fuente de poder,606.1,L. Quispe,Alta,6.7,Operativo
+R00267,EQ-005,2023-09-28,Preventivo,—,Programado,Mantenimiento preventivo programado,106.38,A. Flores,Baja,0.7,Operativo
+R00287,EQ-005,2023-10-02,Correctivo,Software,Alta,Error de firmware,376.88,J. Ramírez,Alta,3.0,Operativo
+R00284,EQ-005,2023-11-14,Correctivo,Sensores,Media,Sensor de flujo defectuoso,1123.22,M. Torres,Media,6.7,Operativo
+R00299,EQ-005,2023-11-14,Correctivo,Calibración,Alta,Calibración vencida,334.01,A. Flores,Alta,2.1,Operativo
+R00312,EQ-005,2023-12-06,Correctivo,Software,Alta,Pantalla congelada,735.95,A. Flores,Alta,1.9,Operativo
+R00322,EQ-005,2023-12-08,Correctivo,Eléctrica,Media,Fusible quemado,337.13,M. Torres,Media,7.6,En observación
+R00319,EQ-005,2023-12-12,Correctivo,Calibración,Media,Desviación de medición,531.43,L. Quispe,Media,6.6,En observación
+R00317,EQ-005,2023-12-28,Correctivo,Sensores,Media,Sensor SpO2 descalibrado,564.58,J. Ramírez,Media,1.5,En observación
+R00268,EQ-005,2023-12-29,Preventivo,—,Programado,Mantenimiento preventivo programado,130.41,A. Flores,Baja,1.5,Operativo
+R00290,EQ-005,2024-01-05,Correctivo,Calibración,Baja,Calibración vencida,403.63,J. Ramírez,Baja,5.2,Operativo
+R00289,EQ-005,2024-02-21,Correctivo,Software,Media,Falla en calibración digital,585.68,J. Ramírez,Media,6.8,Operativo
+R00269,EQ-005,2024-03-28,Preventivo,—,Programado,Mantenimiento preventivo programado,139.51,M. Torres,Baja,1.7,Operativo
+R00283,EQ-005,2024-04-27,Correctivo,Software,Alta,Pantalla congelada,744.48,M. Torres,Alta,5.4,En observación
+R00291,EQ-005,2024-05-01,Correctivo,Eléctrica,Alta,Cortocircuito en placa,1168.74,A. Flores,Alta,2.4,Operativo
+R00316,EQ-005,2024-05-20,Correctivo,Mecánica,Alta,Obstrucción de circuito,482.82,A. Flores,Alta,5.5,Operativo
+R00281,EQ-005,2024-06-05,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,1394.44,M. Torres,Alta,5.9,Operativo
+R00308,EQ-005,2024-06-13,Correctivo,Calibración,Alta,Ajuste de cero requerido,337.07,A. Flores,Alta,3.2,En observación
+R00270,EQ-005,2024-06-29,Preventivo,—,Programado,Mantenimiento preventivo programado,140.35,M. Torres,Baja,1.5,Operativo
+R00282,EQ-005,2024-08-05,Correctivo,Software,Baja,Pantalla congelada,484.76,L. Quispe,Baja,4.3,Operativo
+R00311,EQ-005,2024-08-10,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,1520.89,L. Quispe,Alta,7.7,Operativo
+R00278,EQ-005,2024-08-15,Correctivo,Calibración,Alta,Desviación de medición,201.05,M. Torres,Alta,2.3,En observación
+R00321,EQ-005,2024-08-28,Correctivo,Eléctrica,Media,Fusible quemado,787.45,A. Flores,Media,3.6,Operativo
+R00306,EQ-005,2024-09-11,Correctivo,Software,Media,Error de comunicación,646.97,L. Quispe,Media,1.5,Operativo
+R00271,EQ-005,2024-09-17,Preventivo,—,Programado,Mantenimiento preventivo programado,169.1,A. Flores,Baja,1.5,Operativo
+R00320,EQ-005,2024-09-18,Correctivo,Software,Alta,Error de comunicación,45.17,A. Flores,Alta,6.7,En observación
+R00309,EQ-005,2024-10-02,Correctivo,Eléctrica,Media,Falla en fuente de poder,666.08,J. Ramírez,Media,3.6,Operativo
+R00272,EQ-005,2024-12-25,Preventivo,—,Programado,Mantenimiento preventivo programado,99.45,J. Ramírez,Baja,1.4,Operativo
+R00295,EQ-005,2025-02-28,Correctivo,Software,Media,Pantalla congelada,700.31,J. Ramírez,Media,3.9,Operativo
+R00300,EQ-005,2025-03-25,Correctivo,Eléctrica,Alta,Cortocircuito en placa,893.12,M. Torres,Alta,3.9,Operativo
+R00273,EQ-005,2025-03-28,Preventivo,—,Programado,Mantenimiento preventivo programado,178.97,J. Ramírez,Baja,1.8,Operativo
+R00286,EQ-005,2025-04-05,Correctivo,Sensores,Baja,Sensor de flujo defectuoso,502.24,L. Quispe,Baja,5.4,Operativo
+R00303,EQ-005,2025-04-05,Correctivo,Software,Alta,Error de firmware,546.67,A. Flores,Alta,1.8,Operativo
+R00285,EQ-005,2025-04-26,Correctivo,Sensores,Alta,Termistor fuera de rango,2196.39,L. Quispe,Alta,7.6,Operativo
+R00288,EQ-005,2025-05-18,Correctivo,Desgaste,Alta,Filtro saturado,1085.08,J. Ramírez,Alta,6.2,Operativo
+R00274,EQ-005,2025-07-05,Preventivo,—,Programado,Mantenimiento preventivo programado,80.07,J. Ramírez,Baja,2.0,Operativo
+R00315,EQ-005,2025-09-08,Correctivo,Calibración,Alta,Desviación de medición,303.6,L. Quispe,Alta,7.9,Operativo
+R00275,EQ-005,2025-09-23,Preventivo,—,Programado,Mantenimiento preventivo programado,,L. Quispe,Baja,1.0,Operativo
+R00293,EQ-005,2025-10-06,Correctivo,Software,Alta,Falla en calibración digital,321.45,A. Flores,Alta,3.1,Operativo
+R00294,EQ-005,2025-10-20,Correctivo,Eléctrica,Media,Fusible quemado,639.59,L. Quispe,Media,1.4,Operativo
+R00276,EQ-005,2025-12-14,Preventivo,—,Programado,Mantenimiento preventivo programado,69.28,M. Torres,Baja,0.9,Operativo
+R00301,EQ-005,2026-02-07,Correctivo,Mecánica,Media,Desgaste de válvula,1392.16,M. Torres,Media,3.8,Operativo
+R00296,EQ-005,2026-03-01,Correctivo,Eléctrica,Media,Falla en cargador,625.88,A. Flores,Media,2.2,Operativo
+R00313,EQ-005,2026-03-17,Correctivo,Software,Alta,Error de firmware,379.75,A. Flores,Alta,7.6,Operativo
+R00277,EQ-005,2026-03-20,Preventivo,—,Programado,Mantenimiento preventivo programado,114.73,L. Quispe,Baja,0.6,Operativo
+R00298,EQ-005,2026-03-24,Correctivo,Mecánica,Alta,Desgaste de válvula,457.7,J. Ramírez,Alta,1.4,Operativo
+R00305,EQ-005,2026-04-08,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,579.03,L. Quispe,Alta,4.6,Operativo
+R00323,EQ-006,2022-01-10,Preventivo,—,Programado,Mantenimiento preventivo programado,143.91,L. Quispe,Baja,0.5,Operativo
+R00353,EQ-006,2022-01-11,Correctivo,Mecánica,Media,Rotura de manguera,683.72,M. Torres,Media,2.5,En observación
+R00360,EQ-006,2022-01-15,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,1038.17,A. Flores,Alta,6.7,Operativo
+R00324,EQ-006,2022-04-16,Preventivo,—,Programado,Mantenimiento preventivo programado,79.96,M. Torres,Baja,1.4,Operativo
+R00351,EQ-006,2022-04-20,Correctivo,Eléctrica,Alta,Falla en cargador,100.37,J. Ramírez,Alta,5.3,Operativo
+R00345,EQ-006,2022-04-25,Correctivo,Calibración,Alta,Calibración vencida,173.32,M. Torres,Alta,5.4,En observación
+R00375,EQ-006,2022-04-29,Correctivo,Software,Alta,Error de comunicación,138.3,A. Flores,Alta,6.1,En observación
+R00377,EQ-006,2022-07-10,Correctivo,Software,Baja,Falla en calibración digital,192.55,L. Quispe,Baja,5.0,Operativo
+R00373,EQ-006,2022-07-19,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,687.59,J. Ramírez,Alta,5.6,Operativo
+R00325,EQ-006,2022-07-23,Preventivo,—,Programado,Mantenimiento preventivo programado,106.1,M. Torres,Baja,2.0,Operativo
+R00355,EQ-006,2022-08-04,Correctivo,Sensores,Alta,Error de lectura de presión,1171.94,J. Ramírez,Alta,2.0,Operativo
+R00342,EQ-006,2022-10-05,Correctivo,Sensores,Media,Error de lectura de presión,389.22,M. Torres,Media,1.5,Operativo
+R00326,EQ-006,2022-10-22,Preventivo,—,Programado,Mantenimiento preventivo programado,143.08,L. Quispe,Baja,1.1,Operativo
+R00367,EQ-006,2022-11-04,Correctivo,Eléctrica,Alta,Fusible quemado,299.3,J. Ramírez,Alta,7.4,Operativo
+R00371,EQ-006,2022-11-16,Correctivo,Calibración,Alta,Calibración vencida,120.58,L. Quispe,Alta,6.0,Operativo
+R00380,EQ-006,2022-12-29,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,,J. Ramírez,Alta,2.3,Operativo
+R00327,EQ-006,2023-01-15,Preventivo,—,Programado,Mantenimiento preventivo programado,117.62,L. Quispe,Baja,1.7,Operativo
+R00344,EQ-006,2023-01-23,Correctivo,Calibración,Alta,Calibración vencida,171.33,A. Flores,Alta,1.4,En observación
+R00365,EQ-006,2023-04-09,Correctivo,Sensores,Baja,Error de lectura de presión,440.97,A. Flores,Baja,7.1,Operativo
+R00328,EQ-006,2023-04-17,Preventivo,—,Programado,Mantenimiento preventivo programado,66.01,A. Flores,Baja,1.7,Operativo
+R00372,EQ-006,2023-07-01,Correctivo,Software,Baja,Pantalla congelada,344.51,L. Quispe,Baja,3.6,Operativo
+R00329,EQ-006,2023-07-10,Preventivo,—,Programado,Mantenimiento preventivo programado,179.45,M. Torres,Baja,1.3,Operativo
+R00363,EQ-006,2023-07-10,Correctivo,Sensores,Media,Termistor fuera de rango,932.37,J. Ramírez,Media,1.5,En observación
+R00364,EQ-006,2023-07-26,Correctivo,Eléctrica,Alta,Falla en cargador,486.25,J. Ramírez,Alta,1.6,En observación
+R00378,EQ-006,2023-08-26,Correctivo,Software,Alta,Error de comunicación,21.16,M. Torres,Alta,3.2,Operativo
+R00330,EQ-006,2023-09-28,Preventivo,—,Programado,Mantenimiento preventivo programado,67.52,M. Torres,Baja,1.1,Operativo
+R00368,EQ-006,2023-10-04,Correctivo,Software,Baja,Error de firmware,250.74,M. Torres,Baja,3.7,Operativo
+R00357,EQ-006,2023-12-07,Correctivo,Software,Alta,Falla en calibración digital,189.22,J. Ramírez,Alta,3.7,Operativo
+R00331,EQ-006,2023-12-31,Preventivo,—,Programado,Mantenimiento preventivo programado,91.73,L. Quispe,Baja,1.7,Operativo
+R00383,EQ-006,2024-01-08,Correctivo,Desgaste,Media,Filtro saturado,317.19,A. Flores,Media,3.0,Operativo
+R00376,EQ-006,2024-01-20,Correctivo,Software,Alta,Error de firmware,334.28,M. Torres,Alta,6.5,Operativo
+R00384,EQ-006,2024-01-27,Correctivo,Sensores,Media,Termistor fuera de rango,246.76,J. Ramírez,Media,6.2,En observación
+R00379,EQ-006,2024-02-15,Correctivo,Mecánica,Baja,Holgura en soporte,123.5,A. Flores,Baja,6.6,Operativo
+R00349,EQ-006,2024-03-27,Correctivo,Eléctrica,Alta,Falla en cargador,324.76,M. Torres,Alta,5.1,En observación
+R00332,EQ-006,2024-04-01,Preventivo,—,Programado,Mantenimiento preventivo programado,103.05,M. Torres,Baja,0.8,Operativo
+R00366,EQ-006,2024-05-03,Correctivo,Software,Alta,Error de firmware,70.54,J. Ramírez,Alta,7.6,En observación
+R00346,EQ-006,2024-05-11,Correctivo,Desgaste,Media,Filtro saturado,553.89,M. Torres,Media,2.0,Operativo
+R00359,EQ-006,2024-06-06,Correctivo,Eléctrica,Alta,Fusible quemado,592.07,L. Quispe,Alta,4.6,En observación
+R00333,EQ-006,2024-06-20,Preventivo,—,Programado,Mantenimiento preventivo programado,107.05,L. Quispe,Baja,1.9,Operativo
+R00369,EQ-006,2024-07-06,Correctivo,Sensores,Alta,Error de lectura de presión,458.54,J. Ramírez,Alta,3.6,Operativo
+R00334,EQ-006,2024-09-11,Preventivo,—,Programado,Mantenimiento preventivo programado,122.39,L. Quispe,Baja,1.6,Operativo
+R00362,EQ-006,2024-09-11,Correctivo,Eléctrica,Alta,Batería agotada,170.44,J. Ramírez,Alta,2.1,En observación
+R00350,EQ-006,2024-10-26,Correctivo,Software,Media,Pantalla congelada,217.57,A. Flores,Media,1.4,Operativo
+R00343,EQ-006,2024-10-27,Correctivo,Eléctrica,Baja,Fusible quemado,235.95,M. Torres,Baja,2.4,Operativo
+R00382,EQ-006,2024-11-19,Correctivo,Software,Baja,Error de firmware,276.89,L. Quispe,Baja,2.7,Operativo
+R00335,EQ-006,2024-12-08,Preventivo,—,Programado,Mantenimiento preventivo programado,61.54,L. Quispe,Baja,1.1,Operativo
+R00361,EQ-006,2025-01-13,Correctivo,Calibración,Alta,Calibración vencida,,M. Torres,Alta,1.7,En observación
+R00374,EQ-006,2025-03-03,Correctivo,Software,Alta,Error de comunicación,14.4,L. Quispe,Alta,5.5,En observación
+R00336,EQ-006,2025-03-15,Preventivo,—,Programado,Mantenimiento preventivo programado,123.91,L. Quispe,Baja,1.3,Operativo
+R00381,EQ-006,2025-05-01,Correctivo,Software,Media,Error de firmware,327.58,J. Ramírez,Media,3.9,Operativo
+R00356,EQ-006,2025-05-24,Correctivo,Sensores,Baja,Sensor SpO2 descalibrado,491.25,A. Flores,Baja,7.7,Operativo
+R00337,EQ-006,2025-06-04,Preventivo,—,Programado,Mantenimiento preventivo programado,145.14,A. Flores,Baja,1.7,Operativo
+R00354,EQ-006,2025-06-08,Correctivo,Calibración,Alta,Calibración vencida,201.07,L. Quispe,Alta,2.3,Operativo
+R00352,EQ-006,2025-08-01,Correctivo,Sensores,Alta,Termistor fuera de rango,235.62,M. Torres,Alta,7.1,Operativo
+R00338,EQ-006,2025-09-01,Preventivo,—,Programado,Mantenimiento preventivo programado,137.47,A. Flores,Baja,1.9,Operativo
+R00339,EQ-006,2025-11-26,Preventivo,—,Programado,Mantenimiento preventivo programado,73.62,A. Flores,Baja,0.8,Operativo
+R00358,EQ-006,2025-12-05,Correctivo,Software,Alta,Error de comunicación,57.75,A. Flores,Alta,4.5,Operativo
+R00370,EQ-006,2026-01-05,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,1099.15,M. Torres,Alta,1.3,Operativo
+R00348,EQ-006,2026-01-15,Correctivo,Eléctrica,Baja,Cortocircuito en placa,581.18,M. Torres,Baja,2.9,Operativo
+R00347,EQ-006,2026-02-22,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,193.33,L. Quispe,Alta,7.9,Operativo
+R00340,EQ-006,2026-02-24,Preventivo,—,Programado,Mantenimiento preventivo programado,93.21,A. Flores,Baja,1.8,Operativo
+R00341,EQ-006,2026-05-29,Preventivo,—,Programado,Mantenimiento preventivo programado,83.77,L. Quispe,Baja,1.6,Operativo
+R00385,EQ-007,2022-01-06,Preventivo,—,Programado,Mantenimiento preventivo programado,133.75,A. Flores,Baja,1.0,Operativo
+R00436,EQ-007,2022-02-04,Correctivo,Sensores,Baja,Sensor de flujo defectuoso,1830.35,L. Quispe,Baja,4.2,Operativo
+R00434,EQ-007,2022-03-06,Correctivo,Desgaste,Media,Acumulación de horas de uso,575.73,L. Quispe,Media,5.7,Operativo
+R00407,EQ-007,2022-03-09,Correctivo,Software,Alta,Error de firmware,66.15,M. Torres,Alta,4.3,En observación
+R00433,EQ-007,2022-03-28,Correctivo,Mecánica,Media,Desgaste de válvula,1685.17,A. Flores,Media,3.0,Operativo
+R00386,EQ-007,2022-04-14,Preventivo,—,Programado,Mantenimiento preventivo programado,92.83,L. Quispe,Baja,0.9,Operativo
+R00416,EQ-007,2022-04-14,Correctivo,Mecánica,Alta,Rotura de manguera,687.19,A. Flores,Alta,7.9,Operativo
+R00408,EQ-007,2022-05-07,Correctivo,Mecánica,Baja,Holgura en soporte,1665.82,J. Ramírez,Baja,2.6,Operativo
+R00443,EQ-007,2022-06-18,Correctivo,Sensores,Media,Sensor de flujo defectuoso,411.33,J. Ramírez,Media,1.2,En observación
+R00441,EQ-007,2022-07-03,Correctivo,Software,Alta,Error de firmware,554.62,M. Torres,Alta,5.7,Operativo
+R00387,EQ-007,2022-07-11,Preventivo,—,Programado,Mantenimiento preventivo programado,109.17,A. Flores,Baja,0.6,Operativo
+R00411,EQ-007,2022-08-03,Correctivo,Eléctrica,Alta,Falla en fuente de poder,701.89,A. Flores,Alta,2.7,Operativo
+R00388,EQ-007,2022-10-02,Preventivo,—,Programado,Mantenimiento preventivo programado,81.71,M. Torres,Baja,1.8,Operativo
+R00432,EQ-007,2022-10-16,Correctivo,Mecánica,Alta,Desgaste de válvula,1289.79,A. Flores,Alta,7.4,Operativo
+R00444,EQ-007,2022-11-24,Correctivo,Calibración,Alta,Calibración vencida,441.27,L. Quispe,Alta,6.4,Operativo
+R00417,EQ-007,2022-11-28,Correctivo,Mecánica,Alta,Holgura en soporte,1378.76,M. Torres,Alta,1.7,Operativo
+R00389,EQ-007,2023-01-07,Preventivo,—,Programado,Mantenimiento preventivo programado,101.93,A. Flores,Baja,1.4,Operativo
+R00423,EQ-007,2023-03-07,Correctivo,Mecánica,Alta,Obstrucción de circuito,982.19,A. Flores,Alta,1.8,Operativo
+R00390,EQ-007,2023-04-02,Preventivo,—,Programado,Mantenimiento preventivo programado,90.12,J. Ramírez,Baja,2.0,Operativo
+R00415,EQ-007,2023-05-04,Correctivo,Sensores,Alta,Error de lectura de presión,2329.62,M. Torres,Alta,3.2,Operativo
+R00405,EQ-007,2023-06-01,Correctivo,Desgaste,Baja,Componente al final de vida útil,1504.01,L. Quispe,Baja,3.6,Operativo
+R00428,EQ-007,2023-06-13,Correctivo,Mecánica,Alta,Falla en bomba peristáltica,1147.02,A. Flores,Alta,1.1,Operativo
+R00391,EQ-007,2023-07-07,Preventivo,—,Programado,Mantenimiento preventivo programado,158.91,M. Torres,Baja,0.9,Operativo
+R00420,EQ-007,2023-07-17,Correctivo,Eléctrica,Alta,Batería agotada,1024.43,J. Ramírez,Alta,4.3,Operativo
+R00392,EQ-007,2023-09-25,Preventivo,—,Programado,Mantenimiento preventivo programado,103.97,M. Torres,Baja,1.0,Operativo
+R00440,EQ-007,2023-12-28,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,480.44,A. Flores,Alta,3.2,Operativo
+R00393,EQ-007,2023-12-31,Preventivo,—,Programado,Mantenimiento preventivo programado,164.66,M. Torres,Baja,1.8,Operativo
+R00394,EQ-007,2024-03-21,Preventivo,—,Programado,Mantenimiento preventivo programado,123.83,M. Torres,Baja,0.8,Operativo
+R00413,EQ-007,2024-04-01,Correctivo,Desgaste,Alta,Acumulación de horas de uso,670.11,L. Quispe,Alta,2.3,Operativo
+R00404,EQ-007,2024-04-24,Correctivo,Sensores,Media,Sensor de flujo defectuoso,1594.0,J. Ramírez,Media,3.1,Operativo
+R00439,EQ-007,2024-05-31,Correctivo,Sensores,Alta,Error de lectura de presión,2055.81,L. Quispe,Alta,4.4,Operativo
+R00442,EQ-007,2024-06-08,Correctivo,Eléctrica,Alta,Falla en fuente de poder,680.78,M. Torres,Alta,4.6,Operativo
+R00395,EQ-007,2024-06-24,Preventivo,—,Programado,Mantenimiento preventivo programado,75.83,M. Torres,Baja,1.1,Operativo
+R00424,EQ-007,2024-07-06,Correctivo,Sensores,Media,Sensor de flujo defectuoso,1431.74,L. Quispe,Media,7.5,Operativo
+R00419,EQ-007,2024-07-28,Correctivo,Eléctrica,Alta,Fusible quemado,841.42,L. Quispe,Alta,5.4,En observación
+R00437,EQ-007,2024-08-05,Correctivo,Software,Media,Falla en calibración digital,571.53,M. Torres,Media,4.0,En observación
+R00422,EQ-007,2024-08-26,Correctivo,Mecánica,Media,Holgura en soporte,966.43,A. Flores,Media,2.0,Operativo
+R00425,EQ-007,2024-09-10,Correctivo,Eléctrica,Alta,Falla en cargador,233.15,A. Flores,Alta,7.8,Operativo
+R00396,EQ-007,2024-09-21,Preventivo,—,Programado,Mantenimiento preventivo programado,116.9,A. Flores,Baja,0.9,Operativo
+R00397,EQ-007,2024-12-10,Preventivo,—,Programado,Mantenimiento preventivo programado,135.95,A. Flores,Baja,0.7,Operativo
+R00430,EQ-007,2024-12-26,Correctivo,Mecánica,Alta,Obstrucción de circuito,978.52,J. Ramírez,Alta,5.4,Operativo
+R00421,EQ-007,2025-01-01,Correctivo,Eléctrica,Alta,Falla en cargador,393.62,J. Ramírez,Alta,1.8,Operativo
+R00412,EQ-007,2025-01-24,Correctivo,Calibración,Alta,Ajuste de cero requerido,263.23,J. Ramírez,Alta,1.6,Operativo
+R00429,EQ-007,2025-02-24,Correctivo,Mecánica,Baja,Falla en bomba peristáltica,1791.76,J. Ramírez,Baja,1.3,Operativo
+R00398,EQ-007,2025-03-16,Preventivo,—,Programado,Mantenimiento preventivo programado,138.8,A. Flores,Baja,1.5,Operativo
+R00410,EQ-007,2025-05-24,Correctivo,Mecánica,Alta,Desgaste de válvula,1622.95,L. Quispe,Alta,3.8,Operativo
+R00399,EQ-007,2025-06-05,Preventivo,—,Programado,Mantenimiento preventivo programado,137.29,J. Ramírez,Baja,2.0,Operativo
+R00409,EQ-007,2025-07-08,Correctivo,Desgaste,Alta,Componente al final de vida útil,1129.91,L. Quispe,Alta,7.4,Operativo
+R00426,EQ-007,2025-07-08,Correctivo,Eléctrica,Alta,Falla en fuente de poder,600.51,J. Ramírez,Alta,3.2,Operativo
+R00435,EQ-007,2025-08-17,Correctivo,Software,Media,Pantalla congelada,203.58,M. Torres,Media,1.7,Operativo
+R00400,EQ-007,2025-09-07,Preventivo,—,Programado,Mantenimiento preventivo programado,91.35,J. Ramírez,Baja,0.6,Operativo
+R00427,EQ-007,2025-10-05,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,541.99,A. Flores,Alta,5.7,Operativo
+R00438,EQ-007,2025-11-23,Correctivo,Software,Media,Falla en calibración digital,89.16,A. Flores,Media,7.3,En observación
+R00401,EQ-007,2025-11-29,Preventivo,—,Programado,Mantenimiento preventivo programado,172.33,M. Torres,Baja,1.7,Operativo
+R00431,EQ-007,2025-12-07,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,1131.19,J. Ramírez,Alta,6.8,Operativo
+R00406,EQ-007,2026-02-24,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,1410.49,J. Ramírez,Alta,6.9,Operativo
+R00402,EQ-007,2026-03-03,Preventivo,—,Programado,Mantenimiento preventivo programado,143.75,L. Quispe,Baja,0.9,Operativo
+R00445,EQ-007,2026-03-14,Correctivo,Software,Alta,Error de firmware,119.86,J. Ramírez,Alta,6.1,Operativo
+R00418,EQ-007,2026-05-25,Correctivo,Mecánica,Baja,Falla en bomba peristáltica,1547.52,J. Ramírez,Baja,2.1,Operativo
+R00414,EQ-007,2026-05-26,Correctivo,Eléctrica,Media,Falla en cargador,1126.14,A. Flores,Media,6.7,En observación
+R00403,EQ-007,2026-05-31,Preventivo,—,Programado,Mantenimiento preventivo programado,102.18,J. Ramírez,Baja,0.6,Operativo
+R00480,EQ-008,2022-01-25,Correctivo,Eléctrica,Alta,Falla en fuente de poder,102.77,L. Quispe,Alta,5.0,Operativo
+R00446,EQ-008,2022-01-26,Preventivo,—,Programado,Mantenimiento preventivo programado,107.85,L. Quispe,Baja,0.8,Operativo
+R00492,EQ-008,2022-02-09,Correctivo,Eléctrica,Baja,Batería agotada,215.47,J. Ramírez,Baja,7.7,En observación
+R00483,EQ-008,2022-03-18,Correctivo,Calibración,Media,Desviación de medición,270.64,A. Flores,Media,1.6,En observación
+R00487,EQ-008,2022-04-16,Correctivo,Desgaste,Media,Componente al final de vida útil,340.22,A. Flores,Media,6.8,Operativo
+R00447,EQ-008,2022-04-18,Preventivo,—,Programado,Mantenimiento preventivo programado,141.37,A. Flores,Baja,1.2,Operativo
+R00504,EQ-008,2022-06-16,Correctivo,Desgaste,Alta,Filtro saturado,498.21,L. Quispe,Alta,2.9,Operativo
+R00502,EQ-008,2022-06-28,Correctivo,Eléctrica,Baja,Batería agotada,517.52,L. Quispe,Baja,3.5,Operativo
+R00477,EQ-008,2022-07-03,Correctivo,Eléctrica,Alta,Falla en cargador,423.92,L. Quispe,Alta,6.3,Operativo
+R00493,EQ-008,2022-07-09,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,860.42,L. Quispe,Alta,6.4,Operativo
+R00448,EQ-008,2022-07-10,Preventivo,—,Programado,Mantenimiento preventivo programado,168.57,A. Flores,Baja,1.6,Operativo
+R00503,EQ-008,2022-07-22,Correctivo,Software,Alta,Pantalla congelada,324.36,A. Flores,Alta,3.1,Operativo
+R00449,EQ-008,2022-10-04,Preventivo,—,Programado,Mantenimiento preventivo programado,141.82,J. Ramírez,Baja,1.8,Operativo
+R00475,EQ-008,2022-10-18,Correctivo,Software,Alta,Error de firmware,321.8,L. Quispe,Alta,1.7,Operativo
+R00486,EQ-008,2022-11-25,Correctivo,Eléctrica,Alta,Falla en cargador,123.76,L. Quispe,Alta,6.9,Operativo
+R00496,EQ-008,2023-01-01,Correctivo,Sensores,Media,Error de lectura de presión,954.1,A. Flores,Media,6.7,Operativo
+R00472,EQ-008,2023-01-02,Correctivo,Eléctrica,Alta,Falla en fuente de poder,530.19,J. Ramírez,Alta,2.9,Operativo
+R00450,EQ-008,2023-01-06,Preventivo,—,Programado,Mantenimiento preventivo programado,179.32,J. Ramírez,Baja,1.8,Operativo
+R00495,EQ-008,2023-03-21,Correctivo,Software,Baja,Error de comunicación,241.79,J. Ramírez,Baja,3.8,Operativo
+R00451,EQ-008,2023-04-01,Preventivo,—,Programado,Mantenimiento preventivo programado,64.35,A. Flores,Baja,1.3,Operativo
+R00490,EQ-008,2023-04-26,Correctivo,Sensores,Alta,Error de lectura de presión,800.11,L. Quispe,Alta,1.8,Operativo
+R00481,EQ-008,2023-05-07,Correctivo,Eléctrica,Baja,Falla en cargador,167.13,A. Flores,Baja,5.8,Operativo
+R00452,EQ-008,2023-06-29,Preventivo,—,Programado,Mantenimiento preventivo programado,130.75,L. Quispe,Baja,1.1,Operativo
+R00474,EQ-008,2023-09-13,Correctivo,Calibración,Alta,Ajuste de cero requerido,148.72,M. Torres,Alta,1.1,Operativo
+R00453,EQ-008,2023-10-05,Preventivo,—,Programado,Mantenimiento preventivo programado,,L. Quispe,Baja,1.9,Operativo
+R00484,EQ-008,2023-10-29,Correctivo,Eléctrica,Media,Cortocircuito en placa,257.21,L. Quispe,Media,1.9,Operativo
+R00478,EQ-008,2023-11-26,Correctivo,Sensores,Alta,Termistor fuera de rango,225.72,A. Flores,Alta,5.9,Operativo
+R00454,EQ-008,2023-12-28,Preventivo,—,Programado,Mantenimiento preventivo programado,151.37,A. Flores,Baja,2.0,Operativo
+R00469,EQ-008,2024-01-05,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,214.25,J. Ramírez,Alta,6.0,Operativo
+R00498,EQ-008,2024-02-29,Correctivo,Eléctrica,Baja,Batería agotada,230.2,L. Quispe,Baja,6.7,Operativo
+R00464,EQ-008,2024-03-06,Correctivo,Desgaste,Baja,Acumulación de horas de uso,751.47,M. Torres,Baja,5.3,Operativo
+R00466,EQ-008,2024-03-15,Correctivo,Desgaste,Alta,Componente al final de vida útil,743.25,J. Ramírez,Alta,2.6,En observación
+R00455,EQ-008,2024-03-17,Preventivo,—,Programado,Mantenimiento preventivo programado,131.36,L. Quispe,Baja,1.3,Operativo
+R00497,EQ-008,2024-04-12,Correctivo,Eléctrica,Media,Batería agotada,,L. Quispe,Media,4.8,Operativo
+R00479,EQ-008,2024-06-12,Correctivo,Calibración,Alta,Calibración vencida,119.21,A. Flores,Alta,5.2,Operativo
+R00456,EQ-008,2024-06-13,Preventivo,—,Programado,Mantenimiento preventivo programado,77.0,M. Torres,Baja,1.3,Operativo
+R00468,EQ-008,2024-09-05,Correctivo,Sensores,Alta,Termistor fuera de rango,1193.34,M. Torres,Alta,1.1,En observación
+R00457,EQ-008,2024-09-13,Preventivo,—,Programado,Mantenimiento preventivo programado,126.56,J. Ramírez,Baja,1.9,Operativo
+R00471,EQ-008,2024-11-10,Correctivo,Sensores,Media,Sensor de flujo defectuoso,1086.59,J. Ramírez,Media,6.8,Operativo
+R00458,EQ-008,2024-12-19,Preventivo,—,Programado,Mantenimiento preventivo programado,95.48,J. Ramírez,Baja,1.8,Operativo
+R00459,EQ-008,2025-03-15,Preventivo,—,Programado,Mantenimiento preventivo programado,65.83,L. Quispe,Baja,1.3,Operativo
+R00500,EQ-008,2025-04-03,Correctivo,Calibración,Media,Calibración vencida,133.23,J. Ramírez,Media,3.3,En observación
+R00467,EQ-008,2025-04-28,Correctivo,Calibración,Alta,Calibración vencida,123.83,A. Flores,Alta,7.1,Operativo
+R00473,EQ-008,2025-05-20,Correctivo,Eléctrica,Alta,Falla en cargador,400.56,J. Ramírez,Alta,4.6,Operativo
+R00488,EQ-008,2025-06-12,Correctivo,Sensores,Baja,Error de lectura de presión,323.66,M. Torres,Baja,2.8,Operativo
+R00460,EQ-008,2025-06-15,Preventivo,—,Programado,Mantenimiento preventivo programado,72.25,J. Ramírez,Baja,0.9,Operativo
+R00501,EQ-008,2025-06-26,Correctivo,Calibración,Alta,Ajuste de cero requerido,213.12,L. Quispe,Alta,7.2,Operativo
+R00461,EQ-008,2025-09-20,Preventivo,—,Programado,Mantenimiento preventivo programado,107.36,J. Ramírez,Baja,0.7,Operativo
+R00465,EQ-008,2025-10-26,Correctivo,Eléctrica,Alta,Falla en cargador,212.72,A. Flores,Alta,3.9,Operativo
+R00491,EQ-008,2025-11-19,Correctivo,Calibración,Media,Calibración vencida,201.5,L. Quispe,Media,2.0,Operativo
+R00476,EQ-008,2025-12-17,Correctivo,Sensores,Alta,Error de lectura de presión,756.77,L. Quispe,Alta,7.2,Operativo
+R00462,EQ-008,2025-12-19,Preventivo,—,Programado,Mantenimiento preventivo programado,76.82,A. Flores,Baja,1.2,Operativo
+R00499,EQ-008,2026-01-16,Correctivo,Eléctrica,Alta,Batería agotada,256.55,L. Quispe,Alta,3.7,Operativo
+R00482,EQ-008,2026-01-26,Correctivo,Calibración,Alta,Ajuste de cero requerido,202.81,M. Torres,Alta,4.6,Operativo
+R00485,EQ-008,2026-02-11,Correctivo,Sensores,Media,Sensor de flujo defectuoso,704.04,M. Torres,Media,5.4,Operativo
+R00470,EQ-008,2026-02-24,Correctivo,Sensores,Media,Sensor de flujo defectuoso,682.46,A. Flores,Media,6.4,Operativo
+R00494,EQ-008,2026-02-27,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,1129.67,A. Flores,Alta,1.3,Operativo
+R00463,EQ-008,2026-03-17,Preventivo,—,Programado,Mantenimiento preventivo programado,110.91,L. Quispe,Baja,1.7,Operativo
+R00489,EQ-008,2026-04-28,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,159.09,J. Ramírez,Alta,6.8,Operativo
+R00544,EQ-009,2022-01-17,Correctivo,Mecánica,Alta,Obstrucción de circuito,1485.61,M. Torres,Alta,5.3,Operativo
+R00505,EQ-009,2022-01-22,Preventivo,—,Programado,Mantenimiento preventivo programado,119.21,L. Quispe,Baja,1.7,Operativo
+R00551,EQ-009,2022-02-04,Correctivo,Mecánica,Baja,Falla en bomba peristáltica,1752.86,M. Torres,Baja,6.3,Operativo
+R00554,EQ-009,2022-03-05,Correctivo,Desgaste,Media,Acumulación de horas de uso,1129.94,L. Quispe,Media,6.9,Operativo
+R00533,EQ-009,2022-04-23,Correctivo,Mecánica,Media,Holgura en soporte,340.06,L. Quispe,Media,3.8,En observación
+R00506,EQ-009,2022-04-27,Preventivo,—,Programado,Mantenimiento preventivo programado,99.01,A. Flores,Baja,2.0,Operativo
+R00561,EQ-009,2022-05-17,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,1991.5,A. Flores,Alta,5.2,Operativo
+R00507,EQ-009,2022-07-30,Preventivo,—,Programado,Mantenimiento preventivo programado,64.89,A. Flores,Baja,0.8,Operativo
+R00508,EQ-009,2022-10-23,Preventivo,—,Programado,Mantenimiento preventivo programado,68.66,A. Flores,Baja,1.2,Operativo
+R00546,EQ-009,2022-10-29,Correctivo,Mecánica,Baja,Falla en bomba peristáltica,823.64,L. Quispe,Baja,2.2,En observación
+R00524,EQ-009,2022-11-06,Correctivo,Desgaste,Media,Acumulación de horas de uso,1183.99,J. Ramírez,Media,4.4,Operativo
+R00540,EQ-009,2022-11-16,Correctivo,Desgaste,Alta,Filtro saturado,862.57,M. Torres,Alta,3.9,Operativo
+R00548,EQ-009,2022-11-16,Correctivo,Software,Baja,Falla en calibración digital,652.2,A. Flores,Baja,4.5,Operativo
+R00529,EQ-009,2022-11-30,Correctivo,Mecánica,Alta,Holgura en soporte,1039.43,J. Ramírez,Alta,1.1,Operativo
+R00558,EQ-009,2022-12-01,Correctivo,Desgaste,Baja,Filtro saturado,615.28,J. Ramírez,Baja,4.8,Operativo
+R00531,EQ-009,2022-12-03,Correctivo,Software,Media,Pantalla congelada,254.63,M. Torres,Media,7.8,Operativo
+R00528,EQ-009,2022-12-30,Correctivo,Mecánica,Alta,Obstrucción de circuito,1391.8,M. Torres,Alta,3.7,En observación
+R00535,EQ-009,2022-12-31,Correctivo,Eléctrica,Alta,Cortocircuito en placa,378.83,L. Quispe,Alta,2.7,Operativo
+R00545,EQ-009,2023-01-11,Correctivo,Mecánica,Baja,Falla en bomba peristáltica,1310.78,J. Ramírez,Baja,7.7,Operativo
+R00509,EQ-009,2023-01-19,Preventivo,—,Programado,Mantenimiento preventivo programado,115.1,L. Quispe,Baja,0.6,Operativo
+R00536,EQ-009,2023-01-28,Correctivo,Sensores,Baja,Error de lectura de presión,1324.66,A. Flores,Baja,6.1,En observación
+R00526,EQ-009,2023-03-04,Correctivo,Eléctrica,Media,Fusible quemado,1065.95,M. Torres,Media,3.8,Operativo
+R00559,EQ-009,2023-04-09,Correctivo,Desgaste,Alta,Filtro saturado,618.66,A. Flores,Alta,1.7,Operativo
+R00542,EQ-009,2023-04-15,Correctivo,Mecánica,Alta,Desgaste de válvula,1529.28,M. Torres,Alta,2.6,En observación
+R00510,EQ-009,2023-04-18,Preventivo,—,Programado,Mantenimiento preventivo programado,178.81,L. Quispe,Baja,1.0,Operativo
+R00555,EQ-009,2023-05-07,Correctivo,Sensores,Media,Error de lectura de presión,1072.96,M. Torres,Media,6.6,Operativo
+R00549,EQ-009,2023-05-29,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,1914.37,A. Flores,Alta,5.1,En observación
+R00511,EQ-009,2023-07-18,Preventivo,—,Programado,Mantenimiento preventivo programado,97.03,M. Torres,Baja,1.8,Operativo
+R00550,EQ-009,2023-08-24,Correctivo,Sensores,Baja,Termistor fuera de rango,607.35,J. Ramírez,Baja,6.2,Operativo
+R00512,EQ-009,2023-10-19,Preventivo,—,Programado,Mantenimiento preventivo programado,88.56,L. Quispe,Baja,1.7,Operativo
+R00562,EQ-009,2023-11-23,Correctivo,Desgaste,Media,Componente al final de vida útil,408.2,L. Quispe,Media,2.9,Operativo
+R00532,EQ-009,2024-01-04,Correctivo,Mecánica,Media,Falla en bomba peristáltica,1545.73,A. Flores,Media,2.5,En observación
+R00547,EQ-009,2024-01-04,Correctivo,Desgaste,Alta,Componente al final de vida útil,240.07,J. Ramírez,Alta,6.2,Operativo
+R00513,EQ-009,2024-01-24,Preventivo,—,Programado,Mantenimiento preventivo programado,175.18,M. Torres,Baja,1.4,Operativo
+R00514,EQ-009,2024-04-19,Preventivo,—,Programado,Mantenimiento preventivo programado,61.71,A. Flores,Baja,1.3,Operativo
+R00537,EQ-009,2024-06-17,Correctivo,Eléctrica,Media,Fusible quemado,368.19,M. Torres,Media,1.9,En observación
+R00538,EQ-009,2024-06-29,Correctivo,Mecánica,Baja,Holgura en soporte,1052.93,M. Torres,Baja,7.5,En observación
+R00515,EQ-009,2024-07-25,Preventivo,—,Programado,Mantenimiento preventivo programado,78.48,M. Torres,Baja,0.7,Operativo
+R00541,EQ-009,2024-08-03,Correctivo,Mecánica,Alta,Rotura de manguera,1402.32,A. Flores,Alta,3.9,Operativo
+R00516,EQ-009,2024-10-23,Preventivo,—,Programado,Mantenimiento preventivo programado,81.33,A. Flores,Baja,1.2,Operativo
+R00517,EQ-009,2025-01-23,Preventivo,—,Programado,Mantenimiento preventivo programado,70.84,J. Ramírez,Baja,0.6,Operativo
+R00560,EQ-009,2025-02-15,Correctivo,Eléctrica,Alta,Falla en fuente de poder,719.04,M. Torres,Alta,7.1,Operativo
+R00527,EQ-009,2025-02-16,Correctivo,Mecánica,Media,Desgaste de válvula,1755.26,M. Torres,Media,1.4,Operativo
+R00518,EQ-009,2025-04-25,Preventivo,—,Programado,Mantenimiento preventivo programado,89.9,M. Torres,Baja,1.2,Operativo
+R00539,EQ-009,2025-06-12,Correctivo,Software,Alta,Pantalla congelada,167.84,M. Torres,Alta,3.6,En observación
+R00523,EQ-009,2025-06-26,Correctivo,Eléctrica,Alta,Cortocircuito en placa,963.81,A. Flores,Alta,5.8,Operativo
+R00557,EQ-009,2025-07-07,Correctivo,Mecánica,Alta,Desgaste de válvula,1504.98,J. Ramírez,Alta,6.6,Operativo
+R00519,EQ-009,2025-07-15,Preventivo,—,Programado,Mantenimiento preventivo programado,172.51,M. Torres,Baja,0.9,Operativo
+R00552,EQ-009,2025-09-21,Correctivo,Mecánica,Alta,Rotura de manguera,1717.82,M. Torres,Alta,6.4,Operativo
+R00520,EQ-009,2025-10-17,Preventivo,—,Programado,Mantenimiento preventivo programado,133.37,M. Torres,Baja,1.9,Operativo
+R00534,EQ-009,2025-10-21,Correctivo,Software,Alta,Error de firmware,576.76,L. Quispe,Alta,7.2,Operativo
+R00556,EQ-009,2025-12-11,Correctivo,Mecánica,Alta,Falla en bomba peristáltica,737.99,A. Flores,Alta,5.4,Operativo
+R00521,EQ-009,2026-01-07,Preventivo,—,Programado,Mantenimiento preventivo programado,130.38,J. Ramírez,Baja,1.5,Operativo
+R00530,EQ-009,2026-01-22,Correctivo,Eléctrica,Alta,Falla en fuente de poder,1181.74,M. Torres,Alta,4.7,Operativo
+R00553,EQ-009,2026-01-31,Correctivo,Mecánica,Alta,Desgaste de válvula,,L. Quispe,Alta,4.3,Operativo
+R00522,EQ-009,2026-04-16,Preventivo,—,Programado,Mantenimiento preventivo programado,176.16,A. Flores,Baja,1.6,Operativo
+R00543,EQ-009,2026-04-20,Correctivo,Software,Alta,Falla en calibración digital,254.62,A. Flores,Alta,3.4,Operativo
+R00525,EQ-009,2026-05-22,Correctivo,Sensores,Alta,Termistor fuera de rango,1966.29,L. Quispe,Alta,3.4,En observación
+R00563,EQ-010,2022-01-04,Preventivo,—,Programado,Mantenimiento preventivo programado,60.62,M. Torres,Baja,0.9,Operativo
+R00595,EQ-010,2022-02-24,Correctivo,Sensores,Media,Sensor de flujo defectuoso,887.71,J. Ramírez,Media,5.1,En observación
+R00564,EQ-010,2022-03-29,Preventivo,—,Programado,Mantenimiento preventivo programado,158.52,M. Torres,Baja,1.4,Operativo
+R00615,EQ-010,2022-04-12,Correctivo,Sensores,Media,Sensor de flujo defectuoso,629.42,L. Quispe,Media,5.2,Operativo
+R00589,EQ-010,2022-04-23,Correctivo,Calibración,Media,Desviación de medición,144.12,M. Torres,Media,7.7,Operativo
+R00565,EQ-010,2022-07-05,Preventivo,—,Programado,Mantenimiento preventivo programado,63.71,M. Torres,Baja,1.3,Operativo
+R00584,EQ-010,2022-08-12,Correctivo,Sensores,Alta,Error de lectura de presión,490.22,A. Flores,Alta,1.1,Operativo
+R00566,EQ-010,2022-09-23,Preventivo,—,Programado,Mantenimiento preventivo programado,110.92,L. Quispe,Baja,0.9,Operativo
+R00609,EQ-010,2022-09-23,Correctivo,Calibración,Alta,Desviación de medición,297.73,M. Torres,Alta,3.0,Operativo
+R00593,EQ-010,2022-10-24,Correctivo,Eléctrica,Baja,Batería agotada,,M. Torres,Baja,2.8,En observación
+R00603,EQ-010,2022-11-14,Correctivo,Software,Baja,Pantalla congelada,245.47,J. Ramírez,Baja,6.2,Operativo
+R00588,EQ-010,2022-12-08,Correctivo,Eléctrica,Media,Falla en cargador,119.34,L. Quispe,Media,5.4,Operativo
+R00567,EQ-010,2022-12-30,Preventivo,—,Programado,Mantenimiento preventivo programado,97.42,M. Torres,Baja,0.9,Operativo
+R00587,EQ-010,2023-03-12,Correctivo,Sensores,Media,Sensor SpO2 descalibrado,877.45,A. Flores,Media,3.1,Operativo
+R00568,EQ-010,2023-03-22,Preventivo,—,Programado,Mantenimiento preventivo programado,139.83,A. Flores,Baja,1.2,Operativo
+R00613,EQ-010,2023-04-27,Correctivo,Calibración,Media,Calibración vencida,288.81,L. Quispe,Media,5.1,En observación
+R00569,EQ-010,2023-06-21,Preventivo,—,Programado,Mantenimiento preventivo programado,142.31,A. Flores,Baja,1.8,Operativo
+R00604,EQ-010,2023-09-01,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,748.04,L. Quispe,Alta,5.7,Operativo
+R00570,EQ-010,2023-09-26,Preventivo,—,Programado,Mantenimiento preventivo programado,123.15,J. Ramírez,Baja,1.9,Operativo
+R00598,EQ-010,2023-10-29,Correctivo,Sensores,Media,Termistor fuera de rango,612.52,A. Flores,Media,7.9,Operativo
+R00591,EQ-010,2023-11-24,Correctivo,Eléctrica,Baja,Falla en fuente de poder,127.13,L. Quispe,Baja,1.1,En observación
+R00571,EQ-010,2023-12-30,Preventivo,—,Programado,Mantenimiento preventivo programado,,J. Ramírez,Baja,1.3,Operativo
+R00583,EQ-010,2024-02-02,Correctivo,Eléctrica,Media,Falla en fuente de poder,443.58,L. Quispe,Media,5.2,Operativo
+R00612,EQ-010,2024-02-19,Correctivo,Eléctrica,Baja,Falla en cargador,371.68,M. Torres,Baja,4.5,En observación
+R00607,EQ-010,2024-03-03,Correctivo,Desgaste,Alta,Acumulación de horas de uso,436.88,J. Ramírez,Alta,5.8,Operativo
+R00592,EQ-010,2024-03-05,Correctivo,Desgaste,Baja,Acumulación de horas de uso,235.18,L. Quispe,Baja,2.5,En observación
+R00617,EQ-010,2024-03-06,Correctivo,Sensores,Media,Error de lectura de presión,848.06,L. Quispe,Media,4.8,Operativo
+R00572,EQ-010,2024-03-30,Preventivo,—,Programado,Mantenimiento preventivo programado,,A. Flores,Baja,0.9,Operativo
+R00605,EQ-010,2024-05-23,Correctivo,Sensores,Media,Termistor fuera de rango,163.71,J. Ramírez,Media,2.4,Operativo
+R00573,EQ-010,2024-06-25,Preventivo,—,Programado,Mantenimiento preventivo programado,171.73,L. Quispe,Baja,0.7,Operativo
+R00582,EQ-010,2024-07-11,Correctivo,Sensores,Alta,Termistor fuera de rango,1196.48,A. Flores,Alta,1.8,En observación
+R00596,EQ-010,2024-07-24,Correctivo,Eléctrica,Media,Fusible quemado,169.8,L. Quispe,Media,5.2,Operativo
+R00614,EQ-010,2024-08-09,Correctivo,Calibración,Baja,Ajuste de cero requerido,177.37,L. Quispe,Baja,7.6,Operativo
+R00586,EQ-010,2024-08-29,Correctivo,Software,Alta,Pantalla congelada,121.54,M. Torres,Alta,7.3,Operativo
+R00574,EQ-010,2024-09-26,Preventivo,—,Programado,Mantenimiento preventivo programado,62.11,M. Torres,Baja,1.5,Operativo
+R00606,EQ-010,2024-10-26,Correctivo,Sensores,Media,Termistor fuera de rango,848.27,L. Quispe,Media,1.5,Operativo
+R00575,EQ-010,2024-12-15,Preventivo,—,Programado,Mantenimiento preventivo programado,62.95,A. Flores,Baja,1.9,Operativo
+R00576,EQ-010,2025-03-22,Preventivo,—,Programado,Mantenimiento preventivo programado,86.42,J. Ramírez,Baja,1.0,Operativo
+R00611,EQ-010,2025-03-30,Correctivo,Eléctrica,Media,Cortocircuito en placa,508.12,J. Ramírez,Media,3.8,En observación
+R00594,EQ-010,2025-05-01,Correctivo,Calibración,Media,Ajuste de cero requerido,217.78,M. Torres,Media,2.3,Operativo
+R00601,EQ-010,2025-05-02,Correctivo,Desgaste,Media,Acumulación de horas de uso,134.26,J. Ramírez,Media,2.5,Operativo
+R00600,EQ-010,2025-06-02,Correctivo,Software,Media,Falla en calibración digital,5.91,L. Quispe,Media,1.2,Operativo
+R00577,EQ-010,2025-06-17,Preventivo,—,Programado,Mantenimiento preventivo programado,130.66,J. Ramírez,Baja,0.7,Operativo
+R00610,EQ-010,2025-07-16,Correctivo,Calibración,Alta,Ajuste de cero requerido,105.43,M. Torres,Alta,5.5,Operativo
+R00616,EQ-010,2025-08-02,Correctivo,Calibración,Media,Ajuste de cero requerido,274.12,A. Flores,Media,4.5,Operativo
+R00578,EQ-010,2025-09-21,Preventivo,—,Programado,Mantenimiento preventivo programado,132.25,A. Flores,Baja,1.3,Operativo
+R00590,EQ-010,2025-12-05,Correctivo,Eléctrica,Alta,Cortocircuito en placa,112.84,J. Ramírez,Alta,2.6,Operativo
+R00579,EQ-010,2025-12-11,Preventivo,—,Programado,Mantenimiento preventivo programado,69.47,J. Ramírez,Baja,1.3,Operativo
+R00585,EQ-010,2026-02-16,Correctivo,Eléctrica,Alta,Batería agotada,566.07,J. Ramírez,Alta,3.8,En observación
+R00599,EQ-010,2026-02-22,Correctivo,Sensores,Media,Sensor de flujo defectuoso,1169.44,M. Torres,Media,5.9,Operativo
+R00580,EQ-010,2026-03-19,Preventivo,—,Programado,Mantenimiento preventivo programado,107.1,L. Quispe,Baja,0.7,Operativo
+R00608,EQ-010,2026-04-03,Correctivo,Eléctrica,Alta,Fusible quemado,355.45,A. Flores,Alta,1.9,Operativo
+R00597,EQ-010,2026-04-05,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,428.01,J. Ramírez,Alta,4.1,Operativo
+R00602,EQ-010,2026-05-08,Correctivo,Calibración,Baja,Ajuste de cero requerido,185.11,L. Quispe,Baja,5.9,Operativo
+R00581,EQ-010,2026-05-16,Correctivo,Software,Media,Falla en calibración digital,259.56,A. Flores,Media,7.5,Operativo
+R00618,EQ-011,2022-01-26,Preventivo,—,Programado,Mantenimiento preventivo programado,103.42,J. Ramírez,Baja,0.8,Operativo
+R00638,EQ-011,2022-04-18,Correctivo,Calibración,Alta,Ajuste de cero requerido,122.83,L. Quispe,Alta,6.0,Operativo
+R00619,EQ-011,2022-04-28,Preventivo,—,Programado,Mantenimiento preventivo programado,146.83,M. Torres,Baja,1.4,Operativo
+R00658,EQ-011,2022-04-28,Correctivo,Calibración,Baja,Desviación de medición,230.61,L. Quispe,Baja,5.2,Operativo
+R00651,EQ-011,2022-06-03,Correctivo,Sensores,Media,Sensor de flujo defectuoso,1008.58,M. Torres,Media,4.8,Operativo
+R00642,EQ-011,2022-07-20,Correctivo,Software,Media,Error de comunicación,320.41,J. Ramírez,Media,2.8,Operativo
+R00620,EQ-011,2022-08-01,Preventivo,—,Programado,Mantenimiento preventivo programado,67.15,M. Torres,Baja,1.4,Operativo
+R00644,EQ-011,2022-09-14,Correctivo,Sensores,Baja,Error de lectura de presión,966.2,A. Flores,Baja,2.1,Operativo
+R00654,EQ-011,2022-09-23,Correctivo,Eléctrica,Media,Falla en cargador,494.91,M. Torres,Media,2.4,Operativo
+R00621,EQ-011,2022-10-20,Preventivo,—,Programado,Mantenimiento preventivo programado,80.07,L. Quispe,Baja,0.7,Operativo
+R00655,EQ-011,2022-11-02,Correctivo,Sensores,Media,Error de lectura de presión,317.17,J. Ramírez,Media,2.4,Operativo
+R00672,EQ-011,2022-11-06,Correctivo,Desgaste,Alta,Componente al final de vida útil,786.99,A. Flores,Alta,5.7,Operativo
+R00671,EQ-011,2022-11-10,Correctivo,Calibración,Baja,Desviación de medición,259.68,A. Flores,Baja,4.2,Operativo
+R00668,EQ-011,2022-12-21,Correctivo,Eléctrica,Alta,Falla en cargador,249.04,M. Torres,Alta,5.7,En observación
+R00622,EQ-011,2023-01-21,Preventivo,—,Programado,Mantenimiento preventivo programado,134.06,L. Quispe,Baja,1.3,Operativo
+R00663,EQ-011,2023-02-16,Correctivo,Software,Alta,Pantalla congelada,153.0,L. Quispe,Alta,7.6,En observación
+R00662,EQ-011,2023-02-23,Correctivo,Calibración,Baja,Desviación de medición,109.4,J. Ramírez,Baja,6.1,Operativo
+R00623,EQ-011,2023-04-20,Preventivo,—,Programado,Mantenimiento preventivo programado,113.1,L. Quispe,Baja,0.8,Operativo
+R00653,EQ-011,2023-05-11,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,924.55,L. Quispe,Alta,5.4,En observación
+R00624,EQ-011,2023-07-22,Preventivo,—,Programado,Mantenimiento preventivo programado,94.42,A. Flores,Baja,1.8,Operativo
+R00656,EQ-011,2023-08-17,Correctivo,Calibración,Alta,Ajuste de cero requerido,229.24,J. Ramírez,Alta,7.1,Operativo
+R00625,EQ-011,2023-10-12,Preventivo,—,Programado,Mantenimiento preventivo programado,108.55,L. Quispe,Baja,1.0,Operativo
+R00657,EQ-011,2023-12-15,Correctivo,Eléctrica,Media,Fusible quemado,118.42,L. Quispe,Media,5.4,Operativo
+R00659,EQ-011,2024-01-02,Correctivo,Eléctrica,Alta,Batería agotada,592.46,J. Ramírez,Alta,1.1,Operativo
+R00626,EQ-011,2024-01-07,Preventivo,—,Programado,Mantenimiento preventivo programado,144.13,L. Quispe,Baja,1.3,Operativo
+R00664,EQ-011,2024-02-04,Correctivo,Desgaste,Media,Filtro saturado,667.66,J. Ramírez,Media,3.0,Operativo
+R00666,EQ-011,2024-03-19,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,214.85,J. Ramírez,Alta,3.7,Operativo
+R00627,EQ-011,2024-03-27,Preventivo,—,Programado,Mantenimiento preventivo programado,106.06,M. Torres,Baja,0.6,Operativo
+R00628,EQ-011,2024-06-27,Preventivo,—,Programado,Mantenimiento preventivo programado,96.74,A. Flores,Baja,0.8,Operativo
+R00661,EQ-011,2024-07-27,Correctivo,Sensores,Media,Error de lectura de presión,304.39,J. Ramírez,Media,4.5,Operativo
+R00670,EQ-011,2024-09-17,Correctivo,Sensores,Media,Error de lectura de presión,578.57,A. Flores,Media,3.7,Operativo
+R00629,EQ-011,2024-09-19,Preventivo,—,Programado,Mantenimiento preventivo programado,159.24,L. Quispe,Baja,1.6,Operativo
+R00665,EQ-011,2024-10-07,Correctivo,Sensores,Baja,Error de lectura de presión,1171.11,L. Quispe,Baja,3.5,Operativo
+R00641,EQ-011,2024-10-10,Correctivo,Software,Media,Error de firmware,198.39,J. Ramírez,Media,5.7,Operativo
+R00669,EQ-011,2024-10-31,Correctivo,Desgaste,Alta,Componente al final de vida útil,631.29,A. Flores,Alta,4.0,En observación
+R00643,EQ-011,2024-11-26,Correctivo,Software,Media,Error de firmware,175.3,M. Torres,Media,1.2,Operativo
+R00630,EQ-011,2024-12-08,Preventivo,—,Programado,Mantenimiento preventivo programado,155.53,M. Torres,Baja,1.1,Operativo
+R00640,EQ-011,2024-12-14,Correctivo,Sensores,Media,Sensor de flujo defectuoso,622.84,M. Torres,Media,5.4,Operativo
+R00649,EQ-011,2025-01-20,Correctivo,Eléctrica,Media,Falla en cargador,254.74,L. Quispe,Media,4.2,Operativo
+R00648,EQ-011,2025-02-06,Correctivo,Sensores,Media,Error de lectura de presión,169.75,A. Flores,Media,7.2,Operativo
+R00647,EQ-011,2025-02-16,Correctivo,Calibración,Media,Desviación de medición,256.2,M. Torres,Media,7.0,Operativo
+R00631,EQ-011,2025-02-28,Preventivo,—,Programado,Mantenimiento preventivo programado,66.38,M. Torres,Baja,1.9,Operativo
+R00646,EQ-011,2025-03-03,Correctivo,Sensores,Media,Termistor fuera de rango,777.32,J. Ramírez,Media,5.5,Operativo
+R00645,EQ-011,2025-04-19,Correctivo,Calibración,Media,Desviación de medición,,L. Quispe,Media,1.0,Operativo
+R00632,EQ-011,2025-06-05,Preventivo,—,Programado,Mantenimiento preventivo programado,84.02,A. Flores,Baja,1.1,Operativo
+R00652,EQ-011,2025-06-23,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,183.11,A. Flores,Alta,1.9,En observación
+R00633,EQ-011,2025-08-31,Preventivo,—,Programado,Mantenimiento preventivo programado,75.11,A. Flores,Baja,1.4,Operativo
+R00660,EQ-011,2025-08-31,Correctivo,Sensores,Media,Sensor SpO2 descalibrado,376.53,A. Flores,Media,4.7,Operativo
+R00650,EQ-011,2025-09-17,Correctivo,Eléctrica,Alta,Batería agotada,211.56,M. Torres,Alta,6.4,En observación
+R00667,EQ-011,2025-10-27,Correctivo,Sensores,Media,Termistor fuera de rango,306.2,L. Quispe,Media,7.7,En observación
+R00639,EQ-011,2025-11-14,Correctivo,Sensores,Media,Error de lectura de presión,980.61,L. Quispe,Media,6.8,En observación
+R00634,EQ-011,2025-11-22,Preventivo,—,Programado,Mantenimiento preventivo programado,123.67,M. Torres,Baja,0.7,Operativo
+R00635,EQ-011,2026-02-22,Preventivo,—,Programado,Mantenimiento preventivo programado,156.67,A. Flores,Baja,1.6,Operativo
+R00637,EQ-011,2026-03-01,Correctivo,Sensores,Baja,Sensor de flujo defectuoso,905.01,A. Flores,Baja,1.2,Operativo
+R00636,EQ-011,2026-05-16,Preventivo,—,Programado,Mantenimiento preventivo programado,110.37,J. Ramírez,Baja,1.9,Operativo
+R00673,EQ-012,2022-01-08,Preventivo,—,Programado,Mantenimiento preventivo programado,95.05,M. Torres,Baja,0.7,Operativo
+R00697,EQ-012,2022-01-08,Correctivo,Mecánica,Media,Desgaste de válvula,742.53,A. Flores,Media,6.3,En observación
+R00674,EQ-012,2022-04-04,Preventivo,—,Programado,Mantenimiento preventivo programado,140.26,L. Quispe,Baja,1.1,Operativo
+R00693,EQ-012,2022-04-12,Correctivo,Mecánica,Media,Holgura en soporte,363.35,J. Ramírez,Media,5.2,Operativo
+R00675,EQ-012,2022-07-10,Preventivo,—,Programado,Mantenimiento preventivo programado,161.28,M. Torres,Baja,0.8,Operativo
+R00676,EQ-012,2022-10-07,Preventivo,—,Programado,Mantenimiento preventivo programado,102.28,M. Torres,Baja,1.1,Operativo
+R00695,EQ-012,2022-10-12,Correctivo,Mecánica,Baja,Desgaste de válvula,,J. Ramírez,Baja,6.2,Operativo
+R00701,EQ-012,2022-11-19,Correctivo,Eléctrica,Media,Fusible quemado,252.4,A. Flores,Media,7.9,Operativo
+R00677,EQ-012,2022-12-30,Preventivo,—,Programado,Mantenimiento preventivo programado,90.79,J. Ramírez,Baja,1.5,Operativo
+R00714,EQ-012,2022-12-30,Correctivo,Mecánica,Media,Obstrucción de circuito,396.44,A. Flores,Media,5.9,Operativo
+R00678,EQ-012,2023-03-24,Preventivo,—,Programado,Mantenimiento preventivo programado,92.98,M. Torres,Baja,1.6,Operativo
+R00716,EQ-012,2023-04-01,Correctivo,Mecánica,Baja,Obstrucción de circuito,515.62,J. Ramírez,Baja,2.4,Operativo
+R00711,EQ-012,2023-05-06,Correctivo,Mecánica,Media,Holgura en soporte,188.93,A. Flores,Media,4.5,Operativo
+R00724,EQ-012,2023-05-07,Correctivo,Calibración,Media,Calibración vencida,225.56,A. Flores,Media,6.1,Operativo
+R00679,EQ-012,2023-06-30,Preventivo,—,Programado,Mantenimiento preventivo programado,167.29,J. Ramírez,Baja,1.4,Operativo
+R00696,EQ-012,2023-07-14,Correctivo,Sensores,Media,Sensor de flujo defectuoso,1121.93,M. Torres,Media,2.6,Operativo
+R00710,EQ-012,2023-09-14,Correctivo,Mecánica,Alta,Obstrucción de circuito,,M. Torres,Alta,4.6,Operativo
+R00680,EQ-012,2023-10-07,Preventivo,—,Programado,Mantenimiento preventivo programado,90.97,J. Ramírez,Baja,1.2,Operativo
+R00715,EQ-012,2023-10-23,Correctivo,Mecánica,Media,Desgaste de válvula,205.94,M. Torres,Media,1.8,Operativo
+R00691,EQ-012,2023-11-10,Correctivo,Mecánica,Media,Rotura de manguera,574.79,M. Torres,Media,6.0,En observación
+R00709,EQ-012,2024-01-01,Correctivo,Sensores,Media,Sensor SpO2 descalibrado,241.52,L. Quispe,Media,4.9,Operativo
+R00681,EQ-012,2024-01-10,Preventivo,—,Programado,Mantenimiento preventivo programado,,A. Flores,Baja,1.3,Operativo
+R00699,EQ-012,2024-01-22,Correctivo,Mecánica,Baja,Rotura de manguera,213.44,J. Ramírez,Baja,6.3,En observación
+R00719,EQ-012,2024-02-10,Correctivo,Desgaste,Baja,Filtro saturado,573.45,L. Quispe,Baja,6.6,En observación
+R00682,EQ-012,2024-04-06,Preventivo,—,Programado,Mantenimiento preventivo programado,109.43,J. Ramírez,Baja,1.5,Operativo
+R00698,EQ-012,2024-06-22,Correctivo,Sensores,Baja,Error de lectura de presión,826.27,J. Ramírez,Baja,4.5,En observación
+R00683,EQ-012,2024-06-25,Preventivo,—,Programado,Mantenimiento preventivo programado,74.39,L. Quispe,Baja,1.0,Operativo
+R00703,EQ-012,2024-08-17,Correctivo,Software,Media,Error de firmware,338.5,A. Flores,Media,4.2,Operativo
+R00684,EQ-012,2024-09-25,Preventivo,—,Programado,Mantenimiento preventivo programado,79.16,J. Ramírez,Baja,0.9,Operativo
+R00694,EQ-012,2024-11-01,Correctivo,Mecánica,Media,Falla en bomba peristáltica,587.99,J. Ramírez,Media,5.8,Operativo
+R00720,EQ-012,2024-11-13,Correctivo,Mecánica,Alta,Falla en bomba peristáltica,521.39,M. Torres,Alta,5.1,Operativo
+R00718,EQ-012,2024-11-23,Correctivo,Eléctrica,Baja,Batería agotada,472.27,A. Flores,Baja,2.9,Operativo
+R00717,EQ-012,2024-12-14,Correctivo,Sensores,Media,Sensor SpO2 descalibrado,161.11,L. Quispe,Media,3.3,Operativo
+R00685,EQ-012,2024-12-16,Preventivo,—,Programado,Mantenimiento preventivo programado,107.94,L. Quispe,Baja,1.9,Operativo
+R00704,EQ-012,2025-02-19,Correctivo,Eléctrica,Media,Cortocircuito en placa,405.82,M. Torres,Media,4.0,Operativo
+R00686,EQ-012,2025-03-20,Preventivo,—,Programado,Mantenimiento preventivo programado,173.42,M. Torres,Baja,1.9,Operativo
+R00712,EQ-012,2025-03-28,Correctivo,Mecánica,Media,Desgaste de válvula,222.96,J. Ramírez,Media,5.2,En observación
+R00705,EQ-012,2025-06-15,Correctivo,Mecánica,Baja,Rotura de manguera,822.55,J. Ramírez,Baja,4.8,En observación
+R00687,EQ-012,2025-06-26,Preventivo,—,Programado,Mantenimiento preventivo programado,112.95,M. Torres,Baja,0.9,Operativo
+R00721,EQ-012,2025-07-10,Correctivo,Desgaste,Media,Componente al final de vida útil,350.77,A. Flores,Media,5.8,En observación
+R00692,EQ-012,2025-07-29,Correctivo,Eléctrica,Media,Falla en fuente de poder,178.23,J. Ramírez,Media,4.6,Operativo
+R00708,EQ-012,2025-08-08,Correctivo,Desgaste,Media,Filtro saturado,708.42,M. Torres,Media,3.1,En observación
+R00723,EQ-012,2025-08-17,Correctivo,Mecánica,Alta,Falla en bomba peristáltica,232.28,J. Ramírez,Alta,7.2,Operativo
+R00702,EQ-012,2025-08-30,Correctivo,Mecánica,Baja,Holgura en soporte,573.99,M. Torres,Baja,7.2,Operativo
+R00688,EQ-012,2025-09-30,Preventivo,—,Programado,Mantenimiento preventivo programado,129.93,L. Quispe,Baja,1.1,Operativo
+R00707,EQ-012,2025-11-12,Correctivo,Mecánica,Media,Rotura de manguera,774.57,M. Torres,Media,6.7,En observación
+R00713,EQ-012,2025-11-20,Correctivo,Mecánica,Media,Falla en bomba peristáltica,645.8,M. Torres,Media,1.4,Operativo
+R00689,EQ-012,2025-12-25,Preventivo,—,Programado,Mantenimiento preventivo programado,115.65,L. Quispe,Baja,0.6,Operativo
+R00700,EQ-012,2026-01-14,Correctivo,Mecánica,Media,Holgura en soporte,673.33,M. Torres,Media,1.1,En observación
+R00722,EQ-012,2026-03-06,Correctivo,Mecánica,Media,Desgaste de válvula,546.32,L. Quispe,Media,5.9,Operativo
+R00690,EQ-012,2026-03-30,Preventivo,—,Programado,Mantenimiento preventivo programado,112.67,A. Flores,Baja,1.3,Operativo
+R00706,EQ-012,2026-05-23,Correctivo,Mecánica,Media,Obstrucción de circuito,347.85,A. Flores,Media,3.8,Operativo
+R00725,EQ-013,2022-01-12,Preventivo,—,Programado,Mantenimiento preventivo programado,89.5,A. Flores,Baja,0.9,Operativo
+R00763,EQ-013,2022-03-06,Correctivo,Software,Media,Pantalla congelada,266.26,L. Quispe,Media,2.9,En observación
+R00726,EQ-013,2022-04-04,Preventivo,—,Programado,Mantenimiento preventivo programado,80.64,L. Quispe,Baja,0.9,Operativo
+R00747,EQ-013,2022-05-25,Correctivo,Calibración,Baja,Calibración vencida,85.12,J. Ramírez,Baja,4.9,Operativo
+R00762,EQ-013,2022-06-13,Correctivo,Mecánica,Baja,Falla en bomba peristáltica,865.53,L. Quispe,Baja,4.9,En observación
+R00727,EQ-013,2022-07-09,Preventivo,—,Programado,Mantenimiento preventivo programado,118.06,L. Quispe,Baja,1.5,Operativo
+R00760,EQ-013,2022-08-01,Correctivo,Software,Alta,Falla en calibración digital,76.29,L. Quispe,Alta,2.2,Operativo
+R00758,EQ-013,2022-09-22,Correctivo,Eléctrica,Baja,Cortocircuito en placa,451.31,J. Ramírez,Baja,5.3,En observación
+R00728,EQ-013,2022-09-27,Preventivo,—,Programado,Mantenimiento preventivo programado,92.27,L. Quispe,Baja,2.0,Operativo
+R00748,EQ-013,2022-10-30,Correctivo,Mecánica,Media,Rotura de manguera,778.55,L. Quispe,Media,3.9,En observación
+R00729,EQ-013,2022-12-23,Preventivo,—,Programado,Mantenimiento preventivo programado,167.91,L. Quispe,Baja,0.6,Operativo
+R00772,EQ-013,2023-03-02,Correctivo,Eléctrica,Media,Falla en cargador,249.82,L. Quispe,Media,7.8,Operativo
+R00730,EQ-013,2023-03-18,Preventivo,—,Programado,Mantenimiento preventivo programado,75.26,M. Torres,Baja,1.5,Operativo
+R00731,EQ-013,2023-06-09,Preventivo,—,Programado,Mantenimiento preventivo programado,94.64,L. Quispe,Baja,1.9,Operativo
+R00757,EQ-013,2023-08-22,Correctivo,Desgaste,Alta,Filtro saturado,690.54,J. Ramírez,Alta,2.3,Operativo
+R00765,EQ-013,2023-09-02,Correctivo,Calibración,Alta,Ajuste de cero requerido,152.31,M. Torres,Alta,2.0,Operativo
+R00732,EQ-013,2023-09-05,Preventivo,—,Programado,Mantenimiento preventivo programado,131.9,A. Flores,Baja,0.7,Operativo
+R00733,EQ-013,2023-12-08,Preventivo,—,Programado,Mantenimiento preventivo programado,136.94,A. Flores,Baja,0.7,Operativo
+R00754,EQ-013,2023-12-15,Correctivo,Eléctrica,Alta,Falla en fuente de poder,176.32,A. Flores,Alta,6.6,En observación
+R00734,EQ-013,2024-02-28,Preventivo,—,Programado,Mantenimiento preventivo programado,167.76,M. Torres,Baja,1.3,Operativo
+R00768,EQ-013,2024-04-26,Correctivo,Mecánica,Alta,Desgaste de válvula,,L. Quispe,Alta,2.6,Operativo
+R00735,EQ-013,2024-05-22,Preventivo,—,Programado,Mantenimiento preventivo programado,150.13,J. Ramírez,Baja,0.7,Operativo
+R00775,EQ-013,2024-06-25,Correctivo,Eléctrica,Media,Fusible quemado,171.1,J. Ramírez,Media,3.3,En observación
+R00736,EQ-013,2024-08-27,Preventivo,—,Programado,Mantenimiento preventivo programado,124.28,L. Quispe,Baja,0.7,Operativo
+R00759,EQ-013,2024-09-16,Correctivo,Desgaste,Baja,Componente al final de vida útil,332.67,M. Torres,Baja,4.2,Operativo
+R00737,EQ-013,2024-11-20,Preventivo,—,Programado,Mantenimiento preventivo programado,78.73,A. Flores,Baja,2.0,Operativo
+R00767,EQ-013,2024-12-23,Correctivo,Calibración,Media,Ajuste de cero requerido,166.76,A. Flores,Media,2.5,Operativo
+R00744,EQ-013,2025-01-24,Correctivo,Mecánica,Baja,Obstrucción de circuito,651.24,J. Ramírez,Baja,5.4,Operativo
+R00738,EQ-013,2025-02-17,Preventivo,—,Programado,Mantenimiento preventivo programado,166.1,A. Flores,Baja,1.2,Operativo
+R00770,EQ-013,2025-02-17,Correctivo,Eléctrica,Baja,Falla en cargador,264.14,L. Quispe,Baja,3.0,Operativo
+R00751,EQ-013,2025-02-24,Correctivo,Desgaste,Baja,Acumulación de horas de uso,693.51,A. Flores,Baja,7.8,En observación
+R00773,EQ-013,2025-03-24,Correctivo,Eléctrica,Alta,Cortocircuito en placa,289.51,M. Torres,Alta,3.6,Operativo
+R00761,EQ-013,2025-04-14,Correctivo,Eléctrica,Media,Falla en fuente de poder,443.96,M. Torres,Media,6.1,Operativo
+R00766,EQ-013,2025-05-08,Correctivo,Desgaste,Alta,Acumulación de horas de uso,310.87,M. Torres,Alta,6.1,Operativo
+R00739,EQ-013,2025-05-25,Preventivo,—,Programado,Mantenimiento preventivo programado,93.75,A. Flores,Baja,1.1,Operativo
+R00746,EQ-013,2025-08-03,Correctivo,Eléctrica,Baja,Fusible quemado,404.98,M. Torres,Baja,6.8,Operativo
+R00740,EQ-013,2025-08-22,Preventivo,—,Programado,Mantenimiento preventivo programado,111.01,J. Ramírez,Baja,2.0,Operativo
+R00745,EQ-013,2025-09-02,Correctivo,Eléctrica,Media,Falla en cargador,502.28,A. Flores,Media,6.1,Operativo
+R00756,EQ-013,2025-10-07,Correctivo,Mecánica,Alta,Falla en bomba peristáltica,884.91,M. Torres,Alta,1.3,Operativo
+R00752,EQ-013,2025-10-12,Correctivo,Eléctrica,Baja,Falla en fuente de poder,345.9,A. Flores,Baja,5.5,Operativo
+R00769,EQ-013,2025-10-16,Correctivo,Mecánica,Media,Desgaste de válvula,325.34,A. Flores,Media,2.1,Operativo
+R00750,EQ-013,2025-11-26,Correctivo,Mecánica,Media,Falla en bomba peristáltica,530.56,L. Quispe,Media,6.9,Operativo
+R00741,EQ-013,2025-11-29,Preventivo,—,Programado,Mantenimiento preventivo programado,68.19,M. Torres,Baja,0.8,Operativo
+R00749,EQ-013,2025-12-10,Correctivo,Desgaste,Alta,Acumulación de horas de uso,336.9,L. Quispe,Alta,1.3,En observación
+R00771,EQ-013,2026-01-31,Correctivo,Eléctrica,Baja,Cortocircuito en placa,448.25,M. Torres,Baja,6.1,Operativo
+R00743,EQ-013,2026-02-09,Correctivo,Mecánica,Baja,Rotura de manguera,717.99,J. Ramírez,Baja,5.2,Operativo
+R00753,EQ-013,2026-02-19,Correctivo,Mecánica,Alta,Desgaste de válvula,633.4,L. Quispe,Alta,4.7,Operativo
+R00755,EQ-013,2026-02-22,Correctivo,Eléctrica,Baja,Falla en cargador,582.09,A. Flores,Baja,2.6,Operativo
+R00742,EQ-013,2026-03-08,Preventivo,—,Programado,Mantenimiento preventivo programado,62.04,J. Ramírez,Baja,1.5,Operativo
+R00774,EQ-013,2026-03-20,Correctivo,Mecánica,Media,Holgura en soporte,729.98,L. Quispe,Media,7.9,En observación
+R00764,EQ-013,2026-04-14,Correctivo,Eléctrica,Baja,Cortocircuito en placa,377.57,L. Quispe,Baja,7.2,Operativo
+R00776,EQ-014,2022-01-01,Preventivo,—,Programado,Mantenimiento preventivo programado,61.79,J. Ramírez,Baja,1.6,Operativo
+R00803,EQ-014,2022-01-18,Correctivo,Eléctrica,Alta,Cortocircuito en placa,86.21,M. Torres,Alta,2.5,Operativo
+R00821,EQ-014,2022-01-31,Correctivo,Mecánica,Media,Rotura de manguera,182.84,L. Quispe,Media,7.8,En observación
+R00805,EQ-014,2022-03-06,Correctivo,Sensores,Media,Error de lectura de presión,246.17,M. Torres,Media,1.1,Operativo
+R00777,EQ-014,2022-03-22,Preventivo,—,Programado,Mantenimiento preventivo programado,73.59,J. Ramírez,Baja,1.0,Operativo
+R00778,EQ-014,2022-06-11,Preventivo,—,Programado,Mantenimiento preventivo programado,142.19,L. Quispe,Baja,1.8,Operativo
+R00796,EQ-014,2022-09-09,Correctivo,Desgaste,Media,Componente al final de vida útil,197.24,M. Torres,Media,6.2,Operativo
+R00779,EQ-014,2022-09-15,Preventivo,—,Programado,Mantenimiento preventivo programado,106.86,A. Flores,Baja,2.0,Operativo
+R00819,EQ-014,2022-09-29,Correctivo,Desgaste,Alta,Filtro saturado,361.59,J. Ramírez,Alta,7.7,Operativo
+R00818,EQ-014,2022-10-16,Correctivo,Desgaste,Baja,Acumulación de horas de uso,705.65,A. Flores,Baja,5.8,En observación
+R00780,EQ-014,2022-12-14,Preventivo,—,Programado,Mantenimiento preventivo programado,84.91,L. Quispe,Baja,0.9,Operativo
+R00807,EQ-014,2022-12-14,Correctivo,Mecánica,Media,Rotura de manguera,815.07,A. Flores,Media,7.0,Operativo
+R00809,EQ-014,2022-12-19,Correctivo,Eléctrica,Baja,Cortocircuito en placa,293.0,L. Quispe,Baja,4.8,Operativo
+R00806,EQ-014,2022-12-23,Correctivo,Mecánica,Media,Holgura en soporte,251.73,A. Flores,Media,4.7,Operativo
+R00800,EQ-014,2023-02-15,Correctivo,Mecánica,Baja,Desgaste de válvula,314.5,A. Flores,Baja,4.7,En observación
+R00781,EQ-014,2023-03-09,Preventivo,—,Programado,Mantenimiento preventivo programado,125.1,J. Ramírez,Baja,0.6,Operativo
+R00814,EQ-014,2023-04-11,Correctivo,Sensores,Media,Error de lectura de presión,1011.5,L. Quispe,Media,7.6,En observación
+R00817,EQ-014,2023-04-13,Correctivo,Eléctrica,Media,Cortocircuito en placa,501.23,J. Ramírez,Media,3.0,Operativo
+R00823,EQ-014,2023-04-17,Correctivo,Mecánica,Media,Obstrucción de circuito,156.9,J. Ramírez,Media,4.4,Operativo
+R00782,EQ-014,2023-05-30,Preventivo,—,Programado,Mantenimiento preventivo programado,92.91,M. Torres,Baja,0.5,Operativo
+R00801,EQ-014,2023-06-19,Correctivo,Mecánica,Baja,Rotura de manguera,804.18,A. Flores,Baja,2.1,En observación
+R00795,EQ-014,2023-06-24,Correctivo,Mecánica,Media,Desgaste de válvula,360.35,A. Flores,Media,4.1,En observación
+R00783,EQ-014,2023-08-31,Preventivo,—,Programado,Mantenimiento preventivo programado,89.6,J. Ramírez,Baja,1.8,Operativo
+R00824,EQ-014,2023-10-11,Correctivo,Mecánica,Alta,Holgura en soporte,188.67,J. Ramírez,Alta,3.8,Operativo
+R00799,EQ-014,2023-11-11,Correctivo,Mecánica,Baja,Obstrucción de circuito,315.24,A. Flores,Baja,4.4,Operativo
+R00784,EQ-014,2023-12-02,Preventivo,—,Programado,Mantenimiento preventivo programado,141.01,M. Torres,Baja,1.5,Operativo
+R00785,EQ-014,2024-02-20,Preventivo,—,Programado,Mantenimiento preventivo programado,64.85,M. Torres,Baja,1.8,Operativo
+R00813,EQ-014,2024-02-27,Correctivo,Desgaste,Alta,Filtro saturado,357.36,L. Quispe,Alta,5.7,Operativo
+R00815,EQ-014,2024-04-05,Correctivo,Mecánica,Media,Falla en bomba peristáltica,602.31,L. Quispe,Media,5.2,Operativo
+R00798,EQ-014,2024-05-11,Correctivo,Eléctrica,Baja,Falla en fuente de poder,404.13,J. Ramírez,Baja,2.0,Operativo
+R00822,EQ-014,2024-05-23,Correctivo,Desgaste,Media,Filtro saturado,456.25,J. Ramírez,Media,6.9,Operativo
+R00786,EQ-014,2024-05-26,Preventivo,—,Programado,Mantenimiento preventivo programado,99.6,L. Quispe,Baja,0.8,Operativo
+R00811,EQ-014,2024-06-04,Correctivo,Mecánica,Baja,Rotura de manguera,370.31,A. Flores,Baja,1.0,Operativo
+R00787,EQ-014,2024-08-20,Preventivo,—,Programado,Mantenimiento preventivo programado,66.23,M. Torres,Baja,0.9,Operativo
+R00825,EQ-014,2024-11-08,Correctivo,Mecánica,Media,Desgaste de válvula,662.75,A. Flores,Media,1.4,Operativo
+R00797,EQ-014,2024-11-15,Correctivo,Mecánica,Media,Falla en bomba peristáltica,195.23,L. Quispe,Media,6.5,En observación
+R00788,EQ-014,2024-11-19,Preventivo,—,Programado,Mantenimiento preventivo programado,150.57,L. Quispe,Baja,1.4,Operativo
+R00804,EQ-014,2024-12-15,Correctivo,Mecánica,Alta,Falla en bomba peristáltica,757.33,M. Torres,Alta,2.8,En observación
+R00816,EQ-014,2025-01-11,Correctivo,Mecánica,Baja,Obstrucción de circuito,637.6,A. Flores,Baja,4.1,Operativo
+R00789,EQ-014,2025-02-08,Preventivo,—,Programado,Mantenimiento preventivo programado,159.3,J. Ramírez,Baja,0.8,Operativo
+R00802,EQ-014,2025-03-25,Correctivo,Eléctrica,Media,Falla en fuente de poder,193.18,J. Ramírez,Media,1.3,Operativo
+R00790,EQ-014,2025-05-01,Preventivo,—,Programado,Mantenimiento preventivo programado,159.85,M. Torres,Baja,1.1,Operativo
+R00820,EQ-014,2025-05-27,Correctivo,Sensores,Alta,Error de lectura de presión,289.81,L. Quispe,Alta,6.1,En observación
+R00791,EQ-014,2025-07-27,Preventivo,—,Programado,Mantenimiento preventivo programado,135.38,J. Ramírez,Baja,1.2,Operativo
+R00810,EQ-014,2025-10-01,Correctivo,Eléctrica,Alta,Falla en fuente de poder,279.78,L. Quispe,Alta,6.8,Operativo
+R00792,EQ-014,2025-10-21,Preventivo,—,Programado,Mantenimiento preventivo programado,65.25,L. Quispe,Baja,0.8,Operativo
+R00793,EQ-014,2026-01-13,Preventivo,—,Programado,Mantenimiento preventivo programado,148.76,J. Ramírez,Baja,1.0,Operativo
+R00808,EQ-014,2026-04-02,Correctivo,Mecánica,Baja,Obstrucción de circuito,236.81,A. Flores,Baja,7.7,Operativo
+R00794,EQ-014,2026-04-10,Preventivo,—,Programado,Mantenimiento preventivo programado,151.26,A. Flores,Baja,1.5,Operativo
+R00812,EQ-014,2026-04-22,Correctivo,Mecánica,Alta,Falla en bomba peristáltica,695.86,L. Quispe,Alta,1.7,En observación
+R00826,EQ-015,2022-01-28,Preventivo,—,Programado,Mantenimiento preventivo programado,173.18,M. Torres,Baja,0.6,Operativo
+R00848,EQ-015,2022-02-08,Correctivo,Desgaste,Media,Componente al final de vida útil,108.71,A. Flores,Media,1.6,Operativo
+R00827,EQ-015,2022-04-29,Preventivo,—,Programado,Mantenimiento preventivo programado,154.53,A. Flores,Baja,1.2,Operativo
+R00860,EQ-015,2022-05-15,Correctivo,Sensores,Baja,Sensor de flujo defectuoso,746.07,M. Torres,Baja,1.3,Operativo
+R00872,EQ-015,2022-06-05,Correctivo,Sensores,Media,Error de lectura de presión,1162.33,M. Torres,Media,5.9,En observación
+R00828,EQ-015,2022-07-21,Preventivo,—,Programado,Mantenimiento preventivo programado,141.19,J. Ramírez,Baja,0.6,Operativo
+R00867,EQ-015,2022-07-31,Correctivo,Software,Media,Error de comunicación,,J. Ramírez,Media,3.9,Operativo
+R00871,EQ-015,2022-08-18,Correctivo,Eléctrica,Media,Fusible quemado,482.36,M. Torres,Media,1.4,Operativo
+R00850,EQ-015,2022-09-01,Correctivo,Sensores,Baja,Sensor de flujo defectuoso,1148.9,L. Quispe,Baja,2.2,Operativo
+R00844,EQ-015,2022-09-12,Correctivo,Mecánica,Alta,Holgura en soporte,192.53,A. Flores,Alta,6.8,Operativo
+R00829,EQ-015,2022-10-24,Preventivo,—,Programado,Mantenimiento preventivo programado,119.81,M. Torres,Baja,1.2,Operativo
+R00851,EQ-015,2022-11-29,Correctivo,Sensores,Media,Sensor de flujo defectuoso,233.29,M. Torres,Media,2.4,Operativo
+R00830,EQ-015,2023-01-24,Preventivo,—,Programado,Mantenimiento preventivo programado,177.73,A. Flores,Baja,1.8,Operativo
+R00865,EQ-015,2023-03-14,Correctivo,Sensores,Baja,Sensor SpO2 descalibrado,1118.11,A. Flores,Baja,2.7,Operativo
+R00831,EQ-015,2023-04-22,Preventivo,—,Programado,Mantenimiento preventivo programado,159.31,A. Flores,Baja,1.5,Operativo
+R00868,EQ-015,2023-05-09,Correctivo,Eléctrica,Media,Fusible quemado,524.32,L. Quispe,Media,2.0,Operativo
+R00863,EQ-015,2023-07-09,Correctivo,Software,Alta,Falla en calibración digital,192.0,J. Ramírez,Alta,3.5,Operativo
+R00832,EQ-015,2023-07-27,Preventivo,—,Programado,Mantenimiento preventivo programado,128.98,M. Torres,Baja,0.6,Operativo
+R00870,EQ-015,2023-07-28,Correctivo,Calibración,Media,Calibración vencida,50.84,J. Ramírez,Media,5.7,En observación
+R00866,EQ-015,2023-08-05,Correctivo,Calibración,Alta,Desviación de medición,228.45,A. Flores,Alta,4.4,En observación
+R00845,EQ-015,2023-09-14,Correctivo,Sensores,Media,Error de lectura de presión,1032.64,J. Ramírez,Media,7.9,En observación
+R00833,EQ-015,2023-11-02,Preventivo,—,Programado,Mantenimiento preventivo programado,131.48,L. Quispe,Baja,1.0,Operativo
+R00857,EQ-015,2023-12-06,Correctivo,Calibración,Media,Desviación de medición,121.85,J. Ramírez,Media,1.5,Operativo
+R00854,EQ-015,2024-01-13,Correctivo,Sensores,Baja,Sensor SpO2 descalibrado,766.43,M. Torres,Baja,7.0,En observación
+R00834,EQ-015,2024-02-01,Preventivo,—,Programado,Mantenimiento preventivo programado,135.84,A. Flores,Baja,1.7,Operativo
+R00835,EQ-015,2024-04-22,Preventivo,—,Programado,Mantenimiento preventivo programado,160.3,J. Ramírez,Baja,1.3,Operativo
+R00853,EQ-015,2024-06-25,Correctivo,Calibración,Media,Calibración vencida,112.22,A. Flores,Media,6.8,Operativo
+R00836,EQ-015,2024-07-23,Preventivo,—,Programado,Mantenimiento preventivo programado,122.85,J. Ramírez,Baja,0.7,Operativo
+R00861,EQ-015,2024-07-31,Correctivo,Software,Alta,Falla en calibración digital,381.34,L. Quispe,Alta,1.1,Operativo
+R00847,EQ-015,2024-09-05,Correctivo,Software,Media,Error de firmware,354.4,M. Torres,Media,1.3,Operativo
+R00856,EQ-015,2024-10-06,Correctivo,Software,Media,Pantalla congelada,73.22,A. Flores,Media,4.5,Operativo
+R00837,EQ-015,2024-10-19,Preventivo,—,Programado,Mantenimiento preventivo programado,112.81,L. Quispe,Baja,1.6,Operativo
+R00864,EQ-015,2024-11-15,Correctivo,Eléctrica,Alta,Batería agotada,214.94,M. Torres,Alta,7.5,En observación
+R00855,EQ-015,2024-12-23,Correctivo,Sensores,Media,Error de lectura de presión,376.68,A. Flores,Media,7.0,Operativo
+R00838,EQ-015,2025-01-08,Preventivo,—,Programado,Mantenimiento preventivo programado,151.97,J. Ramírez,Baja,0.8,Operativo
+R00862,EQ-015,2025-01-13,Correctivo,Software,Baja,Error de comunicación,,A. Flores,Baja,6.9,En observación
+R00869,EQ-015,2025-02-07,Correctivo,Eléctrica,Media,Cortocircuito en placa,532.81,M. Torres,Media,3.8,Operativo
+R00839,EQ-015,2025-04-01,Preventivo,—,Programado,Mantenimiento preventivo programado,176.11,J. Ramírez,Baja,1.1,Operativo
+R00849,EQ-015,2025-06-04,Correctivo,Software,Media,Pantalla congelada,387.74,A. Flores,Media,6.7,En observación
+R00846,EQ-015,2025-06-22,Correctivo,Eléctrica,Media,Falla en fuente de poder,413.0,M. Torres,Media,1.4,En observación
+R00840,EQ-015,2025-06-23,Preventivo,—,Programado,Mantenimiento preventivo programado,122.55,L. Quispe,Baja,1.9,Operativo
+R00852,EQ-015,2025-07-10,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,261.71,J. Ramírez,Alta,4.5,En observación
+R00841,EQ-015,2025-09-30,Preventivo,—,Programado,Mantenimiento preventivo programado,166.1,J. Ramírez,Baja,1.2,Operativo
+R00859,EQ-015,2025-11-30,Correctivo,Calibración,Baja,Desviación de medición,,J. Ramírez,Baja,3.6,Operativo
+R00842,EQ-015,2026-01-04,Preventivo,—,Programado,Mantenimiento preventivo programado,99.26,L. Quispe,Baja,1.0,Operativo
+R00858,EQ-015,2026-02-11,Correctivo,Calibración,Media,Ajuste de cero requerido,174.31,L. Quispe,Media,6.3,Operativo
+R00843,EQ-015,2026-04-06,Preventivo,—,Programado,Mantenimiento preventivo programado,79.53,J. Ramírez,Baja,0.8,Operativo
+R00873,EQ-016,2022-02-11,Preventivo,—,Programado,Mantenimiento preventivo programado,102.7,J. Ramírez,Baja,1.1,Operativo
+R00914,EQ-016,2022-02-12,Correctivo,Eléctrica,Media,Fusible quemado,559.65,J. Ramírez,Media,5.8,En observación
+R00900,EQ-016,2022-03-04,Correctivo,Desgaste,Baja,Filtro saturado,390.35,A. Flores,Baja,2.5,Operativo
+R00907,EQ-016,2022-03-28,Correctivo,Desgaste,Media,Acumulación de horas de uso,634.42,M. Torres,Media,5.0,Operativo
+R00874,EQ-016,2022-05-06,Preventivo,—,Programado,Mantenimiento preventivo programado,120.51,L. Quispe,Baja,1.6,Operativo
+R00908,EQ-016,2022-06-22,Correctivo,Desgaste,Alta,Componente al final de vida útil,256.64,A. Flores,Alta,4.2,En observación
+R00875,EQ-016,2022-07-28,Preventivo,—,Programado,Mantenimiento preventivo programado,102.33,L. Quispe,Baja,1.9,Operativo
+R00911,EQ-016,2022-08-20,Correctivo,Desgaste,Media,Acumulación de horas de uso,589.1,A. Flores,Media,1.1,Operativo
+R00876,EQ-016,2022-10-20,Preventivo,—,Programado,Mantenimiento preventivo programado,84.57,J. Ramírez,Baja,0.8,Operativo
+R00897,EQ-016,2022-10-25,Correctivo,Eléctrica,Baja,Batería agotada,178.41,J. Ramírez,Baja,6.7,Operativo
+R00906,EQ-016,2022-12-15,Correctivo,Eléctrica,Baja,Fusible quemado,395.68,J. Ramírez,Baja,5.9,Operativo
+R00877,EQ-016,2023-01-15,Preventivo,—,Programado,Mantenimiento preventivo programado,179.14,A. Flores,Baja,0.9,Operativo
+R00912,EQ-016,2023-03-28,Correctivo,Desgaste,Media,Componente al final de vida útil,327.34,L. Quispe,Media,6.5,En observación
+R00878,EQ-016,2023-04-24,Preventivo,—,Programado,Mantenimiento preventivo programado,113.16,A. Flores,Baja,1.6,Operativo
+R00896,EQ-016,2023-05-08,Correctivo,Desgaste,Alta,Acumulación de horas de uso,571.09,L. Quispe,Alta,3.8,Operativo
+R00892,EQ-016,2023-06-19,Correctivo,Desgaste,Media,Filtro saturado,655.69,M. Torres,Media,3.5,Operativo
+R00899,EQ-016,2023-07-25,Correctivo,Desgaste,Alta,Acumulación de horas de uso,286.24,A. Flores,Alta,3.1,Operativo
+R00879,EQ-016,2023-07-27,Preventivo,—,Programado,Mantenimiento preventivo programado,61.77,J. Ramírez,Baja,1.0,Operativo
+R00891,EQ-016,2023-08-06,Correctivo,Eléctrica,Media,Falla en fuente de poder,453.89,L. Quispe,Media,4.1,En observación
+R00909,EQ-016,2023-08-27,Correctivo,Eléctrica,Alta,Cortocircuito en placa,240.05,M. Torres,Alta,1.5,Operativo
+R00880,EQ-016,2023-11-01,Preventivo,—,Programado,Mantenimiento preventivo programado,134.56,L. Quispe,Baja,1.0,Operativo
+R00918,EQ-016,2023-11-17,Correctivo,Desgaste,Media,Componente al final de vida útil,497.91,M. Torres,Media,7.9,Operativo
+R00916,EQ-016,2023-11-20,Correctivo,Eléctrica,Media,Batería agotada,370.41,J. Ramírez,Media,4.7,Operativo
+R00881,EQ-016,2024-01-23,Preventivo,—,Programado,Mantenimiento preventivo programado,117.85,A. Flores,Baja,1.0,Operativo
+R00913,EQ-016,2024-02-17,Correctivo,Eléctrica,Media,Falla en fuente de poder,207.91,M. Torres,Media,1.1,En observación
+R00902,EQ-016,2024-04-04,Correctivo,Eléctrica,Media,Falla en fuente de poder,450.18,M. Torres,Media,3.1,Operativo
+R00882,EQ-016,2024-04-22,Preventivo,—,Programado,Mantenimiento preventivo programado,115.73,J. Ramírez,Baja,1.8,Operativo
+R00894,EQ-016,2024-05-22,Correctivo,Software,Media,Error de comunicación,198.15,M. Torres,Media,6.5,Operativo
+R00883,EQ-016,2024-07-15,Preventivo,—,Programado,Mantenimiento preventivo programado,140.84,L. Quispe,Baja,1.8,Operativo
+R00903,EQ-016,2024-08-21,Correctivo,Desgaste,Media,Filtro saturado,498.79,M. Torres,Media,4.6,Operativo
+R00917,EQ-016,2024-09-07,Correctivo,Eléctrica,Alta,Falla en cargador,156.04,L. Quispe,Alta,4.1,Operativo
+R00901,EQ-016,2024-10-06,Correctivo,Desgaste,Media,Componente al final de vida útil,,L. Quispe,Media,4.8,Operativo
+R00884,EQ-016,2024-10-22,Preventivo,—,Programado,Mantenimiento preventivo programado,159.59,A. Flores,Baja,0.6,Operativo
+R00898,EQ-016,2024-10-22,Correctivo,Software,Baja,Falla en calibración digital,26.41,M. Torres,Baja,6.5,Operativo
+R00893,EQ-016,2024-12-20,Correctivo,Desgaste,Alta,Acumulación de horas de uso,472.21,M. Torres,Alta,7.0,Operativo
+R00910,EQ-016,2025-01-10,Correctivo,Eléctrica,Media,Batería agotada,173.6,L. Quispe,Media,7.3,Operativo
+R00885,EQ-016,2025-01-18,Preventivo,—,Programado,Mantenimiento preventivo programado,83.31,L. Quispe,Baja,1.2,Operativo
+R00915,EQ-016,2025-02-05,Correctivo,Mecánica,Baja,Desgaste de válvula,647.44,A. Flores,Baja,2.5,Operativo
+R00886,EQ-016,2025-04-11,Preventivo,—,Programado,Mantenimiento preventivo programado,,M. Torres,Baja,0.8,Operativo
+R00904,EQ-016,2025-05-07,Correctivo,Desgaste,Media,Acumulación de horas de uso,382.63,M. Torres,Media,2.6,En observación
+R00895,EQ-016,2025-07-11,Correctivo,Eléctrica,Alta,Falla en cargador,114.61,M. Torres,Alta,3.7,Operativo
+R00887,EQ-016,2025-07-14,Preventivo,—,Programado,Mantenimiento preventivo programado,74.06,A. Flores,Baja,1.1,Operativo
+R00888,EQ-016,2025-10-14,Preventivo,—,Programado,Mantenimiento preventivo programado,66.1,M. Torres,Baja,1.6,Operativo
+R00889,EQ-016,2026-01-09,Preventivo,—,Programado,Mantenimiento preventivo programado,83.84,J. Ramírez,Baja,0.7,Operativo
+R00905,EQ-016,2026-01-25,Correctivo,Eléctrica,Baja,Fusible quemado,571.7,A. Flores,Baja,5.6,Operativo
+R00890,EQ-016,2026-04-12,Preventivo,—,Programado,Mantenimiento preventivo programado,100.2,M. Torres,Baja,0.8,Operativo
+R00937,EQ-017,2022-01-07,Correctivo,Sensores,Media,Error de lectura de presión,499.3,A. Flores,Media,2.3,Operativo
+R00941,EQ-017,2022-01-08,Correctivo,Sensores,Media,Error de lectura de presión,1160.25,A. Flores,Media,6.4,Operativo
+R00919,EQ-017,2022-01-18,Preventivo,—,Programado,Mantenimiento preventivo programado,74.09,L. Quispe,Baja,0.8,Operativo
+R00944,EQ-017,2022-03-05,Correctivo,Sensores,Media,Sensor de flujo defectuoso,644.78,J. Ramírez,Media,2.9,Operativo
+R00920,EQ-017,2022-04-18,Preventivo,—,Programado,Mantenimiento preventivo programado,75.84,A. Flores,Baja,0.8,Operativo
+R00958,EQ-017,2022-06-18,Correctivo,Sensores,Media,Sensor SpO2 descalibrado,1026.79,A. Flores,Media,6.6,Operativo
+R00942,EQ-017,2022-07-03,Correctivo,Sensores,Baja,Sensor de flujo defectuoso,961.35,L. Quispe,Baja,1.3,En observación
+R00921,EQ-017,2022-07-24,Preventivo,—,Programado,Mantenimiento preventivo programado,136.05,A. Flores,Baja,1.5,Operativo
+R00939,EQ-017,2022-09-21,Correctivo,Sensores,Media,Termistor fuera de rango,,L. Quispe,Media,7.5,Operativo
+R00922,EQ-017,2022-10-16,Preventivo,—,Programado,Mantenimiento preventivo programado,167.61,L. Quispe,Baja,1.2,Operativo
+R00946,EQ-017,2022-11-03,Correctivo,Sensores,Media,Sensor SpO2 descalibrado,277.74,A. Flores,Media,4.8,Operativo
+R00956,EQ-017,2022-11-04,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,316.69,L. Quispe,Alta,6.5,Operativo
+R00940,EQ-017,2023-01-02,Correctivo,Sensores,Media,Sensor SpO2 descalibrado,647.54,M. Torres,Media,1.5,Operativo
+R00923,EQ-017,2023-01-14,Preventivo,—,Programado,Mantenimiento preventivo programado,111.17,M. Torres,Baja,0.9,Operativo
+R00952,EQ-017,2023-03-05,Correctivo,Sensores,Media,Error de lectura de presión,984.69,M. Torres,Media,1.1,Operativo
+R00924,EQ-017,2023-04-18,Preventivo,—,Programado,Mantenimiento preventivo programado,98.29,L. Quispe,Baja,0.5,Operativo
+R00925,EQ-017,2023-07-26,Preventivo,—,Programado,Mantenimiento preventivo programado,144.19,M. Torres,Baja,1.9,Operativo
+R00959,EQ-017,2023-08-03,Correctivo,Eléctrica,Media,Fusible quemado,267.89,A. Flores,Media,2.6,Operativo
+R00954,EQ-017,2023-08-11,Correctivo,Sensores,Baja,Termistor fuera de rango,298.15,M. Torres,Baja,7.6,En observación
+R00926,EQ-017,2023-10-22,Preventivo,—,Programado,Mantenimiento preventivo programado,73.91,A. Flores,Baja,0.6,Operativo
+R00938,EQ-017,2023-12-07,Correctivo,Calibración,Media,Ajuste de cero requerido,285.25,A. Flores,Media,1.6,En observación
+R00927,EQ-017,2024-01-25,Preventivo,—,Programado,Mantenimiento preventivo programado,90.92,A. Flores,Baja,1.9,Operativo
+R00948,EQ-017,2024-03-20,Correctivo,Calibración,Media,Calibración vencida,187.53,M. Torres,Media,5.5,En observación
+R00928,EQ-017,2024-04-22,Preventivo,—,Programado,Mantenimiento preventivo programado,157.32,A. Flores,Baja,1.5,Operativo
+R00955,EQ-017,2024-05-07,Correctivo,Desgaste,Media,Componente al final de vida útil,603.03,J. Ramírez,Media,5.8,Operativo
+R00957,EQ-017,2024-05-17,Correctivo,Software,Media,Falla en calibración digital,244.4,M. Torres,Media,4.6,Operativo
+R00929,EQ-017,2024-07-26,Preventivo,—,Programado,Mantenimiento preventivo programado,108.18,M. Torres,Baja,1.4,Operativo
+R00951,EQ-017,2024-10-18,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,1031.25,A. Flores,Alta,7.9,En observación
+R00930,EQ-017,2024-10-19,Preventivo,—,Programado,Mantenimiento preventivo programado,79.33,L. Quispe,Baja,1.6,Operativo
+R00931,EQ-017,2025-01-25,Preventivo,—,Programado,Mantenimiento preventivo programado,153.61,L. Quispe,Baja,1.8,Operativo
+R00960,EQ-017,2025-03-02,Correctivo,Eléctrica,Media,Falla en cargador,457.62,L. Quispe,Media,6.6,En observación
+R00943,EQ-017,2025-03-07,Correctivo,Software,Media,Falla en calibración digital,271.8,A. Flores,Media,7.1,Operativo
+R00932,EQ-017,2025-04-15,Preventivo,—,Programado,Mantenimiento preventivo programado,138.93,M. Torres,Baja,1.8,Operativo
+R00945,EQ-017,2025-05-25,Correctivo,Sensores,Baja,Sensor de flujo defectuoso,595.02,L. Quispe,Baja,3.9,Operativo
+R00947,EQ-017,2025-06-24,Correctivo,Sensores,Baja,Termistor fuera de rango,1145.56,A. Flores,Baja,4.3,Operativo
+R00933,EQ-017,2025-07-19,Preventivo,—,Programado,Mantenimiento preventivo programado,176.02,A. Flores,Baja,1.4,Operativo
+R00934,EQ-017,2025-10-13,Preventivo,—,Programado,Mantenimiento preventivo programado,124.83,J. Ramírez,Baja,1.3,Operativo
+R00949,EQ-017,2025-11-06,Correctivo,Sensores,Baja,Sensor SpO2 descalibrado,253.5,M. Torres,Baja,7.2,Operativo
+R00950,EQ-017,2026-01-11,Correctivo,Sensores,Media,Sensor de flujo defectuoso,827.93,L. Quispe,Media,7.9,En observación
+R00935,EQ-017,2026-01-17,Preventivo,—,Programado,Mantenimiento preventivo programado,,J. Ramírez,Baja,1.2,Operativo
+R00953,EQ-017,2026-02-21,Correctivo,Sensores,Baja,Termistor fuera de rango,797.35,J. Ramírez,Baja,4.1,Operativo
+R00936,EQ-017,2026-04-17,Preventivo,—,Programado,Mantenimiento preventivo programado,168.77,L. Quispe,Baja,0.8,Operativo
+R00961,EQ-018,2022-01-30,Preventivo,—,Programado,Mantenimiento preventivo programado,87.8,A. Flores,Baja,1.0,Operativo
+R00989,EQ-018,2022-02-12,Correctivo,Eléctrica,Media,Batería agotada,272.2,M. Torres,Media,1.2,Operativo
+R00981,EQ-018,2022-02-25,Correctivo,Sensores,Media,Error de lectura de presión,1165.74,J. Ramírez,Media,6.2,Operativo
+R00962,EQ-018,2022-04-23,Preventivo,—,Programado,Mantenimiento preventivo programado,165.04,J. Ramírez,Baja,0.8,Operativo
+R00963,EQ-018,2022-07-25,Preventivo,—,Programado,Mantenimiento preventivo programado,161.43,L. Quispe,Baja,0.9,Operativo
+R00964,EQ-018,2022-10-18,Preventivo,—,Programado,Mantenimiento preventivo programado,81.48,L. Quispe,Baja,0.8,Operativo
+R00965,EQ-018,2023-01-13,Preventivo,—,Programado,Mantenimiento preventivo programado,179.46,J. Ramírez,Baja,1.6,Operativo
+R00966,EQ-018,2023-04-09,Preventivo,—,Programado,Mantenimiento preventivo programado,135.6,M. Torres,Baja,1.9,Operativo
+R00986,EQ-018,2023-05-07,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,402.76,L. Quispe,Alta,4.6,En observación
+R00992,EQ-018,2023-06-10,Correctivo,Desgaste,Media,Acumulación de horas de uso,641.48,A. Flores,Media,6.6,Operativo
+R00967,EQ-018,2023-07-13,Preventivo,—,Programado,Mantenimiento preventivo programado,162.12,M. Torres,Baja,1.3,Operativo
+R00988,EQ-018,2023-08-30,Correctivo,Eléctrica,Media,Falla en fuente de poder,157.47,J. Ramírez,Media,2.5,En observación
+R00968,EQ-018,2023-10-16,Preventivo,—,Programado,Mantenimiento preventivo programado,122.87,A. Flores,Baja,1.5,Operativo
+R00969,EQ-018,2024-01-18,Preventivo,—,Programado,Mantenimiento preventivo programado,175.03,L. Quispe,Baja,0.6,Operativo
+R00983,EQ-018,2024-03-24,Correctivo,Sensores,Media,Sensor SpO2 descalibrado,863.05,L. Quispe,Media,3.1,En observación
+R00970,EQ-018,2024-04-21,Preventivo,—,Programado,Mantenimiento preventivo programado,101.63,J. Ramírez,Baja,0.7,Operativo
+R00979,EQ-018,2024-05-06,Correctivo,Desgaste,Baja,Filtro saturado,776.05,L. Quispe,Baja,4.8,Operativo
+R00971,EQ-018,2024-07-29,Preventivo,—,Programado,Mantenimiento preventivo programado,125.97,J. Ramírez,Baja,1.7,Operativo
+R00993,EQ-018,2024-08-11,Correctivo,Calibración,Media,Ajuste de cero requerido,212.99,L. Quispe,Media,3.0,Operativo
+R00984,EQ-018,2024-09-26,Correctivo,Sensores,Media,Termistor fuera de rango,268.43,J. Ramírez,Media,4.6,En observación
+R00972,EQ-018,2024-10-28,Preventivo,—,Programado,Mantenimiento preventivo programado,144.92,A. Flores,Baja,0.8,Operativo
+R00999,EQ-018,2024-12-06,Correctivo,Sensores,Alta,Termistor fuera de rango,947.45,A. Flores,Alta,4.7,Operativo
+R00980,EQ-018,2024-12-29,Correctivo,Calibración,Media,Ajuste de cero requerido,89.08,A. Flores,Media,3.5,Operativo
+R00985,EQ-018,2025-01-10,Correctivo,Sensores,Media,Error de lectura de presión,951.63,J. Ramírez,Media,6.9,Operativo
+R00998,EQ-018,2025-01-12,Correctivo,Sensores,Media,Error de lectura de presión,215.84,M. Torres,Media,1.0,Operativo
+R00973,EQ-018,2025-01-31,Preventivo,—,Programado,Mantenimiento preventivo programado,166.44,A. Flores,Baja,1.4,Operativo
+R00997,EQ-018,2025-04-05,Correctivo,Eléctrica,Media,Falla en cargador,337.0,M. Torres,Media,1.5,En observación
+R00974,EQ-018,2025-05-02,Preventivo,—,Programado,Mantenimiento preventivo programado,127.0,L. Quispe,Baja,1.5,Operativo
+R00991,EQ-018,2025-05-05,Correctivo,Desgaste,Media,Filtro saturado,442.73,J. Ramírez,Media,4.3,Operativo
+R00995,EQ-018,2025-05-21,Correctivo,Eléctrica,Baja,Falla en fuente de poder,528.3,L. Quispe,Baja,3.4,Operativo
+R00982,EQ-018,2025-05-25,Correctivo,Eléctrica,Media,Cortocircuito en placa,252.11,M. Torres,Media,1.6,Operativo
+R00975,EQ-018,2025-07-24,Preventivo,—,Programado,Mantenimiento preventivo programado,90.99,J. Ramírez,Baja,1.2,Operativo
+R00994,EQ-018,2025-09-15,Correctivo,Desgaste,Media,Componente al final de vida útil,595.71,L. Quispe,Media,3.2,Operativo
+R00976,EQ-018,2025-10-17,Preventivo,—,Programado,Mantenimiento preventivo programado,138.24,M. Torres,Baja,1.4,Operativo
+R00996,EQ-018,2025-12-24,Correctivo,Calibración,Media,Ajuste de cero requerido,271.46,M. Torres,Media,6.5,Operativo
+R00977,EQ-018,2026-01-15,Preventivo,—,Programado,Mantenimiento preventivo programado,138.73,A. Flores,Baja,1.2,Operativo
+R00978,EQ-018,2026-04-22,Preventivo,—,Programado,Mantenimiento preventivo programado,130.75,L. Quispe,Baja,1.4,Operativo
+R00987,EQ-018,2026-04-28,Correctivo,Eléctrica,Alta,Falla en fuente de poder,136.06,M. Torres,Alta,1.4,Operativo
+R00990,EQ-018,2026-05-06,Correctivo,Desgaste,Media,Acumulación de horas de uso,790.52,M. Torres,Media,1.1,Operativo
+R01000,EQ-019,2022-01-05,Preventivo,—,Programado,Mantenimiento preventivo programado,142.74,J. Ramírez,Baja,1.6,Operativo
+R01029,EQ-019,2022-01-18,Correctivo,Sensores,Alta,Error de lectura de presión,305.62,A. Flores,Alta,3.4,Operativo
+R01001,EQ-019,2022-03-27,Preventivo,—,Programado,Mantenimiento preventivo programado,99.79,J. Ramírez,Baja,0.9,Operativo
+R01034,EQ-019,2022-04-08,Correctivo,Eléctrica,Media,Batería agotada,300.74,M. Torres,Media,7.2,Operativo
+R01032,EQ-019,2022-05-01,Correctivo,Eléctrica,Media,Falla en cargador,486.89,M. Torres,Media,5.6,Operativo
+R01002,EQ-019,2022-06-28,Preventivo,—,Programado,Mantenimiento preventivo programado,108.23,M. Torres,Baja,1.5,Operativo
+R01020,EQ-019,2022-07-20,Correctivo,Calibración,Alta,Desviación de medición,170.04,M. Torres,Alta,6.2,En observación
+R01023,EQ-019,2022-08-17,Correctivo,Sensores,Media,Sensor de flujo defectuoso,634.79,L. Quispe,Media,6.1,Operativo
+R01003,EQ-019,2022-10-01,Preventivo,—,Programado,Mantenimiento preventivo programado,77.81,M. Torres,Baja,0.7,Operativo
+R01004,EQ-019,2022-12-24,Preventivo,—,Programado,Mantenimiento preventivo programado,121.21,L. Quispe,Baja,0.8,Operativo
+R01031,EQ-019,2023-01-12,Correctivo,Sensores,Media,Error de lectura de presión,622.21,A. Flores,Media,3.4,En observación
+R01019,EQ-019,2023-01-24,Correctivo,Software,Baja,Error de firmware,366.24,M. Torres,Baja,4.7,Operativo
+R01030,EQ-019,2023-03-01,Correctivo,Eléctrica,Media,Fusible quemado,395.22,M. Torres,Media,4.4,Operativo
+R01005,EQ-019,2023-03-15,Preventivo,—,Programado,Mantenimiento preventivo programado,140.38,L. Quispe,Baja,0.9,Operativo
+R01036,EQ-019,2023-04-18,Correctivo,Sensores,Alta,Error de lectura de presión,420.51,J. Ramírez,Alta,3.2,Operativo
+R01006,EQ-019,2023-06-06,Preventivo,—,Programado,Mantenimiento preventivo programado,79.14,A. Flores,Baja,1.5,Operativo
+R01024,EQ-019,2023-06-30,Correctivo,Sensores,Alta,Termistor fuera de rango,180.05,L. Quispe,Alta,6.3,En observación
+R01033,EQ-019,2023-07-07,Correctivo,Eléctrica,Baja,Fusible quemado,,A. Flores,Baja,1.3,Operativo
+R01007,EQ-019,2023-08-30,Preventivo,—,Programado,Mantenimiento preventivo programado,119.36,M. Torres,Baja,1.2,Operativo
+R01025,EQ-019,2023-08-31,Correctivo,Eléctrica,Media,Falla en fuente de poder,574.38,A. Flores,Media,3.7,Operativo
+R01027,EQ-019,2023-10-05,Correctivo,Software,Baja,Pantalla congelada,268.93,J. Ramírez,Baja,1.8,Operativo
+R01008,EQ-019,2023-12-02,Preventivo,—,Programado,Mantenimiento preventivo programado,110.99,L. Quispe,Baja,1.5,Operativo
+R01022,EQ-019,2024-03-06,Correctivo,Calibración,Media,Ajuste de cero requerido,269.77,J. Ramírez,Media,1.7,Operativo
+R01009,EQ-019,2024-03-08,Preventivo,—,Programado,Mantenimiento preventivo programado,169.17,L. Quispe,Baja,2.0,Operativo
+R01028,EQ-019,2024-05-28,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,909.32,J. Ramírez,Alta,3.5,Operativo
+R01035,EQ-019,2024-05-31,Correctivo,Calibración,Baja,Calibración vencida,153.46,L. Quispe,Baja,6.9,Operativo
+R01010,EQ-019,2024-06-07,Preventivo,—,Programado,Mantenimiento preventivo programado,65.65,M. Torres,Baja,2.0,Operativo
+R01011,EQ-019,2024-09-02,Preventivo,—,Programado,Mantenimiento preventivo programado,134.64,M. Torres,Baja,0.5,Operativo
+R01012,EQ-019,2024-12-10,Preventivo,—,Programado,Mantenimiento preventivo programado,71.64,J. Ramírez,Baja,1.0,Operativo
+R01013,EQ-019,2025-02-28,Preventivo,—,Programado,Mantenimiento preventivo programado,87.07,L. Quispe,Baja,1.1,Operativo
+R01014,EQ-019,2025-05-20,Preventivo,—,Programado,Mantenimiento preventivo programado,66.63,L. Quispe,Baja,1.4,Operativo
+R01015,EQ-019,2025-08-18,Preventivo,—,Programado,Mantenimiento preventivo programado,120.02,A. Flores,Baja,0.7,Operativo
+R01026,EQ-019,2025-09-21,Correctivo,Sensores,Baja,Sensor SpO2 descalibrado,628.84,M. Torres,Baja,5.0,Operativo
+R01016,EQ-019,2025-11-25,Preventivo,—,Programado,Mantenimiento preventivo programado,151.99,M. Torres,Baja,0.8,Operativo
+R01017,EQ-019,2026-02-21,Preventivo,—,Programado,Mantenimiento preventivo programado,141.42,L. Quispe,Baja,1.4,Operativo
+R01021,EQ-019,2026-04-01,Correctivo,Calibración,Baja,Ajuste de cero requerido,263.8,M. Torres,Baja,4.7,Operativo
+R01018,EQ-019,2026-05-28,Preventivo,—,Programado,Mantenimiento preventivo programado,133.98,J. Ramírez,Baja,1.3,Operativo
+R01037,EQ-020,2022-01-13,Preventivo,—,Programado,Mantenimiento preventivo programado,64.26,M. Torres,Baja,1.0,Operativo
+R01066,EQ-020,2022-03-23,Correctivo,Calibración,Baja,Desviación de medición,293.48,J. Ramírez,Baja,5.6,En observación
+R01038,EQ-020,2022-04-11,Preventivo,—,Programado,Mantenimiento preventivo programado,153.31,A. Flores,Baja,1.8,Operativo
+R01067,EQ-020,2022-04-15,Correctivo,Sensores,Baja,Sensor de flujo defectuoso,190.79,A. Flores,Baja,4.0,Operativo
+R01059,EQ-020,2022-06-18,Correctivo,Calibración,Media,Ajuste de cero requerido,191.42,M. Torres,Media,4.0,Operativo
+R01039,EQ-020,2022-07-18,Preventivo,—,Programado,Mantenimiento preventivo programado,172.74,L. Quispe,Baja,0.6,Operativo
+R01060,EQ-020,2022-08-09,Correctivo,Eléctrica,Baja,Falla en fuente de poder,569.93,L. Quispe,Baja,6.8,Operativo
+R01040,EQ-020,2022-10-14,Preventivo,—,Programado,Mantenimiento preventivo programado,170.12,L. Quispe,Baja,0.9,Operativo
+R01041,EQ-020,2023-01-02,Preventivo,—,Programado,Mantenimiento preventivo programado,138.23,L. Quispe,Baja,0.6,Operativo
+R01065,EQ-020,2023-01-15,Correctivo,Sensores,Baja,Error de lectura de presión,680.95,A. Flores,Baja,4.4,En observación
+R01042,EQ-020,2023-03-25,Preventivo,—,Programado,Mantenimiento preventivo programado,76.52,L. Quispe,Baja,1.4,Operativo
+R01063,EQ-020,2023-06-09,Correctivo,Sensores,Media,Termistor fuera de rango,185.95,M. Torres,Media,1.2,Operativo
+R01043,EQ-020,2023-06-22,Preventivo,—,Programado,Mantenimiento preventivo programado,169.68,M. Torres,Baja,0.8,Operativo
+R01044,EQ-020,2023-09-19,Preventivo,—,Programado,Mantenimiento preventivo programado,141.76,M. Torres,Baja,1.1,Operativo
+R01069,EQ-020,2023-12-03,Correctivo,Calibración,Alta,Desviación de medición,267.66,M. Torres,Alta,2.2,Operativo
+R01045,EQ-020,2023-12-27,Preventivo,—,Programado,Mantenimiento preventivo programado,127.33,L. Quispe,Baja,0.7,Operativo
+R01061,EQ-020,2024-02-17,Correctivo,Eléctrica,Media,Falla en cargador,83.22,A. Flores,Media,5.5,Operativo
+R01046,EQ-020,2024-03-24,Preventivo,—,Programado,Mantenimiento preventivo programado,142.85,J. Ramírez,Baja,1.4,Operativo
+R01068,EQ-020,2024-04-14,Correctivo,Sensores,Baja,Error de lectura de presión,1154.12,L. Quispe,Baja,1.8,En observación
+R01070,EQ-020,2024-05-03,Correctivo,Sensores,Media,Error de lectura de presión,635.98,L. Quispe,Media,7.9,Operativo
+R01047,EQ-020,2024-06-13,Preventivo,—,Programado,Mantenimiento preventivo programado,92.44,M. Torres,Baja,1.9,Operativo
+R01062,EQ-020,2024-08-06,Correctivo,Desgaste,Media,Componente al final de vida útil,409.24,J. Ramírez,Media,7.1,Operativo
+R01048,EQ-020,2024-09-02,Preventivo,—,Programado,Mantenimiento preventivo programado,146.13,M. Torres,Baja,1.6,Operativo
+R01049,EQ-020,2024-12-09,Preventivo,—,Programado,Mantenimiento preventivo programado,173.13,L. Quispe,Baja,1.7,Operativo
+R01064,EQ-020,2025-01-02,Correctivo,Eléctrica,Media,Falla en fuente de poder,202.83,M. Torres,Media,3.2,Operativo
+R01050,EQ-020,2025-03-16,Preventivo,—,Programado,Mantenimiento preventivo programado,131.94,M. Torres,Baja,1.1,Operativo
+R01056,EQ-020,2025-05-07,Correctivo,Desgaste,Alta,Filtro saturado,,M. Torres,Alta,7.3,En observación
+R01051,EQ-020,2025-06-10,Preventivo,—,Programado,Mantenimiento preventivo programado,123.82,L. Quispe,Baja,1.0,Operativo
+R01052,EQ-020,2025-09-08,Preventivo,—,Programado,Mantenimiento preventivo programado,143.27,L. Quispe,Baja,1.0,Operativo
+R01057,EQ-020,2025-12-01,Correctivo,Desgaste,Media,Filtro saturado,208.92,M. Torres,Media,7.3,Operativo
+R01053,EQ-020,2025-12-14,Preventivo,—,Programado,Mantenimiento preventivo programado,96.3,M. Torres,Baja,1.2,Operativo
+R01058,EQ-020,2025-12-21,Correctivo,Eléctrica,Media,Cortocircuito en placa,595.85,M. Torres,Media,3.4,Operativo
+R01054,EQ-020,2026-03-09,Preventivo,—,Programado,Mantenimiento preventivo programado,70.82,M. Torres,Baja,0.9,Operativo
+R01055,EQ-020,2026-05-30,Preventivo,—,Programado,Mantenimiento preventivo programado,130.46,M. Torres,Baja,0.7,Operativo
+R01071,EQ-021,2022-01-04,Preventivo,—,Programado,Mantenimiento preventivo programado,143.59,A. Flores,Baja,0.7,Operativo
+R01072,EQ-021,2022-04-09,Preventivo,—,Programado,Mantenimiento preventivo programado,178.06,M. Torres,Baja,0.9,Operativo
+R01108,EQ-021,2022-04-11,Correctivo,Mecánica,Alta,Obstrucción de circuito,307.89,M. Torres,Alta,7.4,En observación
+R01119,EQ-021,2022-04-12,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,811.29,M. Torres,Alta,2.4,Operativo
+R01122,EQ-021,2022-04-28,Correctivo,Mecánica,Baja,Obstrucción de circuito,456.17,M. Torres,Baja,3.2,Operativo
+R01127,EQ-021,2022-05-08,Correctivo,Sensores,Alta,Error de lectura de presión,244.39,M. Torres,Alta,2.9,Operativo
+R01106,EQ-021,2022-05-27,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,573.05,J. Ramírez,Alta,1.9,Operativo
+R01099,EQ-021,2022-06-06,Correctivo,Desgaste,Baja,Filtro saturado,209.08,M. Torres,Baja,6.5,Operativo
+R01073,EQ-021,2022-07-01,Preventivo,—,Programado,Mantenimiento preventivo programado,91.95,A. Flores,Baja,1.2,Operativo
+R01118,EQ-021,2022-08-05,Correctivo,Eléctrica,Alta,Falla en fuente de poder,133.37,A. Flores,Alta,7.8,Operativo
+R01098,EQ-021,2022-08-13,Correctivo,Software,Baja,Falla en calibración digital,97.76,A. Flores,Baja,4.4,Operativo
+R01109,EQ-021,2022-09-20,Correctivo,Mecánica,Media,Desgaste de válvula,246.15,A. Flores,Media,2.8,Operativo
+R01074,EQ-021,2022-09-21,Preventivo,—,Programado,Mantenimiento preventivo programado,73.28,M. Torres,Baja,1.4,Operativo
+R01112,EQ-021,2022-10-31,Correctivo,Mecánica,Media,Desgaste de válvula,508.58,L. Quispe,Media,2.9,Operativo
+R01107,EQ-021,2022-12-10,Correctivo,Eléctrica,Media,Fusible quemado,,A. Flores,Media,3.7,Operativo
+R01075,EQ-021,2022-12-25,Preventivo,—,Programado,Mantenimiento preventivo programado,158.64,J. Ramírez,Baja,1.6,Operativo
+R01095,EQ-021,2023-02-02,Correctivo,Mecánica,Baja,Falla en bomba peristáltica,348.08,L. Quispe,Baja,5.6,Operativo
+R01076,EQ-021,2023-03-25,Preventivo,—,Programado,Mantenimiento preventivo programado,174.16,L. Quispe,Baja,2.0,Operativo
+R01111,EQ-021,2023-05-25,Correctivo,Eléctrica,Media,Falla en cargador,274.82,L. Quispe,Media,1.4,Operativo
+R01103,EQ-021,2023-05-27,Correctivo,Mecánica,Media,Obstrucción de circuito,178.5,L. Quispe,Media,7.5,Operativo
+R01090,EQ-021,2023-06-13,Correctivo,Mecánica,Media,Holgura en soporte,,A. Flores,Media,1.1,Operativo
+R01077,EQ-021,2023-06-14,Preventivo,—,Programado,Mantenimiento preventivo programado,146.39,L. Quispe,Baja,0.7,Operativo
+R01078,EQ-021,2023-09-18,Preventivo,—,Programado,Mantenimiento preventivo programado,73.44,A. Flores,Baja,1.5,Operativo
+R01105,EQ-021,2023-09-25,Correctivo,Sensores,Media,Sensor SpO2 descalibrado,854.64,M. Torres,Media,6.3,Operativo
+R01113,EQ-021,2023-11-13,Correctivo,Mecánica,Baja,Holgura en soporte,196.71,J. Ramírez,Baja,7.3,Operativo
+R01101,EQ-021,2023-11-28,Correctivo,Sensores,Media,Sensor de flujo defectuoso,1182.47,M. Torres,Media,7.5,Operativo
+R01079,EQ-021,2023-12-23,Preventivo,—,Programado,Mantenimiento preventivo programado,154.28,A. Flores,Baja,1.2,Operativo
+R01117,EQ-021,2024-03-13,Correctivo,Desgaste,Media,Acumulación de horas de uso,349.27,L. Quispe,Media,5.2,Operativo
+R01080,EQ-021,2024-03-22,Preventivo,—,Programado,Mantenimiento preventivo programado,170.35,L. Quispe,Baja,1.6,Operativo
+R01104,EQ-021,2024-04-09,Correctivo,Mecánica,Baja,Falla en bomba peristáltica,457.09,J. Ramírez,Baja,2.5,Operativo
+R01093,EQ-021,2024-04-19,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,1080.05,M. Torres,Alta,3.6,Operativo
+R01092,EQ-021,2024-05-04,Correctivo,Desgaste,Baja,Acumulación de horas de uso,344.81,J. Ramírez,Baja,1.9,Operativo
+R01081,EQ-021,2024-06-22,Preventivo,—,Programado,Mantenimiento preventivo programado,109.88,M. Torres,Baja,1.5,Operativo
+R01116,EQ-021,2024-07-05,Correctivo,Eléctrica,Baja,Falla en cargador,250.06,J. Ramírez,Baja,2.3,En observación
+R01125,EQ-021,2024-07-13,Correctivo,Mecánica,Alta,Rotura de manguera,129.74,A. Flores,Alta,4.2,Operativo
+R01124,EQ-021,2024-08-07,Correctivo,Desgaste,Media,Componente al final de vida útil,648.23,J. Ramírez,Media,2.2,Operativo
+R01094,EQ-021,2024-09-06,Correctivo,Mecánica,Media,Obstrucción de circuito,519.96,M. Torres,Media,3.2,Operativo
+R01082,EQ-021,2024-09-13,Preventivo,—,Programado,Mantenimiento preventivo programado,77.76,J. Ramírez,Baja,1.8,Operativo
+R01083,EQ-021,2024-12-03,Preventivo,—,Programado,Mantenimiento preventivo programado,83.63,M. Torres,Baja,1.2,Operativo
+R01084,EQ-021,2025-02-23,Preventivo,—,Programado,Mantenimiento preventivo programado,100.01,L. Quispe,Baja,1.7,Operativo
+R01114,EQ-021,2025-03-01,Correctivo,Eléctrica,Baja,Cortocircuito en placa,555.93,J. Ramírez,Baja,2.5,Operativo
+R01102,EQ-021,2025-03-08,Correctivo,Eléctrica,Alta,Fusible quemado,585.92,L. Quispe,Alta,1.8,En observación
+R01100,EQ-021,2025-04-12,Correctivo,Desgaste,Media,Componente al final de vida útil,790.53,A. Flores,Media,2.6,Operativo
+R01085,EQ-021,2025-05-15,Preventivo,—,Programado,Mantenimiento preventivo programado,120.97,A. Flores,Baja,1.7,Operativo
+R01126,EQ-021,2025-06-14,Correctivo,Sensores,Media,Termistor fuera de rango,870.0,J. Ramírez,Media,4.3,Operativo
+R01120,EQ-021,2025-07-18,Correctivo,Calibración,Media,Ajuste de cero requerido,289.77,A. Flores,Media,6.0,Operativo
+R01086,EQ-021,2025-08-14,Preventivo,—,Programado,Mantenimiento preventivo programado,108.91,L. Quispe,Baja,1.0,Operativo
+R01096,EQ-021,2025-09-10,Correctivo,Mecánica,Baja,Falla en bomba peristáltica,890.47,A. Flores,Baja,3.7,En observación
+R01091,EQ-021,2025-09-22,Correctivo,Mecánica,Media,Falla en bomba peristáltica,,A. Flores,Media,4.7,Operativo
+R01087,EQ-021,2025-11-04,Preventivo,—,Programado,Mantenimiento preventivo programado,90.8,M. Torres,Baja,0.6,Operativo
+R01121,EQ-021,2025-11-25,Correctivo,Desgaste,Baja,Filtro saturado,,J. Ramírez,Baja,5.5,Operativo
+R01123,EQ-021,2025-12-14,Correctivo,Sensores,Media,Error de lectura de presión,950.07,M. Torres,Media,7.5,En observación
+R01115,EQ-021,2025-12-26,Correctivo,Software,Media,Error de comunicación,299.13,M. Torres,Media,1.4,En observación
+R01097,EQ-021,2026-01-23,Correctivo,Mecánica,Alta,Desgaste de válvula,249.92,M. Torres,Alta,4.5,Operativo
+R01088,EQ-021,2026-02-08,Preventivo,—,Programado,Mantenimiento preventivo programado,110.4,M. Torres,Baja,0.6,Operativo
+R01110,EQ-021,2026-05-02,Correctivo,Mecánica,Baja,Holgura en soporte,137.96,A. Flores,Baja,5.1,En observación
+R01089,EQ-021,2026-05-14,Preventivo,—,Programado,Mantenimiento preventivo programado,109.9,A. Flores,Baja,0.8,Operativo
+R01166,EQ-022,2022-02-01,Correctivo,Desgaste,Media,Acumulación de horas de uso,415.21,A. Flores,Media,7.0,Operativo
+R01180,EQ-022,2022-02-10,Correctivo,Mecánica,Baja,Falla en bomba peristáltica,391.98,A. Flores,Baja,6.4,En observación
+R01128,EQ-022,2022-02-12,Preventivo,—,Programado,Mantenimiento preventivo programado,84.2,M. Torres,Baja,0.9,Operativo
+R01181,EQ-022,2022-02-16,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,799.82,J. Ramírez,Alta,6.7,Operativo
+R01172,EQ-022,2022-02-21,Correctivo,Calibración,Alta,Desviación de medición,150.46,J. Ramírez,Alta,7.2,Operativo
+R01169,EQ-022,2022-03-07,Correctivo,Software,Media,Error de comunicación,,A. Flores,Media,6.7,Operativo
+R01156,EQ-022,2022-04-12,Correctivo,Sensores,Media,Sensor SpO2 descalibrado,697.53,J. Ramírez,Media,7.3,Operativo
+R01168,EQ-022,2022-04-16,Correctivo,Calibración,Alta,Ajuste de cero requerido,190.58,A. Flores,Alta,4.3,Operativo
+R01162,EQ-022,2022-05-16,Correctivo,Software,Alta,Falla en calibración digital,92.41,L. Quispe,Alta,1.0,En observación
+R01129,EQ-022,2022-05-18,Preventivo,—,Programado,Mantenimiento preventivo programado,69.24,L. Quispe,Baja,1.2,Operativo
+R01175,EQ-022,2022-06-28,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,783.42,A. Flores,Alta,3.6,En observación
+R01130,EQ-022,2022-08-19,Preventivo,—,Programado,Mantenimiento preventivo programado,141.06,A. Flores,Baja,1.7,Operativo
+R01158,EQ-022,2022-09-23,Correctivo,Mecánica,Alta,Holgura en soporte,450.32,M. Torres,Alta,6.7,Operativo
+R01186,EQ-022,2022-10-10,Correctivo,Sensores,Alta,Error de lectura de presión,503.69,M. Torres,Alta,7.8,Operativo
+R01167,EQ-022,2022-10-25,Correctivo,Software,Alta,Falla en calibración digital,184.53,J. Ramírez,Alta,6.1,Operativo
+R01131,EQ-022,2022-11-23,Preventivo,—,Programado,Mantenimiento preventivo programado,130.24,M. Torres,Baja,1.2,Operativo
+R01157,EQ-022,2022-11-30,Correctivo,Desgaste,Alta,Acumulación de horas de uso,344.3,J. Ramírez,Alta,2.7,Operativo
+R01189,EQ-022,2022-12-01,Correctivo,Calibración,Alta,Calibración vencida,292.94,A. Flores,Alta,6.9,Operativo
+R01146,EQ-022,2023-01-13,Correctivo,Software,Alta,Error de comunicación,193.16,M. Torres,Alta,3.4,Operativo
+R01160,EQ-022,2023-01-28,Correctivo,Eléctrica,Alta,Falla en cargador,416.87,A. Flores,Alta,1.2,Operativo
+R01151,EQ-022,2023-02-13,Correctivo,Sensores,Alta,Error de lectura de presión,674.99,L. Quispe,Alta,6.9,En observación
+R01132,EQ-022,2023-02-19,Preventivo,—,Programado,Mantenimiento preventivo programado,164.19,J. Ramírez,Baja,1.7,Operativo
+R01182,EQ-022,2023-02-24,Correctivo,Sensores,Media,Sensor de flujo defectuoso,615.7,A. Flores,Media,3.5,Operativo
+R01171,EQ-022,2023-03-15,Correctivo,Eléctrica,Alta,Falla en cargador,224.25,J. Ramírez,Alta,2.5,En observación
+R01148,EQ-022,2023-05-08,Correctivo,Sensores,Media,Termistor fuera de rango,745.56,J. Ramírez,Media,5.9,Operativo
+R01133,EQ-022,2023-05-16,Preventivo,—,Programado,Mantenimiento preventivo programado,142.11,M. Torres,Baja,0.8,Operativo
+R01149,EQ-022,2023-05-16,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,336.06,J. Ramírez,Alta,7.1,Operativo
+R01155,EQ-022,2023-07-27,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,473.36,L. Quispe,Alta,1.1,Operativo
+R01134,EQ-022,2023-08-17,Preventivo,—,Programado,Mantenimiento preventivo programado,169.03,M. Torres,Baja,0.7,Operativo
+R01135,EQ-022,2023-11-09,Preventivo,—,Programado,Mantenimiento preventivo programado,79.5,J. Ramírez,Baja,1.8,Operativo
+R01136,EQ-022,2024-02-13,Preventivo,—,Programado,Mantenimiento preventivo programado,90.61,L. Quispe,Baja,0.6,Operativo
+R01159,EQ-022,2024-02-13,Correctivo,Sensores,Media,Sensor de flujo defectuoso,410.56,A. Flores,Media,2.5,Operativo
+R01185,EQ-022,2024-03-09,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,758.28,J. Ramírez,Alta,3.6,Operativo
+R01170,EQ-022,2024-03-12,Correctivo,Software,Alta,Error de firmware,378.74,M. Torres,Alta,1.4,Operativo
+R01184,EQ-022,2024-03-16,Correctivo,Mecánica,Alta,Rotura de manguera,199.13,M. Torres,Alta,6.2,En observación
+R01178,EQ-022,2024-04-16,Correctivo,Software,Alta,Falla en calibración digital,142.88,A. Flores,Alta,1.2,Operativo
+R01137,EQ-022,2024-05-21,Preventivo,—,Programado,Mantenimiento preventivo programado,130.6,M. Torres,Baja,0.9,Operativo
+R01150,EQ-022,2024-06-19,Correctivo,Mecánica,Alta,Holgura en soporte,564.47,J. Ramírez,Alta,8.0,Operativo
+R01163,EQ-022,2024-08-06,Correctivo,Eléctrica,Media,Falla en cargador,493.18,M. Torres,Media,7.0,En observación
+R01147,EQ-022,2024-08-14,Correctivo,Sensores,Alta,Error de lectura de presión,778.53,L. Quispe,Alta,5.3,Operativo
+R01138,EQ-022,2024-08-16,Preventivo,—,Programado,Mantenimiento preventivo programado,115.29,M. Torres,Baja,0.6,Operativo
+R01161,EQ-022,2024-09-08,Correctivo,Eléctrica,Media,Fusible quemado,185.51,A. Flores,Media,5.5,Operativo
+R01153,EQ-022,2024-09-25,Correctivo,Mecánica,Media,Desgaste de válvula,622.91,M. Torres,Media,2.4,En observación
+R01139,EQ-022,2024-11-05,Preventivo,—,Programado,Mantenimiento preventivo programado,112.88,M. Torres,Baja,0.5,Operativo
+R01177,EQ-022,2024-11-05,Correctivo,Eléctrica,Media,Falla en cargador,222.3,M. Torres,Media,5.2,Operativo
+R01140,EQ-022,2025-01-28,Preventivo,—,Programado,Mantenimiento preventivo programado,152.71,L. Quispe,Baja,1.1,Operativo
+R01173,EQ-022,2025-04-15,Correctivo,Software,Alta,Pantalla congelada,176.07,L. Quispe,Alta,7.5,En observación
+R01141,EQ-022,2025-04-23,Preventivo,—,Programado,Mantenimiento preventivo programado,69.3,L. Quispe,Baja,0.5,Operativo
+R01187,EQ-022,2025-05-01,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,1178.25,L. Quispe,Alta,2.4,Operativo
+R01165,EQ-022,2025-07-06,Correctivo,Mecánica,Baja,Desgaste de válvula,,A. Flores,Baja,2.8,Operativo
+R01154,EQ-022,2025-07-20,Correctivo,Mecánica,Alta,Obstrucción de circuito,249.85,M. Torres,Alta,6.6,Operativo
+R01142,EQ-022,2025-07-23,Preventivo,—,Programado,Mantenimiento preventivo programado,79.44,J. Ramírez,Baja,0.5,Operativo
+R01152,EQ-022,2025-08-01,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,910.74,A. Flores,Alta,6.9,Operativo
+R01188,EQ-022,2025-09-05,Correctivo,Calibración,Alta,Ajuste de cero requerido,119.63,J. Ramírez,Alta,4.7,Operativo
+R01143,EQ-022,2025-10-17,Preventivo,—,Programado,Mantenimiento preventivo programado,150.16,J. Ramírez,Baja,1.2,Operativo
+R01183,EQ-022,2025-11-10,Correctivo,Eléctrica,Alta,Batería agotada,474.47,M. Torres,Alta,7.4,Operativo
+R01174,EQ-022,2025-12-25,Correctivo,Sensores,Alta,Error de lectura de presión,921.6,L. Quispe,Alta,6.6,En observación
+R01144,EQ-022,2026-01-20,Preventivo,—,Programado,Mantenimiento preventivo programado,144.62,J. Ramírez,Baja,1.4,Operativo
+R01176,EQ-022,2026-01-30,Correctivo,Sensores,Media,Error de lectura de presión,566.75,A. Flores,Media,6.6,En observación
+R01179,EQ-022,2026-02-10,Correctivo,Desgaste,Alta,Filtro saturado,231.65,J. Ramírez,Alta,1.7,Operativo
+R01164,EQ-022,2026-03-10,Correctivo,Mecánica,Alta,Falla en bomba peristáltica,864.06,A. Flores,Alta,3.4,Operativo
+R01145,EQ-022,2026-04-27,Preventivo,—,Programado,Mantenimiento preventivo programado,123.13,J. Ramírez,Baja,1.6,Operativo
+R01190,EQ-023,2022-01-02,Preventivo,—,Programado,Mantenimiento preventivo programado,168.42,J. Ramírez,Baja,1.1,Operativo
+R01243,EQ-023,2022-01-03,Correctivo,Software,Alta,Pantalla congelada,709.6,J. Ramírez,Alta,6.2,Operativo
+R01246,EQ-023,2022-01-04,Correctivo,Desgaste,Alta,Filtro saturado,1181.17,M. Torres,Alta,4.9,En observación
+R01241,EQ-023,2022-01-11,Correctivo,Mecánica,Alta,Desgaste de válvula,1792.61,M. Torres,Alta,6.6,Operativo
+R01191,EQ-023,2022-04-10,Preventivo,—,Programado,Mantenimiento preventivo programado,172.63,J. Ramírez,Baja,1.5,Operativo
+R01239,EQ-023,2022-04-29,Correctivo,Calibración,Alta,Calibración vencida,426.79,A. Flores,Alta,3.1,En observación
+R01192,EQ-023,2022-06-29,Preventivo,—,Programado,Mantenimiento preventivo programado,85.19,M. Torres,Baja,1.0,Operativo
+R01223,EQ-023,2022-06-30,Correctivo,Eléctrica,Alta,Cortocircuito en placa,632.77,J. Ramírez,Alta,6.4,Operativo
+R01253,EQ-023,2022-08-14,Correctivo,Sensores,Baja,Sensor SpO2 descalibrado,451.06,A. Flores,Baja,4.9,En observación
+R01234,EQ-023,2022-09-12,Correctivo,Eléctrica,Alta,Batería agotada,937.21,L. Quispe,Alta,4.2,Operativo
+R01220,EQ-023,2022-09-13,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,1901.63,M. Torres,Alta,3.3,En observación
+R01193,EQ-023,2022-10-02,Preventivo,—,Programado,Mantenimiento preventivo programado,80.46,M. Torres,Baja,0.6,Operativo
+R01238,EQ-023,2022-11-15,Correctivo,Software,Media,Error de firmware,108.96,M. Torres,Media,3.2,Operativo
+R01247,EQ-023,2022-12-19,Correctivo,Calibración,Media,Calibración vencida,458.82,L. Quispe,Media,4.7,Operativo
+R01194,EQ-023,2023-01-02,Preventivo,—,Programado,Mantenimiento preventivo programado,74.41,M. Torres,Baja,2.0,Operativo
+R01214,EQ-023,2023-02-05,Correctivo,Calibración,Alta,Calibración vencida,320.61,A. Flores,Alta,1.8,Operativo
+R01222,EQ-023,2023-02-06,Correctivo,Eléctrica,Media,Cortocircuito en placa,807.1,J. Ramírez,Media,8.0,En observación
+R01195,EQ-023,2023-03-29,Preventivo,—,Programado,Mantenimiento preventivo programado,163.49,M. Torres,Baja,0.8,Operativo
+R01249,EQ-023,2023-03-30,Correctivo,Eléctrica,Alta,Fusible quemado,501.23,A. Flores,Alta,2.0,En observación
+R01209,EQ-023,2023-05-03,Correctivo,Mecánica,Alta,Rotura de manguera,1142.01,L. Quispe,Alta,2.1,Operativo
+R01251,EQ-023,2023-05-26,Correctivo,Eléctrica,Alta,Cortocircuito en placa,451.77,J. Ramírez,Alta,5.3,Operativo
+R01225,EQ-023,2023-06-04,Correctivo,Mecánica,Media,Rotura de manguera,1660.85,L. Quispe,Media,1.5,En observación
+R01235,EQ-023,2023-06-09,Correctivo,Mecánica,Alta,Holgura en soporte,1094.96,A. Flores,Alta,1.2,Operativo
+R01196,EQ-023,2023-06-22,Preventivo,—,Programado,Mantenimiento preventivo programado,68.92,A. Flores,Baja,0.8,Operativo
+R01216,EQ-023,2023-06-29,Correctivo,Eléctrica,Alta,Batería agotada,593.39,J. Ramírez,Alta,4.7,Operativo
+R01210,EQ-023,2023-08-01,Correctivo,Software,Media,Falla en calibración digital,84.66,M. Torres,Media,6.7,Operativo
+R01255,EQ-023,2023-08-24,Correctivo,Sensores,Baja,Sensor de flujo defectuoso,1896.18,A. Flores,Baja,7.2,Operativo
+R01218,EQ-023,2023-09-19,Correctivo,Mecánica,Media,Holgura en soporte,1403.98,J. Ramírez,Media,2.2,Operativo
+R01197,EQ-023,2023-09-25,Preventivo,—,Programado,Mantenimiento preventivo programado,169.46,J. Ramírez,Baja,1.1,Operativo
+R01226,EQ-023,2023-10-23,Correctivo,Eléctrica,Alta,Cortocircuito en placa,956.87,M. Torres,Alta,7.4,Operativo
+R01233,EQ-023,2023-11-04,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,957.16,A. Flores,Alta,1.9,En observación
+R01231,EQ-023,2023-11-17,Correctivo,Sensores,Media,Termistor fuera de rango,2365.74,L. Quispe,Media,6.8,Operativo
+R01224,EQ-023,2023-12-27,Correctivo,Software,Alta,Pantalla congelada,720.46,J. Ramírez,Alta,6.6,Operativo
+R01198,EQ-023,2023-12-29,Preventivo,—,Programado,Mantenimiento preventivo programado,83.97,A. Flores,Baja,1.4,Operativo
+R01227,EQ-023,2024-01-15,Correctivo,Mecánica,Media,Desgaste de válvula,1642.45,A. Flores,Media,4.5,Operativo
+R01252,EQ-023,2024-02-28,Correctivo,Mecánica,Baja,Rotura de manguera,932.05,J. Ramírez,Baja,6.9,En observación
+R01250,EQ-023,2024-03-12,Correctivo,Calibración,Alta,Calibración vencida,258.92,M. Torres,Alta,2.3,En observación
+R01199,EQ-023,2024-03-20,Preventivo,—,Programado,Mantenimiento preventivo programado,168.56,A. Flores,Baja,0.9,Operativo
+R01240,EQ-023,2024-04-04,Correctivo,Mecánica,Alta,Holgura en soporte,1216.26,A. Flores,Alta,1.4,Operativo
+R01236,EQ-023,2024-05-03,Correctivo,Calibración,Media,Ajuste de cero requerido,289.05,J. Ramírez,Media,1.3,Operativo
+R01200,EQ-023,2024-06-16,Preventivo,—,Programado,Mantenimiento preventivo programado,144.03,M. Torres,Baja,1.6,Operativo
+R01212,EQ-023,2024-07-08,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,2064.83,A. Flores,Alta,7.5,Operativo
+R01201,EQ-023,2024-09-10,Preventivo,—,Programado,Mantenimiento preventivo programado,67.83,M. Torres,Baja,1.0,Operativo
+R01213,EQ-023,2024-09-29,Correctivo,Sensores,Media,Termistor fuera de rango,786.02,L. Quispe,Media,3.9,En observación
+R01202,EQ-023,2024-12-01,Preventivo,—,Programado,Mantenimiento preventivo programado,137.41,J. Ramírez,Baja,1.0,Operativo
+R01217,EQ-023,2024-12-05,Correctivo,Sensores,Alta,Error de lectura de presión,1314.06,L. Quispe,Alta,3.0,Operativo
+R01203,EQ-023,2025-02-19,Preventivo,—,Programado,Mantenimiento preventivo programado,74.92,M. Torres,Baja,0.6,Operativo
+R01232,EQ-023,2025-04-20,Correctivo,Software,Baja,Error de firmware,136.79,M. Torres,Baja,2.2,Operativo
+R01221,EQ-023,2025-05-24,Correctivo,Software,Baja,Falla en calibración digital,601.82,J. Ramírez,Baja,5.4,En observación
+R01204,EQ-023,2025-05-26,Preventivo,—,Programado,Mantenimiento preventivo programado,96.8,J. Ramírez,Baja,1.5,Operativo
+R01228,EQ-023,2025-07-08,Correctivo,Calibración,Alta,Desviación de medición,101.04,M. Torres,Alta,1.7,Operativo
+R01215,EQ-023,2025-07-23,Correctivo,Eléctrica,Alta,Batería agotada,712.78,L. Quispe,Alta,3.8,Operativo
+R01244,EQ-023,2025-07-31,Correctivo,Eléctrica,Baja,Falla en cargador,521.08,M. Torres,Baja,5.3,En observación
+R01205,EQ-023,2025-08-17,Preventivo,—,Programado,Mantenimiento preventivo programado,110.25,M. Torres,Baja,1.1,Operativo
+R01245,EQ-023,2025-08-31,Correctivo,Software,Media,Error de comunicación,45.51,M. Torres,Media,5.1,En observación
+R01211,EQ-023,2025-10-30,Correctivo,Software,Media,Error de firmware,786.87,L. Quispe,Media,1.7,Operativo
+R01206,EQ-023,2025-11-10,Preventivo,—,Programado,Mantenimiento preventivo programado,,M. Torres,Baja,1.8,Operativo
+R01254,EQ-023,2025-11-18,Correctivo,Sensores,Alta,Error de lectura de presión,1619.52,J. Ramírez,Alta,5.4,Operativo
+R01242,EQ-023,2026-02-11,Correctivo,Desgaste,Media,Componente al final de vida útil,936.54,J. Ramírez,Media,6.0,Operativo
+R01207,EQ-023,2026-02-16,Preventivo,—,Programado,Mantenimiento preventivo programado,123.73,L. Quispe,Baja,1.8,Operativo
+R01229,EQ-023,2026-02-21,Correctivo,Sensores,Alta,Termistor fuera de rango,1447.1,J. Ramírez,Alta,2.2,Operativo
+R01248,EQ-023,2026-02-23,Correctivo,Sensores,Alta,Error de lectura de presión,1473.9,J. Ramírez,Alta,6.5,En observación
+R01219,EQ-023,2026-03-04,Correctivo,Sensores,Media,Error de lectura de presión,390.74,L. Quispe,Media,4.7,Operativo
+R01237,EQ-023,2026-04-09,Correctivo,Sensores,Media,Sensor SpO2 descalibrado,493.98,M. Torres,Media,3.7,Operativo
+R01230,EQ-023,2026-04-12,Correctivo,Mecánica,Alta,Desgaste de válvula,665.3,M. Torres,Alta,6.1,Operativo
+R01208,EQ-023,2026-05-20,Preventivo,—,Programado,Mantenimiento preventivo programado,88.26,A. Flores,Baja,0.6,Operativo
+R01256,EQ-024,2022-01-20,Preventivo,—,Programado,Mantenimiento preventivo programado,172.64,J. Ramírez,Baja,1.3,Operativo
+R01312,EQ-024,2022-03-14,Correctivo,Software,Alta,Pantalla congelada,176.42,J. Ramírez,Alta,5.6,En observación
+R01316,EQ-024,2022-04-19,Correctivo,Desgaste,Baja,Filtro saturado,716.96,A. Flores,Baja,2.0,Operativo
+R01257,EQ-024,2022-04-20,Preventivo,—,Programado,Mantenimiento preventivo programado,125.9,L. Quispe,Baja,1.0,Operativo
+R01282,EQ-024,2022-05-21,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,1191.31,L. Quispe,Alta,1.8,En observación
+R01296,EQ-024,2022-06-09,Correctivo,Software,Alta,Error de firmware,43.55,M. Torres,Alta,5.4,En observación
+R01258,EQ-024,2022-07-14,Preventivo,—,Programado,Mantenimiento preventivo programado,164.69,J. Ramírez,Baja,0.5,Operativo
+R01294,EQ-024,2022-09-24,Correctivo,Eléctrica,Alta,Batería agotada,723.68,A. Flores,Alta,7.7,En observación
+R01277,EQ-024,2022-10-04,Correctivo,Mecánica,Alta,Holgura en soporte,1541.12,J. Ramírez,Alta,5.7,En observación
+R01259,EQ-024,2022-10-10,Preventivo,—,Programado,Mantenimiento preventivo programado,120.61,L. Quispe,Baja,0.9,Operativo
+R01260,EQ-024,2023-01-12,Preventivo,—,Programado,Mantenimiento preventivo programado,141.37,L. Quispe,Baja,0.5,Operativo
+R01261,EQ-024,2023-04-21,Preventivo,—,Programado,Mantenimiento preventivo programado,119.38,L. Quispe,Baja,1.4,Operativo
+R01314,EQ-024,2023-05-23,Correctivo,Sensores,Media,Sensor SpO2 descalibrado,,L. Quispe,Media,2.4,Operativo
+R01299,EQ-024,2023-06-04,Correctivo,Software,Media,Falla en calibración digital,15.68,J. Ramírez,Media,1.5,Operativo
+R01279,EQ-024,2023-06-06,Correctivo,Mecánica,Media,Falla en bomba peristáltica,584.19,M. Torres,Media,5.6,En observación
+R01276,EQ-024,2023-06-20,Correctivo,Eléctrica,Media,Falla en fuente de poder,1151.21,A. Flores,Media,2.1,Operativo
+R01262,EQ-024,2023-07-28,Preventivo,—,Programado,Mantenimiento preventivo programado,105.79,A. Flores,Baja,1.9,Operativo
+R01305,EQ-024,2023-09-30,Correctivo,Desgaste,Baja,Acumulación de horas de uso,368.72,J. Ramírez,Baja,4.2,Operativo
+R01310,EQ-024,2023-09-30,Correctivo,Eléctrica,Alta,Batería agotada,1011.4,A. Flores,Alta,3.3,Operativo
+R01263,EQ-024,2023-10-16,Preventivo,—,Programado,Mantenimiento preventivo programado,153.07,M. Torres,Baja,1.3,Operativo
+R01297,EQ-024,2023-12-22,Correctivo,Mecánica,Alta,Desgaste de válvula,1536.8,A. Flores,Alta,4.0,Operativo
+R01290,EQ-024,2024-01-12,Correctivo,Eléctrica,Alta,Batería agotada,592.82,L. Quispe,Alta,3.9,En observación
+R01292,EQ-024,2024-01-16,Correctivo,Eléctrica,Alta,Falla en cargador,319.97,M. Torres,Alta,7.3,Operativo
+R01264,EQ-024,2024-01-21,Preventivo,—,Programado,Mantenimiento preventivo programado,,J. Ramírez,Baja,1.4,Operativo
+R01293,EQ-024,2024-01-21,Correctivo,Mecánica,Alta,Falla en bomba peristáltica,1612.35,M. Torres,Alta,7.2,Operativo
+R01300,EQ-024,2024-02-05,Correctivo,Software,Media,Falla en calibración digital,662.24,L. Quispe,Media,6.0,Operativo
+R01283,EQ-024,2024-03-11,Correctivo,Mecánica,Baja,Desgaste de válvula,921.41,M. Torres,Baja,6.4,Operativo
+R01265,EQ-024,2024-04-13,Preventivo,—,Programado,Mantenimiento preventivo programado,,A. Flores,Baja,1.8,Operativo
+R01281,EQ-024,2024-04-16,Correctivo,Eléctrica,Alta,Cortocircuito en placa,487.66,A. Flores,Alta,3.6,En observación
+R01308,EQ-024,2024-05-15,Correctivo,Software,Baja,Pantalla congelada,632.18,L. Quispe,Baja,7.1,Operativo
+R01266,EQ-024,2024-07-18,Preventivo,—,Programado,Mantenimiento preventivo programado,145.21,A. Flores,Baja,1.7,Operativo
+R01313,EQ-024,2024-07-26,Correctivo,Mecánica,Media,Holgura en soporte,288.77,J. Ramírez,Media,3.0,En observación
+R01291,EQ-024,2024-07-27,Correctivo,Mecánica,Alta,Holgura en soporte,509.88,M. Torres,Alta,5.2,Operativo
+R01286,EQ-024,2024-08-21,Correctivo,Software,Alta,Pantalla congelada,70.7,J. Ramírez,Alta,2.1,Operativo
+R01304,EQ-024,2024-08-24,Correctivo,Mecánica,Media,Falla en bomba peristáltica,642.29,J. Ramírez,Media,2.1,Operativo
+R01288,EQ-024,2024-10-02,Correctivo,Eléctrica,Alta,Batería agotada,775.58,M. Torres,Alta,6.8,Operativo
+R01285,EQ-024,2024-10-04,Correctivo,Eléctrica,Alta,Falla en cargador,686.8,M. Torres,Alta,7.9,Operativo
+R01278,EQ-024,2024-10-06,Correctivo,Software,Baja,Error de firmware,557.61,M. Torres,Baja,7.5,Operativo
+R01275,EQ-024,2024-10-09,Correctivo,Sensores,Media,Termistor fuera de rango,1861.26,M. Torres,Media,2.4,En observación
+R01267,EQ-024,2024-10-10,Preventivo,—,Programado,Mantenimiento preventivo programado,65.87,A. Flores,Baja,1.5,Operativo
+R01302,EQ-024,2024-11-20,Correctivo,Sensores,Media,Error de lectura de presión,1220.96,L. Quispe,Media,6.9,En observación
+R01274,EQ-024,2024-11-25,Correctivo,Desgaste,Alta,Filtro saturado,789.68,M. Torres,Alta,2.7,Operativo
+R01301,EQ-024,2024-11-26,Correctivo,Mecánica,Alta,Obstrucción de circuito,628.26,A. Flores,Alta,2.3,En observación
+R01280,EQ-024,2024-12-12,Correctivo,Sensores,Media,Error de lectura de presión,343.14,J. Ramírez,Media,4.8,Operativo
+R01289,EQ-024,2025-01-02,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,673.67,J. Ramírez,Alta,5.9,Operativo
+R01268,EQ-024,2025-01-03,Preventivo,—,Programado,Mantenimiento preventivo programado,97.11,A. Flores,Baja,1.5,Operativo
+R01269,EQ-024,2025-04-08,Preventivo,—,Programado,Mantenimiento preventivo programado,108.89,A. Flores,Baja,1.4,Operativo
+R01311,EQ-024,2025-06-11,Correctivo,Eléctrica,Media,Falla en cargador,507.21,M. Torres,Media,3.5,Operativo
+R01270,EQ-024,2025-07-12,Preventivo,—,Programado,Mantenimiento preventivo programado,128.55,L. Quispe,Baja,1.6,Operativo
+R01307,EQ-024,2025-08-13,Correctivo,Software,Alta,Error de comunicación,,A. Flores,Alta,5.6,Operativo
+R01319,EQ-024,2025-08-28,Correctivo,Sensores,Media,Termistor fuera de rango,1328.4,J. Ramírez,Media,5.9,Operativo
+R01298,EQ-024,2025-09-19,Correctivo,Mecánica,Alta,Desgaste de válvula,306.39,J. Ramírez,Alta,7.6,Operativo
+R01271,EQ-024,2025-10-06,Preventivo,—,Programado,Mantenimiento preventivo programado,99.39,J. Ramírez,Baja,1.2,Operativo
+R01295,EQ-024,2025-10-18,Correctivo,Desgaste,Alta,Filtro saturado,801.79,L. Quispe,Alta,7.9,Operativo
+R01303,EQ-024,2025-10-31,Correctivo,Eléctrica,Alta,Fusible quemado,412.34,M. Torres,Alta,6.3,En observación
+R01287,EQ-024,2025-11-04,Correctivo,Eléctrica,Alta,Falla en fuente de poder,990.08,L. Quispe,Alta,4.7,Operativo
+R01315,EQ-024,2025-11-26,Correctivo,Eléctrica,Alta,Falla en fuente de poder,429.66,L. Quispe,Alta,1.3,Operativo
+R01309,EQ-024,2025-11-28,Correctivo,Eléctrica,Media,Falla en cargador,1079.39,M. Torres,Media,7.3,Operativo
+R01272,EQ-024,2026-01-04,Preventivo,—,Programado,Mantenimiento preventivo programado,163.95,M. Torres,Baja,0.6,Operativo
+R01306,EQ-024,2026-01-20,Correctivo,Eléctrica,Alta,Batería agotada,1105.9,L. Quispe,Alta,6.4,En observación
+R01321,EQ-024,2026-01-26,Correctivo,Sensores,Media,Error de lectura de presión,2337.39,L. Quispe,Media,1.4,Operativo
+R01320,EQ-024,2026-02-12,Correctivo,Software,Alta,Falla en calibración digital,160.3,A. Flores,Alta,4.8,En observación
+R01284,EQ-024,2026-02-20,Correctivo,Mecánica,Alta,Holgura en soporte,1097.06,M. Torres,Alta,6.4,Operativo
+R01318,EQ-024,2026-02-20,Correctivo,Eléctrica,Media,Batería agotada,222.61,L. Quispe,Media,3.1,Operativo
+R01273,EQ-024,2026-04-01,Preventivo,—,Programado,Mantenimiento preventivo programado,107.75,A. Flores,Baja,1.7,Operativo
+R01317,EQ-024,2026-05-09,Correctivo,Eléctrica,Alta,Batería agotada,931.06,M. Torres,Alta,2.2,En observación
+R01322,EQ-025,2022-01-16,Preventivo,—,Programado,Mantenimiento preventivo programado,,J. Ramírez,Baja,0.7,Operativo
+R01323,EQ-025,2022-04-16,Preventivo,—,Programado,Mantenimiento preventivo programado,118.42,M. Torres,Baja,1.3,Operativo
+R01348,EQ-025,2022-06-24,Correctivo,Sensores,Baja,Error de lectura de presión,468.74,M. Torres,Baja,2.7,Operativo
+R01324,EQ-025,2022-07-16,Preventivo,—,Programado,Mantenimiento preventivo programado,61.34,L. Quispe,Baja,1.4,Operativo
+R01343,EQ-025,2022-08-16,Correctivo,Eléctrica,Baja,Cortocircuito en placa,,L. Quispe,Baja,1.7,Operativo
+R01364,EQ-025,2022-08-23,Correctivo,Sensores,Media,Termistor fuera de rango,974.89,A. Flores,Media,3.8,Operativo
+R01344,EQ-025,2022-08-26,Correctivo,Software,Baja,Error de firmware,334.45,L. Quispe,Baja,7.7,Operativo
+R01355,EQ-025,2022-08-29,Correctivo,Sensores,Media,Sensor de flujo defectuoso,977.42,J. Ramírez,Media,1.6,Operativo
+R01325,EQ-025,2022-10-09,Preventivo,—,Programado,Mantenimiento preventivo programado,160.13,A. Flores,Baja,0.6,Operativo
+R01326,EQ-025,2022-12-30,Preventivo,—,Programado,Mantenimiento preventivo programado,144.98,L. Quispe,Baja,1.8,Operativo
+R01346,EQ-025,2023-03-12,Correctivo,Sensores,Media,Error de lectura de presión,649.08,M. Torres,Media,7.4,En observación
+R01327,EQ-025,2023-04-04,Preventivo,—,Programado,Mantenimiento preventivo programado,134.81,L. Quispe,Baja,1.4,Operativo
+R01366,EQ-025,2023-04-09,Correctivo,Eléctrica,Media,Falla en fuente de poder,329.18,M. Torres,Media,6.5,En observación
+R01341,EQ-025,2023-05-11,Correctivo,Sensores,Alta,Termistor fuera de rango,882.25,M. Torres,Alta,2.8,En observación
+R01328,EQ-025,2023-06-26,Preventivo,—,Programado,Mantenimiento preventivo programado,123.65,J. Ramírez,Baja,0.6,Operativo
+R01365,EQ-025,2023-07-03,Correctivo,Eléctrica,Media,Batería agotada,119.75,J. Ramírez,Media,3.1,Operativo
+R01347,EQ-025,2023-08-03,Correctivo,Calibración,Alta,Ajuste de cero requerido,160.07,A. Flores,Alta,4.4,Operativo
+R01350,EQ-025,2023-08-05,Correctivo,Calibración,Alta,Calibración vencida,,L. Quispe,Alta,7.3,Operativo
+R01353,EQ-025,2023-08-25,Correctivo,Sensores,Media,Sensor SpO2 descalibrado,494.79,M. Torres,Media,7.8,En observación
+R01329,EQ-025,2023-10-01,Preventivo,—,Programado,Mantenimiento preventivo programado,171.65,L. Quispe,Baja,1.2,Operativo
+R01354,EQ-025,2023-10-15,Correctivo,Software,Baja,Pantalla congelada,325.33,A. Flores,Baja,5.2,Operativo
+R01356,EQ-025,2023-10-25,Correctivo,Eléctrica,Baja,Batería agotada,509.13,L. Quispe,Baja,6.9,Operativo
+R01330,EQ-025,2023-12-28,Preventivo,—,Programado,Mantenimiento preventivo programado,173.28,M. Torres,Baja,1.6,Operativo
+R01349,EQ-025,2024-01-10,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,541.73,J. Ramírez,Alta,7.0,Operativo
+R01331,EQ-025,2024-03-26,Preventivo,—,Programado,Mantenimiento preventivo programado,116.18,L. Quispe,Baja,0.7,Operativo
+R01342,EQ-025,2024-04-27,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,572.95,J. Ramírez,Alta,5.9,Operativo
+R01332,EQ-025,2024-06-19,Preventivo,—,Programado,Mantenimiento preventivo programado,72.74,M. Torres,Baja,1.3,Operativo
+R01363,EQ-025,2024-09-07,Correctivo,Sensores,Baja,Sensor de flujo defectuoso,178.24,J. Ramírez,Baja,1.4,Operativo
+R01333,EQ-025,2024-09-15,Preventivo,—,Programado,Mantenimiento preventivo programado,166.19,M. Torres,Baja,1.2,Operativo
+R01334,EQ-025,2024-12-07,Preventivo,—,Programado,Mantenimiento preventivo programado,176.4,A. Flores,Baja,1.5,Operativo
+R01351,EQ-025,2024-12-18,Correctivo,Software,Media,Falla en calibración digital,9.07,L. Quispe,Media,3.4,Operativo
+R01352,EQ-025,2025-01-05,Correctivo,Eléctrica,Media,Fusible quemado,554.21,J. Ramírez,Media,1.8,Operativo
+R01362,EQ-025,2025-02-25,Correctivo,Eléctrica,Alta,Cortocircuito en placa,198.93,L. Quispe,Alta,7.2,Operativo
+R01335,EQ-025,2025-03-02,Preventivo,—,Programado,Mantenimiento preventivo programado,,J. Ramírez,Baja,1.9,Operativo
+R01367,EQ-025,2025-04-10,Correctivo,Calibración,Alta,Desviación de medición,212.73,J. Ramírez,Alta,2.0,Operativo
+R01336,EQ-025,2025-06-02,Preventivo,—,Programado,Mantenimiento preventivo programado,,J. Ramírez,Baja,0.9,Operativo
+R01337,EQ-025,2025-08-24,Preventivo,—,Programado,Mantenimiento preventivo programado,112.58,M. Torres,Baja,1.6,Operativo
+R01345,EQ-025,2025-08-29,Correctivo,Sensores,Alta,Termistor fuera de rango,340.07,A. Flores,Alta,6.2,Operativo
+R01360,EQ-025,2025-09-14,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,177.2,M. Torres,Alta,7.3,En observación
+R01357,EQ-025,2025-10-18,Correctivo,Eléctrica,Alta,Cortocircuito en placa,538.41,A. Flores,Alta,2.8,Operativo
+R01359,EQ-025,2025-11-10,Correctivo,Software,Media,Error de comunicación,136.68,L. Quispe,Media,6.0,Operativo
+R01338,EQ-025,2025-11-23,Preventivo,—,Programado,Mantenimiento preventivo programado,154.99,M. Torres,Baja,1.6,Operativo
+R01358,EQ-025,2025-12-21,Correctivo,Calibración,Alta,Desviación de medición,,J. Ramírez,Alta,7.1,Operativo
+R01361,EQ-025,2025-12-24,Correctivo,Eléctrica,Alta,Falla en cargador,154.0,A. Flores,Alta,4.7,En observación
+R01339,EQ-025,2026-03-02,Preventivo,—,Programado,Mantenimiento preventivo programado,109.64,M. Torres,Baja,1.1,Operativo
+R01340,EQ-025,2026-05-26,Preventivo,—,Programado,Mantenimiento preventivo programado,156.97,M. Torres,Baja,1.1,Operativo
+R01368,EQ-026,2022-02-01,Preventivo,—,Programado,Mantenimiento preventivo programado,63.93,J. Ramírez,Baja,1.6,Operativo
+R01406,EQ-026,2022-04-09,Correctivo,Mecánica,Alta,Falla en bomba peristáltica,311.95,M. Torres,Alta,6.2,Operativo
+R01403,EQ-026,2022-04-14,Correctivo,Sensores,Baja,Error de lectura de presión,449.98,J. Ramírez,Baja,7.4,Operativo
+R01369,EQ-026,2022-05-10,Preventivo,—,Programado,Mantenimiento preventivo programado,126.06,A. Flores,Baja,0.7,Operativo
+R01401,EQ-026,2022-08-09,Correctivo,Mecánica,Alta,Falla en bomba peristáltica,829.24,A. Flores,Alta,1.8,Operativo
+R01370,EQ-026,2022-08-12,Preventivo,—,Programado,Mantenimiento preventivo programado,81.45,A. Flores,Baja,0.9,Operativo
+R01394,EQ-026,2022-09-07,Correctivo,Mecánica,Baja,Falla en bomba peristáltica,391.53,M. Torres,Baja,8.0,En observación
+R01412,EQ-026,2022-10-03,Correctivo,Mecánica,Alta,Holgura en soporte,443.88,A. Flores,Alta,6.9,Operativo
+R01371,EQ-026,2022-11-15,Preventivo,—,Programado,Mantenimiento preventivo programado,148.52,M. Torres,Baja,1.0,Operativo
+R01399,EQ-026,2022-12-02,Correctivo,Mecánica,Media,Desgaste de válvula,691.18,L. Quispe,Media,1.5,Operativo
+R01372,EQ-026,2023-02-13,Preventivo,—,Programado,Mantenimiento preventivo programado,98.59,J. Ramírez,Baja,1.2,Operativo
+R01373,EQ-026,2023-05-18,Preventivo,—,Programado,Mantenimiento preventivo programado,92.92,A. Flores,Baja,1.6,Operativo
+R01398,EQ-026,2023-06-17,Correctivo,Mecánica,Media,Rotura de manguera,,A. Flores,Media,6.4,En observación
+R01374,EQ-026,2023-08-11,Preventivo,—,Programado,Mantenimiento preventivo programado,126.11,M. Torres,Baja,0.6,Operativo
+R01408,EQ-026,2023-08-19,Correctivo,Eléctrica,Media,Batería agotada,544.53,J. Ramírez,Media,2.7,Operativo
+R01402,EQ-026,2023-09-07,Correctivo,Mecánica,Baja,Obstrucción de circuito,234.89,A. Flores,Baja,6.8,Operativo
+R01410,EQ-026,2023-10-31,Correctivo,Eléctrica,Media,Batería agotada,122.67,J. Ramírez,Media,6.4,En observación
+R01395,EQ-026,2023-11-06,Correctivo,Software,Media,Error de comunicación,21.85,J. Ramírez,Media,6.6,Operativo
+R01375,EQ-026,2023-11-10,Preventivo,—,Programado,Mantenimiento preventivo programado,129.17,M. Torres,Baja,1.8,Operativo
+R01389,EQ-026,2023-12-17,Correctivo,Sensores,Media,Termistor fuera de rango,1087.24,M. Torres,Media,4.3,Operativo
+R01415,EQ-026,2024-01-06,Correctivo,Eléctrica,Media,Falla en fuente de poder,96.95,A. Flores,Media,1.8,En observación
+R01376,EQ-026,2024-02-05,Preventivo,—,Programado,Mantenimiento preventivo programado,118.84,J. Ramírez,Baja,0.7,Operativo
+R01392,EQ-026,2024-04-23,Correctivo,Mecánica,Media,Holgura en soporte,268.1,L. Quispe,Media,5.3,Operativo
+R01377,EQ-026,2024-05-05,Preventivo,—,Programado,Mantenimiento preventivo programado,172.5,M. Torres,Baja,1.7,Operativo
+R01405,EQ-026,2024-05-25,Correctivo,Mecánica,Alta,Holgura en soporte,598.57,A. Flores,Alta,5.3,Operativo
+R01414,EQ-026,2024-07-21,Correctivo,Software,Alta,Error de firmware,248.43,M. Torres,Alta,4.3,En observación
+R01378,EQ-026,2024-07-25,Preventivo,—,Programado,Mantenimiento preventivo programado,129.61,M. Torres,Baja,0.9,Operativo
+R01404,EQ-026,2024-07-31,Correctivo,Sensores,Baja,Sensor SpO2 descalibrado,835.19,J. Ramírez,Baja,6.8,En observación
+R01407,EQ-026,2024-08-02,Correctivo,Sensores,Media,Error de lectura de presión,1079.64,J. Ramírez,Media,3.3,Operativo
+R01413,EQ-026,2024-09-26,Correctivo,Mecánica,Baja,Holgura en soporte,410.5,J. Ramírez,Baja,3.1,Operativo
+R01409,EQ-026,2024-10-07,Correctivo,Sensores,Media,Termistor fuera de rango,724.94,J. Ramírez,Media,7.8,Operativo
+R01379,EQ-026,2024-10-18,Preventivo,—,Programado,Mantenimiento preventivo programado,101.22,L. Quispe,Baja,1.0,Operativo
+R01390,EQ-026,2024-10-30,Correctivo,Software,Alta,Error de comunicación,306.94,A. Flores,Alta,1.3,Operativo
+R01387,EQ-026,2024-11-08,Correctivo,Eléctrica,Baja,Cortocircuito en placa,256.76,L. Quispe,Baja,5.0,En observación
+R01380,EQ-026,2025-01-14,Preventivo,—,Programado,Mantenimiento preventivo programado,133.94,L. Quispe,Baja,1.8,Operativo
+R01411,EQ-026,2025-01-25,Correctivo,Sensores,Media,Error de lectura de presión,455.15,A. Flores,Media,1.5,Operativo
+R01381,EQ-026,2025-04-10,Preventivo,—,Programado,Mantenimiento preventivo programado,109.7,M. Torres,Baja,1.4,Operativo
+R01397,EQ-026,2025-04-29,Correctivo,Desgaste,Media,Acumulación de horas de uso,,L. Quispe,Media,5.6,En observación
+R01382,EQ-026,2025-07-05,Preventivo,—,Programado,Mantenimiento preventivo programado,129.56,L. Quispe,Baja,1.4,Operativo
+R01400,EQ-026,2025-07-21,Correctivo,Mecánica,Baja,Desgaste de válvula,319.44,J. Ramírez,Baja,7.7,En observación
+R01388,EQ-026,2025-09-22,Correctivo,Sensores,Media,Error de lectura de presión,729.45,M. Torres,Media,3.1,Operativo
+R01383,EQ-026,2025-10-07,Preventivo,—,Programado,Mantenimiento preventivo programado,161.2,A. Flores,Baja,1.4,Operativo
+R01391,EQ-026,2025-12-24,Correctivo,Software,Alta,Error de comunicación,339.1,J. Ramírez,Alta,5.8,Operativo
+R01384,EQ-026,2026-01-02,Preventivo,—,Programado,Mantenimiento preventivo programado,118.96,J. Ramírez,Baja,0.8,Operativo
+R01386,EQ-026,2026-02-15,Correctivo,Mecánica,Baja,Falla en bomba peristáltica,,L. Quispe,Baja,1.2,Operativo
+R01396,EQ-026,2026-02-20,Correctivo,Eléctrica,Media,Falla en cargador,492.24,J. Ramírez,Media,4.4,Operativo
+R01393,EQ-026,2026-03-05,Correctivo,Software,Media,Error de firmware,129.76,J. Ramírez,Media,7.2,Operativo
+R01385,EQ-026,2026-04-05,Preventivo,—,Programado,Mantenimiento preventivo programado,100.03,L. Quispe,Baja,1.1,Operativo
+R01416,EQ-027,2022-01-30,Preventivo,—,Programado,Mantenimiento preventivo programado,61.98,A. Flores,Baja,0.6,Operativo
+R01469,EQ-027,2022-02-06,Correctivo,Eléctrica,Alta,Cortocircuito en placa,577.17,A. Flores,Alta,4.9,Operativo
+R01453,EQ-027,2022-04-01,Correctivo,Eléctrica,Alta,Batería agotada,177.01,J. Ramírez,Alta,5.3,Operativo
+R01461,EQ-027,2022-04-07,Correctivo,Eléctrica,Media,Cortocircuito en placa,440.95,M. Torres,Media,4.7,Operativo
+R01417,EQ-027,2022-04-25,Preventivo,—,Programado,Mantenimiento preventivo programado,106.49,L. Quispe,Baja,0.8,Operativo
+R01435,EQ-027,2022-05-24,Correctivo,Calibración,Alta,Ajuste de cero requerido,207.02,M. Torres,Alta,2.8,Operativo
+R01449,EQ-027,2022-06-21,Correctivo,Calibración,Alta,Ajuste de cero requerido,211.8,M. Torres,Alta,6.7,Operativo
+R01436,EQ-027,2022-07-04,Correctivo,Calibración,Baja,Desviación de medición,102.67,J. Ramírez,Baja,3.7,Operativo
+R01418,EQ-027,2022-07-22,Preventivo,—,Programado,Mantenimiento preventivo programado,63.66,A. Flores,Baja,0.7,Operativo
+R01462,EQ-027,2022-09-03,Correctivo,Calibración,Media,Ajuste de cero requerido,98.86,J. Ramírez,Media,2.5,Operativo
+R01456,EQ-027,2022-09-16,Correctivo,Eléctrica,Media,Cortocircuito en placa,127.37,A. Flores,Media,3.3,Operativo
+R01442,EQ-027,2022-09-17,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,674.58,L. Quispe,Alta,7.6,Operativo
+R01419,EQ-027,2022-10-17,Preventivo,—,Programado,Mantenimiento preventivo programado,112.1,M. Torres,Baja,1.1,Operativo
+R01420,EQ-027,2023-01-17,Preventivo,—,Programado,Mantenimiento preventivo programado,114.18,L. Quispe,Baja,0.9,Operativo
+R01454,EQ-027,2023-01-18,Correctivo,Calibración,Alta,Calibración vencida,273.52,L. Quispe,Alta,7.7,Operativo
+R01467,EQ-027,2023-02-10,Correctivo,Eléctrica,Baja,Batería agotada,132.56,J. Ramírez,Baja,7.3,Operativo
+R01474,EQ-027,2023-03-16,Correctivo,Sensores,Media,Error de lectura de presión,1152.38,J. Ramírez,Media,5.4,Operativo
+R01421,EQ-027,2023-04-14,Preventivo,—,Programado,Mantenimiento preventivo programado,117.1,J. Ramírez,Baja,1.3,Operativo
+R01443,EQ-027,2023-04-24,Correctivo,Sensores,Media,Error de lectura de presión,240.05,M. Torres,Media,7.5,Operativo
+R01452,EQ-027,2023-06-07,Correctivo,Software,Alta,Error de comunicación,169.87,M. Torres,Alta,5.1,Operativo
+R01422,EQ-027,2023-07-18,Preventivo,—,Programado,Mantenimiento preventivo programado,104.48,L. Quispe,Baja,1.0,Operativo
+R01448,EQ-027,2023-09-15,Correctivo,Sensores,Media,Sensor de flujo defectuoso,318.5,L. Quispe,Media,1.7,Operativo
+R01423,EQ-027,2023-10-25,Preventivo,—,Programado,Mantenimiento preventivo programado,83.8,M. Torres,Baja,1.8,Operativo
+R01460,EQ-027,2023-10-27,Correctivo,Software,Alta,Error de comunicación,336.43,M. Torres,Alta,1.2,Operativo
+R01458,EQ-027,2023-12-03,Correctivo,Calibración,Alta,Ajuste de cero requerido,134.33,M. Torres,Alta,6.4,Operativo
+R01445,EQ-027,2023-12-24,Correctivo,Calibración,Media,Calibración vencida,108.99,L. Quispe,Media,7.7,En observación
+R01424,EQ-027,2024-01-17,Preventivo,—,Programado,Mantenimiento preventivo programado,70.26,J. Ramírez,Baja,1.0,Operativo
+R01434,EQ-027,2024-01-22,Correctivo,Eléctrica,Alta,Batería agotada,154.81,L. Quispe,Alta,1.4,En observación
+R01451,EQ-027,2024-02-01,Correctivo,Eléctrica,Media,Falla en cargador,467.62,L. Quispe,Media,4.8,En observación
+R01470,EQ-027,2024-03-17,Correctivo,Eléctrica,Alta,Fusible quemado,413.09,A. Flores,Alta,7.8,Operativo
+R01425,EQ-027,2024-04-14,Preventivo,—,Programado,Mantenimiento preventivo programado,66.39,A. Flores,Baja,1.9,Operativo
+R01466,EQ-027,2024-04-23,Correctivo,Software,Media,Error de comunicación,63.93,J. Ramírez,Media,5.1,En observación
+R01457,EQ-027,2024-06-19,Correctivo,Desgaste,Baja,Filtro saturado,526.5,J. Ramírez,Baja,3.5,Operativo
+R01426,EQ-027,2024-07-17,Preventivo,—,Programado,Mantenimiento preventivo programado,107.41,L. Quispe,Baja,0.6,Operativo
+R01464,EQ-027,2024-08-14,Correctivo,Desgaste,Media,Filtro saturado,234.3,J. Ramírez,Media,5.6,Operativo
+R01427,EQ-027,2024-10-05,Preventivo,—,Programado,Mantenimiento preventivo programado,163.73,A. Flores,Baja,1.3,Operativo
+R01438,EQ-027,2024-10-12,Correctivo,Mecánica,Alta,Desgaste de válvula,509.66,J. Ramírez,Alta,3.3,Operativo
+R01463,EQ-027,2024-10-12,Correctivo,Calibración,Alta,Ajuste de cero requerido,,M. Torres,Alta,4.5,Operativo
+R01440,EQ-027,2024-11-18,Correctivo,Sensores,Alta,Termistor fuera de rango,457.31,L. Quispe,Alta,3.7,En observación
+R01428,EQ-027,2025-01-05,Preventivo,—,Programado,Mantenimiento preventivo programado,99.5,L. Quispe,Baja,1.9,Operativo
+R01472,EQ-027,2025-02-28,Correctivo,Desgaste,Alta,Acumulación de horas de uso,758.75,M. Torres,Alta,5.7,En observación
+R01444,EQ-027,2025-04-03,Correctivo,Calibración,Alta,Calibración vencida,270.17,J. Ramírez,Alta,7.3,Operativo
+R01429,EQ-027,2025-04-14,Preventivo,—,Programado,Mantenimiento preventivo programado,166.17,J. Ramírez,Baja,0.7,Operativo
+R01446,EQ-027,2025-05-21,Correctivo,Eléctrica,Baja,Falla en cargador,465.68,M. Torres,Baja,7.4,Operativo
+R01439,EQ-027,2025-05-22,Correctivo,Desgaste,Media,Acumulación de horas de uso,420.1,A. Flores,Media,6.0,Operativo
+R01471,EQ-027,2025-06-14,Correctivo,Eléctrica,Media,Falla en cargador,152.34,L. Quispe,Media,6.6,Operativo
+R01468,EQ-027,2025-06-20,Correctivo,Mecánica,Media,Holgura en soporte,214.89,J. Ramírez,Media,3.9,Operativo
+R01430,EQ-027,2025-07-07,Preventivo,—,Programado,Mantenimiento preventivo programado,76.85,M. Torres,Baja,1.0,Operativo
+R01450,EQ-027,2025-07-25,Correctivo,Calibración,Alta,Calibración vencida,290.85,L. Quispe,Alta,2.6,En observación
+R01473,EQ-027,2025-08-18,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,1161.56,A. Flores,Alta,6.5,Operativo
+R01465,EQ-027,2025-09-12,Correctivo,Eléctrica,Alta,Batería agotada,463.09,J. Ramírez,Alta,7.8,En observación
+R01431,EQ-027,2025-09-28,Preventivo,—,Programado,Mantenimiento preventivo programado,85.34,L. Quispe,Baja,0.9,Operativo
+R01447,EQ-027,2025-10-04,Correctivo,Calibración,Alta,Ajuste de cero requerido,191.84,J. Ramírez,Alta,4.4,Operativo
+R01432,EQ-027,2026-01-05,Preventivo,—,Programado,Mantenimiento preventivo programado,133.29,A. Flores,Baja,0.8,Operativo
+R01455,EQ-027,2026-02-12,Correctivo,Software,Alta,Falla en calibración digital,207.86,M. Torres,Alta,2.3,En observación
+R01437,EQ-027,2026-03-29,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,,J. Ramírez,Alta,6.5,Operativo
+R01433,EQ-027,2026-04-12,Preventivo,—,Programado,Mantenimiento preventivo programado,110.85,J. Ramírez,Baja,1.5,Operativo
+R01441,EQ-027,2026-04-12,Correctivo,Eléctrica,Media,Falla en cargador,263.75,J. Ramírez,Media,2.9,Operativo
+R01459,EQ-027,2026-04-21,Correctivo,Eléctrica,Media,Cortocircuito en placa,519.65,M. Torres,Media,1.1,Operativo
+R01475,EQ-028,2022-01-14,Preventivo,—,Programado,Mantenimiento preventivo programado,87.28,L. Quispe,Baja,0.6,Operativo
+R01514,EQ-028,2022-01-22,Correctivo,Sensores,Baja,Termistor fuera de rango,185.04,A. Flores,Baja,1.5,Operativo
+R01499,EQ-028,2022-03-28,Correctivo,Eléctrica,Media,Batería agotada,114.47,A. Flores,Media,7.5,Operativo
+R01476,EQ-028,2022-04-14,Preventivo,—,Programado,Mantenimiento preventivo programado,97.19,J. Ramírez,Baja,1.0,Operativo
+R01477,EQ-028,2022-07-05,Preventivo,—,Programado,Mantenimiento preventivo programado,107.51,A. Flores,Baja,1.7,Operativo
+R01496,EQ-028,2022-07-07,Correctivo,Eléctrica,Media,Cortocircuito en placa,551.11,L. Quispe,Media,5.7,En observación
+R01509,EQ-028,2022-07-08,Correctivo,Eléctrica,Media,Falla en cargador,466.03,J. Ramírez,Media,3.8,Operativo
+R01508,EQ-028,2022-08-24,Correctivo,Mecánica,Alta,Falla en bomba peristáltica,136.31,A. Flores,Alta,5.9,En observación
+R01506,EQ-028,2022-09-08,Correctivo,Sensores,Media,Error de lectura de presión,1133.74,L. Quispe,Media,6.9,Operativo
+R01478,EQ-028,2022-09-23,Preventivo,—,Programado,Mantenimiento preventivo programado,72.85,M. Torres,Baja,1.3,Operativo
+R01507,EQ-028,2022-12-08,Correctivo,Desgaste,Media,Filtro saturado,759.26,M. Torres,Media,2.5,Operativo
+R01500,EQ-028,2022-12-23,Correctivo,Mecánica,Alta,Holgura en soporte,348.43,L. Quispe,Alta,5.1,Operativo
+R01479,EQ-028,2022-12-27,Preventivo,—,Programado,Mantenimiento preventivo programado,97.67,L. Quispe,Baja,1.2,Operativo
+R01516,EQ-028,2023-02-11,Correctivo,Sensores,Alta,Termistor fuera de rango,266.02,L. Quispe,Alta,3.8,Operativo
+R01510,EQ-028,2023-03-09,Correctivo,Mecánica,Media,Obstrucción de circuito,651.38,L. Quispe,Media,6.3,En observación
+R01480,EQ-028,2023-03-17,Preventivo,—,Programado,Mantenimiento preventivo programado,91.22,M. Torres,Baja,1.3,Operativo
+R01517,EQ-028,2023-06-20,Correctivo,Desgaste,Media,Filtro saturado,273.72,A. Flores,Media,7.3,Operativo
+R01481,EQ-028,2023-06-23,Preventivo,—,Programado,Mantenimiento preventivo programado,72.09,J. Ramírez,Baja,1.8,Operativo
+R01482,EQ-028,2023-09-11,Preventivo,—,Programado,Mantenimiento preventivo programado,68.85,L. Quispe,Baja,0.7,Operativo
+R01483,EQ-028,2023-12-16,Preventivo,—,Programado,Mantenimiento preventivo programado,161.79,L. Quispe,Baja,0.9,Operativo
+R01495,EQ-028,2023-12-21,Correctivo,Mecánica,Media,Desgaste de válvula,373.62,J. Ramírez,Media,5.9,En observación
+R01511,EQ-028,2024-01-18,Correctivo,Calibración,Media,Calibración vencida,117.84,M. Torres,Media,2.1,Operativo
+R01497,EQ-028,2024-02-24,Correctivo,Eléctrica,Baja,Falla en fuente de poder,280.89,M. Torres,Baja,3.9,Operativo
+R01484,EQ-028,2024-03-15,Preventivo,—,Programado,Mantenimiento preventivo programado,137.92,M. Torres,Baja,0.5,Operativo
+R01503,EQ-028,2024-04-24,Correctivo,Sensores,Media,Termistor fuera de rango,518.23,M. Torres,Media,2.6,Operativo
+R01512,EQ-028,2024-04-29,Correctivo,Mecánica,Baja,Rotura de manguera,200.39,L. Quispe,Baja,1.8,Operativo
+R01485,EQ-028,2024-06-06,Preventivo,—,Programado,Mantenimiento preventivo programado,147.48,M. Torres,Baja,1.1,Operativo
+R01486,EQ-028,2024-08-25,Preventivo,—,Programado,Mantenimiento preventivo programado,148.57,L. Quispe,Baja,1.3,Operativo
+R01501,EQ-028,2024-10-25,Correctivo,Eléctrica,Media,Fusible quemado,577.89,A. Flores,Media,2.2,En observación
+R01487,EQ-028,2024-11-14,Preventivo,—,Programado,Mantenimiento preventivo programado,118.5,J. Ramírez,Baja,0.5,Operativo
+R01505,EQ-028,2024-11-28,Correctivo,Mecánica,Media,Rotura de manguera,737.73,A. Flores,Media,7.8,Operativo
+R01488,EQ-028,2025-02-13,Preventivo,—,Programado,Mantenimiento preventivo programado,175.56,A. Flores,Baja,1.8,Operativo
+R01489,EQ-028,2025-05-09,Preventivo,—,Programado,Mantenimiento preventivo programado,118.54,A. Flores,Baja,1.0,Operativo
+R01513,EQ-028,2025-06-10,Correctivo,Sensores,Media,Error de lectura de presión,1057.39,L. Quispe,Media,3.7,Operativo
+R01490,EQ-028,2025-08-03,Preventivo,—,Programado,Mantenimiento preventivo programado,131.26,J. Ramírez,Baja,0.9,Operativo
+R01494,EQ-028,2025-09-11,Correctivo,Mecánica,Media,Holgura en soporte,697.85,L. Quispe,Media,3.2,Operativo
+R01515,EQ-028,2025-10-21,Correctivo,Mecánica,Media,Desgaste de válvula,568.83,J. Ramírez,Media,5.8,Operativo
+R01518,EQ-028,2025-10-29,Correctivo,Desgaste,Media,Componente al final de vida útil,750.09,J. Ramírez,Media,7.2,Operativo
+R01491,EQ-028,2025-11-06,Preventivo,—,Programado,Mantenimiento preventivo programado,138.04,A. Flores,Baja,1.9,Operativo
+R01492,EQ-028,2026-02-07,Preventivo,—,Programado,Mantenimiento preventivo programado,108.39,M. Torres,Baja,0.9,Operativo
+R01502,EQ-028,2026-03-30,Correctivo,Mecánica,Media,Rotura de manguera,512.22,L. Quispe,Media,4.6,En observación
+R01498,EQ-028,2026-04-12,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,805.59,L. Quispe,Alta,3.6,Operativo
+R01493,EQ-028,2026-04-30,Preventivo,—,Programado,Mantenimiento preventivo programado,75.48,L. Quispe,Baja,1.3,Operativo
+R01504,EQ-028,2026-05-05,Correctivo,Sensores,Baja,Termistor fuera de rango,568.72,L. Quispe,Baja,2.9,Operativo
+R01519,EQ-029,2022-01-30,Preventivo,—,Programado,Mantenimiento preventivo programado,127.68,J. Ramírez,Baja,1.2,Operativo
+R01550,EQ-029,2022-02-01,Correctivo,Eléctrica,Alta,Falla en fuente de poder,145.25,M. Torres,Alta,3.5,Operativo
+R01549,EQ-029,2022-02-21,Correctivo,Mecánica,Media,Obstrucción de circuito,602.35,A. Flores,Media,2.9,En observación
+R01562,EQ-029,2022-03-07,Correctivo,Mecánica,Baja,Obstrucción de circuito,487.59,J. Ramírez,Baja,2.9,Operativo
+R01554,EQ-029,2022-03-25,Correctivo,Sensores,Alta,Error de lectura de presión,737.29,M. Torres,Alta,7.9,En observación
+R01561,EQ-029,2022-04-11,Correctivo,Eléctrica,Alta,Falla en cargador,337.43,J. Ramírez,Alta,1.5,Operativo
+R01558,EQ-029,2022-04-14,Correctivo,Eléctrica,Alta,Falla en cargador,198.47,L. Quispe,Alta,3.7,Operativo
+R01520,EQ-029,2022-05-07,Preventivo,—,Programado,Mantenimiento preventivo programado,61.56,J. Ramírez,Baja,1.0,Operativo
+R01570,EQ-029,2022-06-05,Correctivo,Sensores,Alta,Error de lectura de presión,489.64,J. Ramírez,Alta,1.1,Operativo
+R01542,EQ-029,2022-07-15,Correctivo,Calibración,Alta,Ajuste de cero requerido,114.67,L. Quispe,Alta,5.8,Operativo
+R01568,EQ-029,2022-07-15,Correctivo,Desgaste,Alta,Filtro saturado,277.98,M. Torres,Alta,7.4,En observación
+R01521,EQ-029,2022-08-01,Preventivo,—,Programado,Mantenimiento preventivo programado,93.35,J. Ramírez,Baja,0.6,Operativo
+R01555,EQ-029,2022-10-25,Correctivo,Eléctrica,Media,Fusible quemado,295.62,M. Torres,Media,3.6,Operativo
+R01522,EQ-029,2022-10-30,Preventivo,—,Programado,Mantenimiento preventivo programado,61.26,M. Torres,Baja,1.9,Operativo
+R01571,EQ-029,2022-12-06,Correctivo,Eléctrica,Alta,Fusible quemado,449.91,L. Quispe,Alta,6.4,Operativo
+R01523,EQ-029,2023-02-02,Preventivo,—,Programado,Mantenimiento preventivo programado,124.9,J. Ramírez,Baja,1.4,Operativo
+R01574,EQ-029,2023-03-12,Correctivo,Desgaste,Media,Componente al final de vida útil,268.85,A. Flores,Media,2.1,En observación
+R01575,EQ-029,2023-03-14,Correctivo,Desgaste,Alta,Filtro saturado,258.94,M. Torres,Alta,1.5,Operativo
+R01544,EQ-029,2023-04-09,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,310.42,L. Quispe,Alta,6.1,Operativo
+R01567,EQ-029,2023-04-27,Correctivo,Software,Alta,Pantalla congelada,104.91,L. Quispe,Alta,5.3,En observación
+R01524,EQ-029,2023-05-12,Preventivo,—,Programado,Mantenimiento preventivo programado,97.31,A. Flores,Baja,0.6,Operativo
+R01569,EQ-029,2023-05-25,Correctivo,Calibración,Alta,Calibración vencida,132.16,M. Torres,Alta,1.2,Operativo
+R01525,EQ-029,2023-08-08,Preventivo,—,Programado,Mantenimiento preventivo programado,83.54,A. Flores,Baja,0.7,Operativo
+R01548,EQ-029,2023-09-19,Correctivo,Calibración,Media,Desviación de medición,288.37,A. Flores,Media,6.9,En observación
+R01553,EQ-029,2023-10-27,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,1097.59,J. Ramírez,Alta,6.1,Operativo
+R01526,EQ-029,2023-11-11,Preventivo,—,Programado,Mantenimiento preventivo programado,70.33,L. Quispe,Baja,1.7,Operativo
+R01557,EQ-029,2023-12-23,Correctivo,Software,Media,Pantalla congelada,8.05,A. Flores,Media,4.9,Operativo
+R01572,EQ-029,2024-01-26,Correctivo,Eléctrica,Alta,Falla en cargador,150.36,A. Flores,Alta,5.0,Operativo
+R01527,EQ-029,2024-01-31,Preventivo,—,Programado,Mantenimiento preventivo programado,173.31,A. Flores,Baja,1.2,Operativo
+R01547,EQ-029,2024-02-06,Correctivo,Software,Media,Error de comunicación,296.07,A. Flores,Media,1.2,Operativo
+R01565,EQ-029,2024-02-08,Correctivo,Calibración,Alta,Desviación de medición,84.2,M. Torres,Alta,4.9,Operativo
+R01538,EQ-029,2024-03-28,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,1159.97,M. Torres,Alta,6.3,En observación
+R01528,EQ-029,2024-05-07,Preventivo,—,Programado,Mantenimiento preventivo programado,102.9,J. Ramírez,Baja,2.0,Operativo
+R01546,EQ-029,2024-07-07,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,755.77,J. Ramírez,Alta,6.3,Operativo
+R01552,EQ-029,2024-07-21,Correctivo,Sensores,Alta,Termistor fuera de rango,249.48,M. Torres,Alta,4.3,Operativo
+R01543,EQ-029,2024-07-26,Correctivo,Calibración,Media,Ajuste de cero requerido,106.58,M. Torres,Media,1.1,Operativo
+R01529,EQ-029,2024-07-28,Preventivo,—,Programado,Mantenimiento preventivo programado,153.55,A. Flores,Baja,1.5,Operativo
+R01545,EQ-029,2024-08-15,Correctivo,Sensores,Alta,Termistor fuera de rango,1003.38,L. Quispe,Alta,5.7,Operativo
+R01530,EQ-029,2024-11-02,Preventivo,—,Programado,Mantenimiento preventivo programado,107.62,M. Torres,Baja,0.9,Operativo
+R01556,EQ-029,2024-11-17,Correctivo,Eléctrica,Alta,Falla en fuente de poder,537.66,M. Torres,Alta,3.0,Operativo
+R01564,EQ-029,2025-01-02,Correctivo,Software,Media,Pantalla congelada,394.52,J. Ramírez,Media,7.6,Operativo
+R01531,EQ-029,2025-02-09,Preventivo,—,Programado,Mantenimiento preventivo programado,84.24,M. Torres,Baja,1.9,Operativo
+R01537,EQ-029,2025-03-11,Correctivo,Eléctrica,Alta,Falla en fuente de poder,355.0,L. Quispe,Alta,4.3,En observación
+R01532,EQ-029,2025-05-12,Preventivo,—,Programado,Mantenimiento preventivo programado,,J. Ramírez,Baja,1.7,Operativo
+R01576,EQ-029,2025-08-02,Correctivo,Software,Media,Falla en calibración digital,172.06,M. Torres,Media,3.6,En observación
+R01533,EQ-029,2025-08-05,Preventivo,—,Programado,Mantenimiento preventivo programado,92.91,A. Flores,Baja,1.6,Operativo
+R01560,EQ-029,2025-09-01,Correctivo,Mecánica,Alta,Desgaste de válvula,818.15,L. Quispe,Alta,1.0,Operativo
+R01573,EQ-029,2025-09-06,Correctivo,Sensores,Media,Error de lectura de presión,767.47,A. Flores,Media,4.1,Operativo
+R01539,EQ-029,2025-10-02,Correctivo,Software,Media,Error de firmware,315.28,L. Quispe,Media,5.4,Operativo
+R01534,EQ-029,2025-11-08,Preventivo,—,Programado,Mantenimiento preventivo programado,,J. Ramírez,Baja,0.8,Operativo
+R01578,EQ-029,2025-11-27,Correctivo,Eléctrica,Media,Fusible quemado,543.64,L. Quispe,Media,2.2,Operativo
+R01540,EQ-029,2025-12-25,Correctivo,Eléctrica,Alta,Falla en cargador,575.22,J. Ramírez,Alta,3.1,En observación
+R01566,EQ-029,2026-01-21,Correctivo,Calibración,Alta,Calibración vencida,218.86,J. Ramírez,Alta,3.2,Operativo
+R01535,EQ-029,2026-02-04,Preventivo,—,Programado,Mantenimiento preventivo programado,168.99,M. Torres,Baja,1.7,Operativo
+R01551,EQ-029,2026-04-05,Correctivo,Sensores,Alta,Sensor de flujo defectuoso,201.28,M. Torres,Alta,7.1,Operativo
+R01559,EQ-029,2026-04-15,Correctivo,Software,Media,Error de comunicación,323.36,L. Quispe,Media,2.3,Operativo
+R01541,EQ-029,2026-04-23,Correctivo,Sensores,Alta,Error de lectura de presión,619.57,M. Torres,Alta,4.6,Operativo
+R01536,EQ-029,2026-05-02,Preventivo,—,Programado,Mantenimiento preventivo programado,134.22,L. Quispe,Baja,0.6,Operativo
+R01563,EQ-029,2026-05-24,Correctivo,Eléctrica,Baja,Cortocircuito en placa,131.86,A. Flores,Baja,7.2,Operativo
+R01577,EQ-029,2026-05-29,Correctivo,Sensores,Media,Sensor SpO2 descalibrado,198.95,M. Torres,Media,3.4,Operativo
+R01579,EQ-030,2022-02-11,Preventivo,—,Programado,Mantenimiento preventivo programado,175.91,A. Flores,Baja,0.9,Operativo
+R01627,EQ-030,2022-03-15,Correctivo,Sensores,Baja,Termistor fuera de rango,837.05,M. Torres,Baja,7.3,Operativo
+R01620,EQ-030,2022-04-12,Correctivo,Sensores,Media,Sensor de flujo defectuoso,221.36,M. Torres,Media,5.6,En observación
+R01615,EQ-030,2022-04-28,Correctivo,Software,Baja,Pantalla congelada,32.36,L. Quispe,Baja,7.5,Operativo
+R01580,EQ-030,2022-05-18,Preventivo,—,Programado,Mantenimiento preventivo programado,78.24,J. Ramírez,Baja,0.6,Operativo
+R01598,EQ-030,2022-07-09,Correctivo,Eléctrica,Baja,Batería agotada,181.21,J. Ramírez,Baja,1.6,En observación
+R01581,EQ-030,2022-08-12,Preventivo,—,Programado,Mantenimiento preventivo programado,172.56,J. Ramírez,Baja,1.5,Operativo
+R01582,EQ-030,2022-11-16,Preventivo,—,Programado,Mantenimiento preventivo programado,118.18,L. Quispe,Baja,1.0,Operativo
+R01618,EQ-030,2022-12-08,Correctivo,Calibración,Alta,Ajuste de cero requerido,180.64,L. Quispe,Alta,2.1,Operativo
+R01597,EQ-030,2022-12-19,Correctivo,Sensores,Media,Error de lectura de presión,,L. Quispe,Media,5.3,Operativo
+R01605,EQ-030,2022-12-25,Correctivo,Sensores,Baja,Termistor fuera de rango,967.25,J. Ramírez,Baja,4.6,En observación
+R01631,EQ-030,2023-01-21,Correctivo,Sensores,Baja,Termistor fuera de rango,717.29,A. Flores,Baja,3.3,Operativo
+R01583,EQ-030,2023-02-12,Preventivo,—,Programado,Mantenimiento preventivo programado,78.76,A. Flores,Baja,0.6,Operativo
+R01603,EQ-030,2023-04-16,Correctivo,Sensores,Media,Termistor fuera de rango,504.62,M. Torres,Media,6.1,Operativo
+R01609,EQ-030,2023-05-08,Correctivo,Sensores,Baja,Termistor fuera de rango,282.27,J. Ramírez,Baja,4.5,En observación
+R01584,EQ-030,2023-05-19,Preventivo,—,Programado,Mantenimiento preventivo programado,65.18,L. Quispe,Baja,1.4,Operativo
+R01616,EQ-030,2023-06-09,Correctivo,Eléctrica,Alta,Fusible quemado,480.58,J. Ramírez,Alta,6.1,En observación
+R01607,EQ-030,2023-06-26,Correctivo,Sensores,Alta,Termistor fuera de rango,1097.37,J. Ramírez,Alta,6.3,Operativo
+R01604,EQ-030,2023-07-03,Correctivo,Calibración,Media,Ajuste de cero requerido,65.08,M. Torres,Media,8.0,En observación
+R01610,EQ-030,2023-07-24,Correctivo,Calibración,Media,Ajuste de cero requerido,260.07,L. Quispe,Media,5.8,Operativo
+R01611,EQ-030,2023-08-10,Correctivo,Sensores,Media,Error de lectura de presión,655.93,M. Torres,Media,5.2,Operativo
+R01619,EQ-030,2023-08-17,Correctivo,Eléctrica,Alta,Batería agotada,158.94,M. Torres,Alta,1.2,Operativo
+R01585,EQ-030,2023-08-21,Preventivo,—,Programado,Mantenimiento preventivo programado,119.17,L. Quispe,Baja,2.0,Operativo
+R01625,EQ-030,2023-09-11,Correctivo,Eléctrica,Alta,Fusible quemado,564.01,M. Torres,Alta,4.8,Operativo
+R01601,EQ-030,2023-11-17,Correctivo,Calibración,Media,Calibración vencida,204.07,A. Flores,Media,3.2,Operativo
+R01586,EQ-030,2023-11-18,Preventivo,—,Programado,Mantenimiento preventivo programado,92.34,J. Ramírez,Baja,1.1,Operativo
+R01626,EQ-030,2023-12-24,Correctivo,Calibración,Media,Ajuste de cero requerido,187.7,L. Quispe,Media,2.5,Operativo
+R01621,EQ-030,2024-01-02,Correctivo,Eléctrica,Baja,Batería agotada,580.33,L. Quispe,Baja,4.2,En observación
+R01587,EQ-030,2024-02-18,Preventivo,—,Programado,Mantenimiento preventivo programado,112.11,A. Flores,Baja,1.8,Operativo
+R01630,EQ-030,2024-02-28,Correctivo,Sensores,Media,Error de lectura de presión,428.42,M. Torres,Media,2.4,Operativo
+R01617,EQ-030,2024-03-25,Correctivo,Eléctrica,Alta,Batería agotada,,M. Torres,Alta,6.7,En observación
+R01588,EQ-030,2024-05-20,Preventivo,—,Programado,Mantenimiento preventivo programado,101.27,M. Torres,Baja,0.6,Operativo
+R01629,EQ-030,2024-06-01,Correctivo,Calibración,Alta,Ajuste de cero requerido,65.58,L. Quispe,Alta,1.9,En observación
+R01589,EQ-030,2024-08-19,Preventivo,—,Programado,Mantenimiento preventivo programado,112.34,A. Flores,Baja,1.7,Operativo
+R01608,EQ-030,2024-08-22,Correctivo,Software,Alta,Error de firmware,118.84,M. Torres,Alta,1.4,Operativo
+R01590,EQ-030,2024-11-11,Preventivo,—,Programado,Mantenimiento preventivo programado,70.0,J. Ramírez,Baja,1.6,Operativo
+R01600,EQ-030,2024-12-29,Correctivo,Software,Media,Pantalla congelada,391.03,L. Quispe,Media,4.4,En observación
+R01591,EQ-030,2025-02-08,Preventivo,—,Programado,Mantenimiento preventivo programado,108.12,J. Ramírez,Baja,1.2,Operativo
+R01613,EQ-030,2025-02-10,Correctivo,Eléctrica,Media,Falla en cargador,316.31,J. Ramírez,Media,1.0,En observación
+R01612,EQ-030,2025-04-01,Correctivo,Sensores,Baja,Error de lectura de presión,439.61,M. Torres,Baja,5.3,Operativo
+R01628,EQ-030,2025-04-09,Correctivo,Eléctrica,Media,Fusible quemado,580.38,J. Ramírez,Media,1.2,Operativo
+R01592,EQ-030,2025-05-16,Preventivo,—,Programado,Mantenimiento preventivo programado,110.05,A. Flores,Baja,0.9,Operativo
+R01622,EQ-030,2025-06-28,Correctivo,Calibración,Media,Calibración vencida,185.57,L. Quispe,Media,2.6,Operativo
+R01624,EQ-030,2025-07-19,Correctivo,Sensores,Media,Error de lectura de presión,278.56,A. Flores,Media,1.2,Operativo
+R01593,EQ-030,2025-08-07,Preventivo,—,Programado,Mantenimiento preventivo programado,178.42,A. Flores,Baja,1.0,Operativo
+R01602,EQ-030,2025-08-18,Correctivo,Eléctrica,Media,Fusible quemado,585.29,J. Ramírez,Media,1.3,En observación
+R01614,EQ-030,2025-09-11,Correctivo,Calibración,Baja,Ajuste de cero requerido,66.87,M. Torres,Baja,6.3,Operativo
+R01594,EQ-030,2025-10-29,Preventivo,—,Programado,Mantenimiento preventivo programado,152.41,A. Flores,Baja,1.4,Operativo
+R01595,EQ-030,2026-01-28,Preventivo,—,Programado,Mantenimiento preventivo programado,156.1,M. Torres,Baja,0.5,Operativo
+R01606,EQ-030,2026-02-20,Correctivo,Calibración,Media,Desviación de medición,132.26,J. Ramírez,Media,7.8,Operativo
+R01623,EQ-030,2026-03-17,Correctivo,Sensores,Alta,Sensor SpO2 descalibrado,852.09,J. Ramírez,Alta,7.2,Operativo
+R01599,EQ-030,2026-03-20,Correctivo,Eléctrica,Media,Fusible quemado,492.4,A. Flores,Media,6.7,Operativo
+R01596,EQ-030,2026-05-06,Preventivo,—,Programado,Mantenimiento preventivo programado,149.98,J. Ramírez,Baja,1.0,Operativo

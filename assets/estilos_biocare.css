@@ -1,0 +1,111 @@
+/* ============================================================
+   BioCare Dashboard - Estilos personalizados
+   Efectos visuales al pasar el cursor (hover)
+   ============================================================ */
+
+/* Items del menu lateral: se iluminan al pasar el cursor */
+.menu-item {
+    transition: all 0.25s ease !important;
+}
+.menu-item:hover {
+    background-color: rgba(255,255,255,0.08) !important;
+    color: #ffffff !important;
+    padding-left: 26px !important;
+}
+
+/* Tarjetas de KPI: se elevan al pasar el cursor */
+.tarjeta-hover {
+    transition: transform 0.25s ease, box-shadow 0.25s ease !important;
+}
+.tarjeta-hover:hover {
+    transform: translateY(-4px) !important;
+    box-shadow: 0 12px 30px rgba(8,55,77,0.16) !important;
+}
+
+/* Accesos rapidos del inicio: se resaltan al pasar el cursor */
+.acceso-hover {
+    transition: all 0.25s ease !important;
+    cursor: pointer !important;
+}
+.acceso-hover:hover {
+    background-color: #e4f7ef !important;
+    border-color: #13b0a5 !important;
+    transform: translateY(-3px) !important;
+}
+
+/* Botones: efecto al pasar el cursor */
+.boton-hover {
+    transition: all 0.2s ease !important;
+}
+.boton-hover:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 18px rgba(8,55,77,0.2) !important;
+    opacity: 0.95 !important;
+}
+
+/* Filas de tabla: resaltado suave al pasar el cursor */
+.fila-tabla:hover {
+    background-color: #f0f7f9 !important;
+}
+
+/* Suavizar todas las transiciones de la pagina */
+* {
+    scroll-behavior: smooth;
+}
+
+/* Campos del login: resaltado al hacer foco */
+.login-input:focus {
+    outline: none !important;
+    border-color: #13b0a5 !important;
+    box-shadow: 0 0 0 3px rgba(19,176,165,0.12) !important;
+}
+
+/* Asegurar que los desplegables (Dropdown) se muestren completos y por encima */
+.Select-menu-outer {
+    z-index: 1200 !important;
+}
+.VirtualizedSelectOption {
+    z-index: 1200 !important;
+}
+/* Asegurar que el calendario (DatePicker) se muestre por encima del formulario */
+.SingleDatePicker_picker {
+    z-index: 1200 !important;
+}
+.DayPicker, .CalendarMonth, .CalendarMonthGrid {
+    background: white !important;
+}
+
+/* ============================================================
+   Desplegables (Dropdown) dentro de formularios
+   ============================================================ */
+.Select-menu-outer {
+    z-index: 1500 !important;
+}
+.VirtualizedSelectOption, .Select-option {
+    background-color: white !important;
+}
+/* El calendario por encima de todo */
+.SingleDatePicker_picker {
+    z-index: 1500 !important;
+}
+
+/* ============================================================
+   SOLUCION DEFINITIVA: menus desplegables que se abren
+   correctamente sin cortarse dentro de formularios
+   ============================================================ */
+/* El menu del dropdown se posiciona por encima de todo el contenido */
+.Select-menu-outer {
+    z-index: 2000 !important;
+    position: absolute !important;
+    background-color: white !important;
+    box-shadow: 0 8px 24px rgba(8,55,77,0.18) !important;
+    border-radius: 8px !important;
+}
+/* Asegurar que las opciones tengan fondo solido y sean legibles */
+.Select-option, .VirtualizedSelectOption {
+    background-color: white !important;
+    color: #08374d !important;
+}
+.Select-option.is-focused, .VirtualizedSelectOption:hover {
+    background-color: #e4f7ef !important;
+}

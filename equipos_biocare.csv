@@ -1,0 +1,31 @@
+codigo,nombre,tipo,area,marca,anio,indice_crit,nivel_crit
+EQ-001,Ventilador mecánico adulto,Ventilador,UCI Cardiopediátrica,Draeger,2018,92,ALTO
+EQ-002,Monitor multiparámetro A,Monitor,Centro Quirúrgico,Philips,2019,88,ALTO
+EQ-003,Desfibrilador con monitor,Desfibrilador,UCI Cardiopediátrica,Zoll,2017,86,ALTO
+EQ-004,Bomba de infusión 2 canales,Bomba infusión,Centro Quirúrgico,Baxter,2020,84,ALTO
+EQ-005,Ecocardiógrafo TEE,Ecocardiógrafo,Cardiología Intervencionista,GE Healthcare,2019,82,ALTO
+EQ-006,Monitor multiparámetro B,Monitor,Anestesiología CV,Nihon Kohden,2018,79,ALTO
+EQ-007,Ventilador de transporte,Ventilador,UCI Cardiopediátrica,Hamilton,2021,76,ALTO
+EQ-008,Electrocardiógrafo 12 deriv.,Electrocardiógrafo,Cardiología Intervencionista,Fukuda Denshi,2017,74,ALTO
+EQ-009,Balón de contrapulsación,Balón contrapulsación,Centro Quirúrgico,Datascope,2016,71,ALTO
+EQ-010,Electrocardiógrafo 3 canales,Electrocardiógrafo,Cardiología Clínica,Biocare,2019,65,MEDIO
+EQ-011,Pulsioxímetro UCI,Pulsioxímetro,UCI Cardiopediátrica,Nellcor,2020,62,MEDIO
+EQ-012,Bomba de infusión 1 canal,Bomba infusión,Hospitalización,B. Braun,2021,58,MEDIO
+EQ-013,Electrobisturí,Electrobisturí,Centro Quirúrgico,Covidien,2018,55,MEDIO
+EQ-014,Aspirador quirúrgico,Aspirador,Centro Quirúrgico,Medela,2019,52,MEDIO
+EQ-015,Monitor SpO2 portátil,Monitor,Hospitalización,Masimo,2020,47,MEDIO
+EQ-016,Lámpara quirúrgica,Lámpara,Centro Quirúrgico,Maquet,2017,44,MEDIO
+EQ-017,Oxímetro de pulso,Pulsioxímetro,Hospitalización,Nonin,2022,35,BAJO
+EQ-018,Tensiómetro digital,Tensiómetro,Cardiología Clínica,Omron,2022,28,BAJO
+EQ-019,Glucómetro hospitalario,Glucómetro,Hospitalización,Roche,2023,22,BAJO
+EQ-020,Báscula médica electrónica,Báscula,Cardiología Clínica,Seca,2021,15,BAJO
+EQ-021,Bomba de jeringa,Bomba infusión,UCI Cardiopediátrica,Terumo,2019,66,MEDIO
+EQ-022,Central de monitoreo,Monitor,UCI Cardiopediátrica,Philips,2018,81,ALTO
+EQ-023,Maquina de anestesia,Maquina anestesia,Centro Quirúrgico,Draeger,2017,87,ALTO
+EQ-024,Bomba de circulacion extracorporea,Bomba CEC,Centro Quirúrgico,Maquet,2016,90,ALTO
+EQ-025,Holter de presion arterial,Holter,Cardiología Clínica,Schiller,2020,55,MEDIO
+EQ-026,Sistema de ergometria,Ergometro,Cardiología Clínica,GE Healthcare,2019,54,MEDIO
+EQ-027,Desfibrilador externo automatico,Desfibrilador,Hospitalización,Philips,2021,72,ALTO
+EQ-028,Bomba de nutricion enteral,Bomba infusión,Hospitalización,Fresenius,2020,42,MEDIO
+EQ-029,Monitor de gasto cardiaco,Monitor,UCI Cardiopediátrica,Edwards,2018,77,ALTO
+EQ-030,Electrocardiografo de esfuerzo,Electrocardiógrafo,Cardiología Intervencionista,Fukuda Denshi,2019,64,MEDIO
