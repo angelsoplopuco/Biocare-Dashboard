@@ -92,7 +92,7 @@ def construir_correo(alertas):
     medias = sum(1 for a in alertas if a["nivel"]=="MEDIA")
 
     texto = "SISTEMA BIOCARE DASHBOARD - REPORTE DE ALERTAS\n"
-    texto += "Bioingenieros SAC | INCOR - EsSalud\n"
+    texto += "Institucion de Salud - Area de Ingenieria Clinica\n"
     texto += f"Fecha: {FECHA_HOY.strftime('%d/%m/%Y')}\n"
     texto += "="*50 + "\n\n"
     texto += f"Resumen: {len(alertas)} alertas activas "

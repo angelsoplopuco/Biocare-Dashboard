@@ -1,5 +1,5 @@
 # ============================================================
-#  BioCare Dashboard - Bioingenieros SAC / INCOR EsSalud
+#  BioCare Dashboard - Sistema de Monitoreo Predictivo de Equipos Biomedicos
 #  PASO 7: Los 4 modulos completos
 # ============================================================
 
@@ -44,7 +44,7 @@ lista_codigos = equipos["codigo"].tolist()
 USUARIOS = {
     "admin": {
         "password": "admin2026",
-        "nombre": "Ing. Miguel Valdivia Morales",
+        "nombre": "Ingeniero Residente",
         "rol": "Supervisor",
         "modulos": ["inicio","kpis","crit","alertas","pred","auto"],
     },
@@ -56,7 +56,7 @@ USUARIOS = {
     },
     "invitado": {
         "password": "biocare2026",
-        "nombre": "Invitado (Jurado)",
+        "nombre": "Invitado",
         "rol": "Visualizacion",
         "modulos": ["inicio","kpis","crit","pred"],
     },
@@ -790,7 +790,7 @@ def ficha_equipo_modal(codigo, rol="Visualizacion"):
 
             # ===== PIE DEL DOCUMENTO =====
             html.Div(children=[
-                html.Span("BioCare Dashboard - Bioingenieros SAC", style={"fontSize":"10.5px","color":"#8499b1","fontWeight":"600"}),
+                html.Span("BioCare Dashboard", style={"fontSize":"10.5px","color":"#8499b1","fontWeight":"600"}),
                 html.Span(f"Generado: {pd.Timestamp.now().strftime('%d/%m/%Y')}", style={"fontSize":"10.5px","color":"#8499b1"})
             ], style={"display":"flex","justifyContent":"space-between","padding":"12px 26px",
                       "borderTop":"1px solid #e0e7f0","backgroundColor":"#fbfdfe"})
@@ -1007,7 +1007,7 @@ def contenido_modulo3():
                 html.Div("Notificacion por correo (smtplib)", style={"fontSize":"14px","fontWeight":"700","color":"#08374d",
                          "padding":"16px 20px","borderBottom":"1px solid #e0e7f0"}),
                 html.Div(children=[
-                    html.P("El sistema puede enviar este reporte por correo automaticamente a los responsables de Bioingenieros SAC e INCOR.",
+                    html.P("El sistema puede enviar este reporte por correo automaticamente a los responsables del area de ingenieria clinica.",
                            style={"fontSize":"12px","color":"#8499b1","marginBottom":"12px"}),
                     html.Pre(texto_correo, style={"backgroundColor":"#f7fafc","border":"1px solid #e0e7f0",
                              "borderRadius":"10px","padding":"14px","fontSize":"11px","color":"#3f5874",
@@ -1721,11 +1721,11 @@ def contenido_inicio(usuario_actual=None):
         nombre = datos["nombre"]
         rol = datos["rol"]
         saludo_titulo = f"Bienvenido, {nombre}"
-        saludo_sub = f"Has ingresado como {rol}. Este es el resumen del estado actual del parque biomedico del INCOR - EsSalud."
+        saludo_sub = f"Has ingresado como {rol}. Este es el resumen del estado actual del parque biomedico de la institucion de salud."
         color_rol = COLOR_ROL.get(rol, "#13b0a5")
     else:
         saludo_titulo = "Bienvenido al Sistema BioCare Dashboard"
-        saludo_sub = "Monitoreo predictivo y gestion de criticidad para los equipos biomedicos del INCOR - EsSalud."
+        saludo_sub = "Monitoreo predictivo y gestion de criticidad para los equipos biomedicos de la institucion de salud."
         rol = None
         color_rol = "#13b0a5"
 
@@ -1793,8 +1793,8 @@ def contenido_inicio(usuario_actual=None):
                          style={"fontSize":"11.5px","color":"#8499b1","marginTop":"3px"})
             ], style={"flex":"1"}),
             html.Div(children=[
-                html.Div("Bioingenieros SAC", style={"fontSize":"12px","fontWeight":"600","color":"#3f5874","textAlign":"right"}),
-                html.Div("INCOR - Instituto Nacional Cardiovascular - EsSalud", style={"fontSize":"11px","color":"#8499b1","textAlign":"right","marginTop":"2px"}),
+                html.Div("Empresa de Ingenieria Clinica", style={"fontSize":"12px","fontWeight":"600","color":"#3f5874","textAlign":"right"}),
+                html.Div("Institucion de Salud - Lima, Peru", style={"fontSize":"11px","color":"#8499b1","textAlign":"right","marginTop":"2px"}),
                 html.Div("Proyecto Preprofesional - UTEC - Bioingenieria", style={"fontSize":"11px","color":"#8499b1","textAlign":"right","marginTop":"2px"})
             ])
         ], style={"display":"flex","justifyContent":"space-between","alignItems":"center",
@@ -1902,8 +1902,8 @@ def construir_sidebar(usuario_actual):
         html.Div(id="menu-container", children=construir_menu(usuario_actual)),
         # Pie de la barra lateral
         html.Div(children=[
-            html.Div("Bioingenieros SAC", style={"fontSize":"11px","color":"#9db8c9","fontWeight":"600"}),
-            html.Div("INCOR - EsSalud", style={"fontSize":"10px","color":"#6b8499"})
+            html.Div("Ingenieria Clinica", style={"fontSize":"11px","color":"#9db8c9","fontWeight":"600"}),
+            html.Div("Institucion de Salud", style={"fontSize":"10px","color":"#6b8499"})
         ], style={"position":"absolute","bottom":"0","padding":"20px 22px","borderTop":"1px solid rgba(255,255,255,0.1)","width":"100%"})
     ], style={
         "width":"230px","minWidth":"230px","background":"linear-gradient(180deg, #08374d, #0a2a3d)",
@@ -1973,7 +1973,7 @@ def pantalla_login(mensaje_error=""):
             # Logo y titulo
             html.Div("\U0001FAC0", style={"fontSize":"48px","textAlign":"center","marginBottom":"10px"}),
             html.Div("BioCare Dashboard", style={"fontSize":"26px","fontWeight":"800","color":"#08374d","textAlign":"center","letterSpacing":"-0.5px"}),
-            html.Div("Sistema de Monitoreo Predictivo - Bioingenieros SAC", style={"fontSize":"12.5px","color":"#8499b1","textAlign":"center","marginBottom":"28px"}),
+            html.Div("Sistema de Monitoreo Predictivo de Equipos Biomedicos", style={"fontSize":"12.5px","color":"#8499b1","textAlign":"center","marginBottom":"28px"}),
             # Campo usuario
             html.Div("Usuario", style={"fontSize":"12.5px","fontWeight":"600","color":"#3f5874","marginBottom":"6px"}),
             dcc.Input(id="login-usuario", type="text", placeholder="Escribe tu usuario",
@@ -1996,12 +1996,12 @@ def pantalla_login(mensaje_error=""):
             # Mensaje de error
             html.Div(mensaje_error, id="login-error", style={"color":"#d94862","fontSize":"12.5px",
                      "textAlign":"center","minHeight":"18px","fontWeight":"600"}),
-            # Ayuda de credenciales (para el jurado)
+            # Ayuda de credenciales (para demostracion)
             html.Div(children=[
                 html.Div("Credenciales de acceso para demostracion:", style={"fontSize":"11px","fontWeight":"700","color":"#8499b1","marginBottom":"8px","textTransform":"uppercase","letterSpacing":"0.5px"}),
                 html.Div("Supervisor:  admin  /  admin2026", style={"fontSize":"11.5px","color":"#3f5874","marginBottom":"3px","fontFamily":"monospace"}),
                 html.Div("Tecnico:  tecnico  /  tecnico2026", style={"fontSize":"11.5px","color":"#3f5874","marginBottom":"3px","fontFamily":"monospace"}),
-                html.Div("Jurado:  invitado  /  biocare2026", style={"fontSize":"11.5px","color":"#3f5874","fontFamily":"monospace"}),
+                html.Div("Invitado:  invitado  /  biocare2026", style={"fontSize":"11.5px","color":"#3f5874","fontFamily":"monospace"}),
             ], style={"marginTop":"20px","padding":"14px 16px","backgroundColor":"#f7fafc","border":"1px solid #e0e7f0","borderRadius":"10px"})
         ], style={"backgroundColor":"white","borderRadius":"18px","padding":"40px","width":"400px",
                   "boxShadow":"0 20px 60px rgba(8,55,77,0.18)"})
@@ -2453,7 +2453,7 @@ def descargar_reporte(clicks_excel, clicks_pdf, area, nivel):
             styles = getSampleStyleSheet()
             elementos = []
             elementos.append(Paragraph("BioCare Dashboard", styles["Title"]))
-            elementos.append(Paragraph("Reporte de Matriz de Criticidad - Bioingenieros SAC", styles["Normal"]))
+            elementos.append(Paragraph("Reporte de Matriz de Criticidad", styles["Normal"]))
             filtro_txt = []
             if area and area != "todas": filtro_txt.append(f"Area: {area}")
             if nivel and nivel != "todos": filtro_txt.append(f"Nivel: {nivel}")
@@ -2683,7 +2683,7 @@ def descargar_desde_ficha(clicks):
                                     spaceBefore=12, spaceAfter=6, fontName="Helvetica-Bold")
             elementos = []
             elementos.append(Paragraph("FICHA TECNICA DEL EQUIPO", titulo_st))
-            elementos.append(Paragraph("BioCare Dashboard - Bioingenieros SAC | INCOR - EsSalud", sub_st))
+            elementos.append(Paragraph("BioCare Dashboard - Sistema de Monitoreo Predictivo de Equipos Biomedicos", sub_st))
             elementos.append(Spacer(1, 12))
             # Datos de identificacion
             elementos.append(Paragraph("1. Datos de identificacion", sec_st))
@@ -2743,7 +2743,7 @@ def descargar_desde_ficha(clicks):
             elementos.append(t3)
             elementos.append(Spacer(1, 16))
             pie_st = ParagraphStyle("p", parent=styles["Normal"], fontSize=8, textColor=colors.HexColor("#8499b1"))
-            elementos.append(Paragraph(f"Documento generado el {datetime.now().strftime('%d/%m/%Y')} - Datos simulados con respaldo IETSI-EsSalud", pie_st))
+            elementos.append(Paragraph(f"Documento generado el {datetime.now().strftime('%d/%m/%Y')} - Datos simulados con respaldo en fuentes tecnicas del sector salud", pie_st))
             doc.build(elementos)
         return dcc.send_bytes(to_pdf, f"Ficha_{codigo}_{fecha}.pdf")
 
@@ -2897,7 +2897,7 @@ def descargar_alertas(clicks_excel, clicks_pdf):
             styles = getSampleStyleSheet()
             elementos = []
             elementos.append(Paragraph("BioCare Dashboard - Reporte de Alertas", styles["Title"]))
-            elementos.append(Paragraph(f"Bioingenieros SAC | INCOR - EsSalud  -  {datetime.now().strftime('%d/%m/%Y')}", styles["Normal"]))
+            elementos.append(Paragraph(f"Institucion de Salud  -  {datetime.now().strftime('%d/%m/%Y')}", styles["Normal"]))
             n_crit = sum(1 for a in lista_alertas if a["nivel"]=="CRITICA")
             n_alta = sum(1 for a in lista_alertas if a["nivel"]=="ALTA")
             n_media = sum(1 for a in lista_alertas if a["nivel"]=="MEDIA")
@@ -3062,7 +3062,7 @@ def descargar_prediccion(clicks_excel, clicks_pdf):
             doc = SimpleDocTemplate(buffer, pagesize=landscape(A4), topMargin=1.6*cm, bottomMargin=1.6*cm)
             styles = getSampleStyleSheet()
             els = [Paragraph("BioCare Dashboard - Reporte de Prediccion de Fallas", styles["Title"])]
-            els.append(Paragraph(f"Bioingenieros SAC | INCOR - EsSalud  -  {datetime.now().strftime('%d/%m/%Y')}", styles["Normal"]))
+            els.append(Paragraph(f"Institucion de Salud  -  {datetime.now().strftime('%d/%m/%Y')}", styles["Normal"]))
             metricas = prediccion.evaluar_modelo(equipos, historial)
             els.append(Paragraph(f"Modelo: regresion logistica | Precision: {metricas['accuracy']}% | Validacion cruzada: {metricas['cv']}%", styles["Normal"]))
             els.append(Spacer(1, 12))
@@ -3210,7 +3210,7 @@ def descargar_automatizacion(clicks_excel, clicks_pdf):
             doc = SimpleDocTemplate(buffer, pagesize=A4, topMargin=2*cm, bottomMargin=2*cm)
             styles = getSampleStyleSheet()
             els = [Paragraph("BioCare Dashboard - Reporte de Automatizacion", styles["Title"])]
-            els.append(Paragraph(f"Bioingenieros SAC | INCOR - EsSalud  -  {datetime.now().strftime('%d/%m/%Y')}", styles["Normal"]))
+            els.append(Paragraph(f"Institucion de Salud  -  {datetime.now().strftime('%d/%m/%Y')}", styles["Normal"]))
             els.append(Spacer(1, 10))
             els.append(Paragraph(f"Total de fallas correctivas analizadas: {stats['total_fallas']}  |  Costo total: S/ {stats['costo_total']:,.0f}", styles["Normal"]))
             els.append(Spacer(1, 12))
