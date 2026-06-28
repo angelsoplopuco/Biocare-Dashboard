@@ -12,6 +12,18 @@ import alertas
 import prediccion
 import automatizacion
 
+# --- Hora de Peru (UTC-5) ---
+# El servidor en la nube (Render) usa hora UTC. Esta funcion garantiza
+# que la fecha y hora mostradas correspondan siempre a la zona horaria
+# de Peru, sin importar donde este alojado el servidor.
+from datetime import datetime, timezone, timedelta
+ZONA_PERU = timezone(timedelta(hours=-5))
+
+def ahora_peru():
+    """Devuelve la fecha y hora actual en la zona horaria de Peru (UTC-5)."""
+    return datetime.now(ZONA_PERU)
+
+
 # --- 1. Cargar datos y calcular todo ---
 equipos, historial = calculos.cargar_datos()
 disponibilidad, operativos, total_eq = calculos.kpi_disponibilidad(equipos)
@@ -2057,7 +2069,7 @@ def _texto_reloj():
     dias = ["Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo"]
     meses = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto",
              "septiembre","octubre","noviembre","diciembre"]
-    ahora = datetime.now()
+    ahora = ahora_peru()
     dia_sem = dias[ahora.weekday()]
     fecha = f"{dia_sem} {ahora.day} de {meses[ahora.month-1]} {ahora.year}"
     hora = ahora.strftime("%H:%M:%S")
@@ -2427,7 +2439,7 @@ def descargar_reporte(clicks_excel, clicks_pdf, area, nivel):
 
     from io import BytesIO
     from datetime import datetime
-    fecha = datetime.now().strftime("%Y%m%d")
+    fecha = ahora_peru().strftime("%Y%m%d")
 
     # ---- DESCARGA EXCEL ----
     if disparador == "btn-excel":
@@ -2459,13 +2471,17 @@ def descargar_reporte(clicks_excel, clicks_pdf, area, nivel):
             if nivel and nivel != "todos": filtro_txt.append(f"Nivel: {nivel}")
             if filtro_txt:
                 elementos.append(Paragraph("Filtros aplicados: " + " | ".join(filtro_txt), styles["Normal"]))
-            elementos.append(Paragraph(f"Fecha: {datetime.now().strftime('%d/%m/%Y')}  -  Total: {len(datos)} equipos", styles["Normal"]))
+            elementos.append(Paragraph(f"Fecha: {ahora_peru().strftime('%d/%m/%Y')}  -  Total: {len(datos)} equipos", styles["Normal"]))
             elementos.append(Spacer(1, 14))
 
+            estilo_celda_c = styles["Normal"].clone("celdaC")
+            estilo_celda_c.fontSize = 8.5
+            estilo_celda_c.leading = 10.5
             datos_tabla = [["Codigo","Equipo","Area","Indice","Nivel"]]
             for _, r in datos.iterrows():
-                datos_tabla.append([r["cod"], r["nombre"][:28], r["area"][:22], str(r["indice"]), r["nivel"]])
-            t = Table(datos_tabla, colWidths=[2.2*cm, 6*cm, 5*cm, 2*cm, 2*cm])
+                datos_tabla.append([r["cod"], Paragraph(str(r["nombre"]), estilo_celda_c),
+                                    Paragraph(str(r["area"]), estilo_celda_c), str(r["indice"]), r["nivel"]])
+            t = Table(datos_tabla, colWidths=[2.2*cm, 6*cm, 5*cm, 2*cm, 2*cm], repeatRows=1)
             t.setStyle(TableStyle([
                 ("BACKGROUND",(0,0),(-1,0),colors.HexColor("#08374d")),
                 ("TEXTCOLOR",(0,0),(-1,0),colors.white),
@@ -2474,6 +2490,7 @@ def descargar_reporte(clicks_excel, clicks_pdf, area, nivel):
                 ("ROWBACKGROUNDS",(0,1),(-1,-1),[colors.white, colors.HexColor("#eef2f7")]),
                 ("GRID",(0,0),(-1,-1),0.4,colors.HexColor("#b0c8d8")),
                 ("TOPPADDING",(0,0),(-1,-1),6),("BOTTOMPADDING",(0,0),(-1,-1),6),
+                ("VALIGN",(0,0),(-1,-1),"MIDDLE"),
             ]))
             elementos.append(t)
             doc.build(elementos)
@@ -2641,7 +2658,7 @@ def descargar_desde_ficha(clicks):
         raise dash.exceptions.PreventUpdate
 
     from datetime import datetime
-    fecha = datetime.now().strftime("%Y%m%d")
+    fecha = ahora_peru().strftime("%Y%m%d")
     nombre = equipos[equipos["codigo"]==codigo]["nombre"].values[0]
     h = historial[historial["codigo_equipo"]==codigo].sort_values("fecha", ascending=False)
 
@@ -2687,10 +2704,13 @@ def descargar_desde_ficha(clicks):
             elementos.append(Spacer(1, 12))
             # Datos de identificacion
             elementos.append(Paragraph("1. Datos de identificacion", sec_st))
+            estilo_ficha = styles["Normal"].clone("celdaFicha")
+            estilo_ficha.fontSize = 9
+            estilo_ficha.leading = 11
             datos_id = [
                 ["Codigo", r["cod"], "Marca", r["marca"]],
-                ["Equipo", r["nombre"][:30], "Tipo", r["tipo"]],
-                ["Area / Servicio", r["area"][:22], "Ano", str(r["anio"])],
+                ["Equipo", Paragraph(str(r["nombre"]), estilo_ficha), "Tipo", r["tipo"]],
+                ["Area / Servicio", Paragraph(str(r["area"]), estilo_ficha), "Ano", str(r["anio"])],
                 ["Antiguedad", f"{r['antiguedad']} anos", "Estado", estado],
                 ["Nivel criticidad", r["nivel"], "Indice", str(r["indice"])],
             ]
@@ -2743,7 +2763,7 @@ def descargar_desde_ficha(clicks):
             elementos.append(t3)
             elementos.append(Spacer(1, 16))
             pie_st = ParagraphStyle("p", parent=styles["Normal"], fontSize=8, textColor=colors.HexColor("#8499b1"))
-            elementos.append(Paragraph(f"Documento generado el {datetime.now().strftime('%d/%m/%Y')} - Datos simulados con respaldo en fuentes tecnicas del sector salud", pie_st))
+            elementos.append(Paragraph(f"Documento generado el {ahora_peru().strftime('%d/%m/%Y')} - Datos simulados con respaldo en fuentes tecnicas del sector salud", pie_st))
             doc.build(elementos)
         return dcc.send_bytes(to_pdf, f"Ficha_{codigo}_{fecha}.pdf")
 
@@ -2867,7 +2887,7 @@ def descargar_alertas(clicks_excel, clicks_pdf):
         raise dash.exceptions.PreventUpdate
 
     from datetime import datetime
-    fecha = datetime.now().strftime("%Y%m%d")
+    fecha = ahora_peru().strftime("%Y%m%d")
 
     # Preparar los datos de alertas
     datos = [{
@@ -2897,16 +2917,27 @@ def descargar_alertas(clicks_excel, clicks_pdf):
             styles = getSampleStyleSheet()
             elementos = []
             elementos.append(Paragraph("BioCare Dashboard - Reporte de Alertas", styles["Title"]))
-            elementos.append(Paragraph(f"Institucion de Salud  -  {datetime.now().strftime('%d/%m/%Y')}", styles["Normal"]))
+            elementos.append(Paragraph(f"Institucion de Salud  -  {ahora_peru().strftime('%d/%m/%Y')}", styles["Normal"]))
             n_crit = sum(1 for a in lista_alertas if a["nivel"]=="CRITICA")
             n_alta = sum(1 for a in lista_alertas if a["nivel"]=="ALTA")
             n_media = sum(1 for a in lista_alertas if a["nivel"]=="MEDIA")
             elementos.append(Paragraph(f"Total: {len(lista_alertas)} alertas ({n_crit} criticas, {n_alta} altas, {n_media} medias)", styles["Normal"]))
             elementos.append(Spacer(1, 14))
-            tabla_datos = [["Nivel","Equipo","Nombre","Tipo de alerta","Detalle"]]
+            # Estilo para que el texto de las celdas se ajuste (envuelva) en varias lineas
+            estilo_celda = styles["Normal"].clone("celda")
+            estilo_celda.fontSize = 8
+            estilo_celda.leading = 10
+            estilo_encab = styles["Normal"].clone("encab")
+            estilo_encab.fontSize = 8
+            estilo_encab.leading = 10
+            estilo_encab.textColor = colors.white
+            estilo_encab.fontName = "Helvetica-Bold"
+            def celda(texto):
+                return Paragraph(str(texto), estilo_celda)
+            tabla_datos = [[Paragraph(h, estilo_encab) for h in ["Nivel","Equipo","Nombre","Tipo de alerta","Detalle"]]]
             for a in lista_alertas:
-                tabla_datos.append([a["nivel"], a["equipo"], a["nombre"][:22], a["tipo"][:26], a["detalle"][:40]])
-            t = Table(tabla_datos, colWidths=[2*cm, 2*cm, 4.5*cm, 5*cm, 8*cm])
+                tabla_datos.append([celda(a["nivel"]), celda(a["equipo"]), celda(a["nombre"]), celda(a["tipo"]), celda(a["detalle"])])
+            t = Table(tabla_datos, colWidths=[2*cm, 2*cm, 4.5*cm, 5*cm, 8*cm], repeatRows=1)
             t.setStyle(TableStyle([
                 ("BACKGROUND",(0,0),(-1,0),colors.HexColor("#08374d")),
                 ("TEXTCOLOR",(0,0),(-1,0),colors.white),
@@ -2915,6 +2946,7 @@ def descargar_alertas(clicks_excel, clicks_pdf):
                 ("ROWBACKGROUNDS",(0,1),(-1,-1),[colors.white, colors.HexColor("#eef2f7")]),
                 ("GRID",(0,0),(-1,-1),0.4,colors.HexColor("#cfd9e6")),
                 ("TOPPADDING",(0,0),(-1,-1),5),("BOTTOMPADDING",(0,0),(-1,-1),5),
+                ("VALIGN",(0,0),(-1,-1),"MIDDLE"),
             ]))
             elementos.append(t)
             doc.build(elementos)
@@ -3039,7 +3071,7 @@ def descargar_prediccion(clicks_excel, clicks_pdf):
         raise dash.exceptions.PreventUpdate
     disparador = ctx.triggered[0]["prop_id"].split(".")[0]
     from datetime import datetime
-    fecha = datetime.now().strftime("%Y%m%d")
+    fecha = ahora_peru().strftime("%Y%m%d")
 
     # Preparar datos
     cols = ["cod","nombre","prob_falla","nivel_riesgo","horizonte_dias","frec_fallas","dias_ultima_falla","antiguedad","indice_crit","costo_prom"]
@@ -3062,16 +3094,19 @@ def descargar_prediccion(clicks_excel, clicks_pdf):
             doc = SimpleDocTemplate(buffer, pagesize=landscape(A4), topMargin=1.6*cm, bottomMargin=1.6*cm)
             styles = getSampleStyleSheet()
             els = [Paragraph("BioCare Dashboard - Reporte de Prediccion de Fallas", styles["Title"])]
-            els.append(Paragraph(f"Institucion de Salud  -  {datetime.now().strftime('%d/%m/%Y')}", styles["Normal"]))
+            els.append(Paragraph(f"Institucion de Salud  -  {ahora_peru().strftime('%d/%m/%Y')}", styles["Normal"]))
             metricas = prediccion.evaluar_modelo(equipos, historial)
             els.append(Paragraph(f"Modelo: regresion logistica | Precision: {metricas['accuracy']}% | Validacion cruzada: {metricas['cv']}%", styles["Normal"]))
             els.append(Spacer(1, 12))
+            estilo_celda_p = styles["Normal"].clone("celdaP")
+            estilo_celda_p.fontSize = 7.5
+            estilo_celda_p.leading = 9
             tabla_datos = [["Codigo","Equipo","Prob.","Riesgo","Horiz.","Frec.","Dias","Antig.","Indice"]]
             for _, r in prediccion_df.iterrows():
-                tabla_datos.append([r["cod"], r["nombre"][:24], f"{r['prob_falla']:.0f}%", r["nivel_riesgo"],
+                tabla_datos.append([r["cod"], Paragraph(str(r["nombre"]), estilo_celda_p), f"{r['prob_falla']:.0f}%", r["nivel_riesgo"],
                                     f"{r['horizonte_dias']}d", f"{r['frec_fallas']:.1f}", str(int(r['dias_ultima_falla'])),
                                     f"{int(r['antiguedad'])}a", str(int(r['indice_crit']))])
-            t = Table(tabla_datos, colWidths=[1.8*cm,5.5*cm,1.6*cm,1.8*cm,1.5*cm,1.4*cm,1.3*cm,1.4*cm,1.6*cm])
+            t = Table(tabla_datos, colWidths=[1.8*cm,5.5*cm,1.6*cm,1.8*cm,1.5*cm,1.4*cm,1.3*cm,1.4*cm,1.6*cm], repeatRows=1)
             t.setStyle(TableStyle([
                 ("BACKGROUND",(0,0),(-1,0),colors.HexColor("#08374d")),
                 ("TEXTCOLOR",(0,0),(-1,0),colors.white),
@@ -3080,6 +3115,7 @@ def descargar_prediccion(clicks_excel, clicks_pdf):
                 ("ROWBACKGROUNDS",(0,1),(-1,-1),[colors.white, colors.HexColor("#eef2f7")]),
                 ("GRID",(0,0),(-1,-1),0.4,colors.HexColor("#cfd9e6")),
                 ("TOPPADDING",(0,0),(-1,-1),4),("BOTTOMPADDING",(0,0),(-1,-1),4),
+                ("VALIGN",(0,0),(-1,-1),"MIDDLE"),
             ]))
             els.append(t)
             doc.build(els)
@@ -3186,7 +3222,7 @@ def descargar_automatizacion(clicks_excel, clicks_pdf):
         raise dash.exceptions.PreventUpdate
     disparador = ctx.triggered[0]["prop_id"].split(".")[0]
     from datetime import datetime
-    fecha = datetime.now().strftime("%Y%m%d")
+    fecha = ahora_peru().strftime("%Y%m%d")
     stats = automatizacion.estadisticas_globales(historial)
     anomalias = automatizacion.detectar_anomalias(equipos, historial)
 
@@ -3210,7 +3246,7 @@ def descargar_automatizacion(clicks_excel, clicks_pdf):
             doc = SimpleDocTemplate(buffer, pagesize=A4, topMargin=2*cm, bottomMargin=2*cm)
             styles = getSampleStyleSheet()
             els = [Paragraph("BioCare Dashboard - Reporte de Automatizacion", styles["Title"])]
-            els.append(Paragraph(f"Institucion de Salud  -  {datetime.now().strftime('%d/%m/%Y')}", styles["Normal"]))
+            els.append(Paragraph(f"Institucion de Salud  -  {ahora_peru().strftime('%d/%m/%Y')}", styles["Normal"]))
             els.append(Spacer(1, 10))
             els.append(Paragraph(f"Total de fallas correctivas analizadas: {stats['total_fallas']}  |  Costo total: S/ {stats['costo_total']:,.0f}", styles["Normal"]))
             els.append(Spacer(1, 12))
@@ -3234,10 +3270,13 @@ def descargar_automatizacion(clicks_excel, clicks_pdf):
             # Tabla de anomalias
             els.append(Paragraph("Anomalias detectadas (equipos con fallas en aceleracion)", styles["Heading2"]))
             if anomalias:
+                estilo_anom = styles["Normal"].clone("celdaAnom")
+                estilo_anom.fontSize = 9
+                estilo_anom.leading = 11
                 ta = [["Codigo","Equipo","Fallas recientes","Ratio"]]
                 for a in anomalias:
-                    ta.append([a["cod"], a["nombre"][:30], str(a["tasa_reciente"]), f"{a['ratio']}x"])
-                t2 = Table(ta, colWidths=[2.5*cm,7*cm,3.5*cm,2.5*cm])
+                    ta.append([a["cod"], Paragraph(str(a["nombre"]), estilo_anom), str(a["tasa_reciente"]), f"{a['ratio']}x"])
+                t2 = Table(ta, colWidths=[2.5*cm,7*cm,3.5*cm,2.5*cm], repeatRows=1)
                 t2.setStyle(TableStyle([
                     ("BACKGROUND",(0,0),(-1,0),colors.HexColor("#d94862")),
                     ("TEXTCOLOR",(0,0),(-1,0),colors.white),
